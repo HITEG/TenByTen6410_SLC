@@ -25,7 +25,7 @@
 //
 //  Prefix used to generate device name for bootload/KITL
 //
-#define BSP_DEVICE_PREFIX       "SMDK6410"        // Device name prefix
+#define BSP_DEVICE_PREFIX       "TenByTen6410"        // Device name prefix
 
 #define PWRCTL_HITEG_FACTORY_DEFAULTS ((1<<0) | (1<<1) | (1<<4))
 

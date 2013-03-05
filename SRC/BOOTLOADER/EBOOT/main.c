@@ -546,7 +546,7 @@ static void PrintMainMenu(PBOOT_CFG pBootCfg)
 	ClockInfo ci;
 	FillClockInfo(&ci);
 
-	EdbgOutputDebugString ("ARM Clock: %dMHz\r\n",ci.ARMCLK/1000000);
+	EdbgOutputDebugString ("ARM Clock: %dMHz, %dMHz\r\n",ci.ARMCLK/1000000, System_GetARMCLK()/1000000);
     EdbgOutputDebugString ( "\r\nEthernet Boot Loader Configuration:\r\n\r\n");
     EdbgOutputDebugString ( "----------- Connectivity Settings ------------\r\n");
     EdbgOutputDebugString ( "0) IP address  : [%s]\r\n",inet_ntoa(pBootCfg->EdbgAddr.dwIP));

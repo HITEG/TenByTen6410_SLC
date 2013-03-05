@@ -1,6 +1,6 @@
  kitl
 
- Timestamp is 513599d5 (Tue Mar 05 15:08:05 2013)
+ Timestamp is 5135b709 (Tue Mar 05 17:12:41 2013)
 
  Preferred load address is 10000000
 
@@ -515,8 +515,8 @@
  0001:000141bc       __GSHandlerCheck_SEH       100151bc f   fulllibc:gshandlerseh.obj
  0001:0001420c       __rt_sdiv                  1001520c f   fulllibc:__div.obj
  0001:000142e8       memcmp                     100152e8 f   fulllibc:memcmp.obj
- 0001:000143b4       __C_ExecuteTerminationHandler 100153b4 f   fulllibc:jmpuwind.obj
  0001:000143b4       __C_ExecuteExceptionFilter 100153b4 f   fulllibc:jmpuwind.obj
+ 0001:000143b4       __C_ExecuteTerminationHandler 100153b4 f   fulllibc:jmpuwind.obj
  0001:000143f4       __raise_int_divide_by_zero 100153f4 f   fulllibc:diverr.obj
  0001:00014418       __crtRaiseException        10015418 f   fulllibc:raiseexc.obj
  0001:0001443c       OALLogSerial               1001543c f   kitl_log:log.obj
