@@ -43,6 +43,16 @@ Notes:
 #define ZONE_GPIOCONTROL	DEBUGZONE(0)
 #define ZONE_FUNCTION		DEBUGZONE(1)
 #define ZONE_ERROR			DEBUGZONE(15)
+
+DBGPARAM dpCurSettings =                \
+{                                       \
+    TEXT("GPIO_Driver"),                 \
+    {                                   \
+        TEXT("Init"),       /* 0  */    \
+    },                                  \
+    (0x0001)                            \
+};
+
 #else
 #define ZONE_GPIOCONTROL	1
 #define ZONE_FUNCTION		1
