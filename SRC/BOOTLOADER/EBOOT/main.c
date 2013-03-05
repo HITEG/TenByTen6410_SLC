@@ -543,6 +543,10 @@ char* BootDeviceString[NUM_BOOT_DEVICES] =
 static void PrintMainMenu(PBOOT_CFG pBootCfg)
 {
     int i=0;
+	ClockInfo ci;
+	FillClockInfo(&ci);
+
+	EdbgOutputDebugString ("ARM Clock: %dMHz\r\n",ci.ARMCLK/1000000);
     EdbgOutputDebugString ( "\r\nEthernet Boot Loader Configuration:\r\n\r\n");
     EdbgOutputDebugString ( "----------- Connectivity Settings ------------\r\n");
     EdbgOutputDebugString ( "0) IP address  : [%s]\r\n",inet_ntoa(pBootCfg->EdbgAddr.dwIP));

@@ -1,6 +1,7 @@
 !if 0
 Copyright (c) Microsoft Corporation.  All rights reserved.
 !endif
+
 !if 0
 Use of this sample source code is subject to the terms of the 
 Software License Agreement (SLA) under which you licensed this software product.
@@ -9,11 +10,9 @@ you are not authorized to use this sample source code.
 THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
 !endif
 
-DIRS =          \
-    nandflash   \
-    Args        \
-    PM          \
-    KITLDRV     \
-    ExtPowerCTL_LIB \
-
+DIRS=\
+	nandflash\
+	Args\
+	KITLDRV\
+	ExtPowerCTL_LIB
 

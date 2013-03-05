@@ -49,7 +49,7 @@ VOID BSPPowerOff()
     //-----------------------------
     // Disable DVS and Set to Full Speed
     //-----------------------------
-    ChangeDVSLevel(SYS_L0);
+    //ChangeDVSLevel(SYS_L0);
 
     // RTC Control Disable
     pRTCReg->RTCCON = 0x0;            // Subclk 32768 Hz, No Reset, Merged BCD counter, XTAL 2^-15, Control Disable

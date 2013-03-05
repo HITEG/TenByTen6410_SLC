@@ -60,7 +60,7 @@ static BOOL OALIoCtlHalReboot(
     //-----------------------------
     // Disable DVS and Set to Full Speed
     //-----------------------------
-    ChangeDVSLevel(SYS_L0);
+    //ChangeDVSLevel(SYS_L0);
 
     OEMSWReset();
 
@@ -425,7 +425,7 @@ static BOOL OALIoCtlHalSetSystemLevel(
             }
             else
             {
-                ChangeDVSLevel((SYSTEM_ACTIVE_LEVEL)dwTargetLevel);
+                //ChangeDVSLevel((SYSTEM_ACTIVE_LEVEL)dwTargetLevel);
             }
         }
         __except (EXCEPTION_EXECUTE_HANDLER)
@@ -458,7 +458,7 @@ static BOOL OALIoCtlHalProfileDVS(
 {
     DWORD dwErr = 0;
     DWORD dwProfileOnOff;
-
+/*
     OALMSG(OAL_IOCTL&&OAL_FUNC, (TEXT("++OALIoCtlHalProfileDVS()\r\n")));
 
     if (lpBytesReturned)
@@ -502,7 +502,7 @@ static BOOL OALIoCtlHalProfileDVS(
     }
 
     OALMSG(OAL_IOCTL&&OAL_FUNC, (TEXT("++OALIoCtlHalProfileDVS()\r\n")));
-
+*/
     return !dwErr;
 }
 

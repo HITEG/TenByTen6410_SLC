@@ -93,7 +93,7 @@ DWORD g_aTransitionTable[SYS_LEVEL_MAX][11] =
     {SYS_L4,         60, SYS_L5,        20, SYS_L0,    5,    2,    2,    1,    1050, 1000},    // 133,  66, 66, 133 (Async)
     {SYS_L5,        100, SYS_L5,        20, SYS_L0,   10,    2,    2,    1,    1050, 1000},    //  66,  66, 66, 133 (Async)
 
-#elif (TARGET_ARM_CLK == CLK_800MHz)
+#elif (TARGET_ARM_CLK == CLK_798MHz)
     {SYS_L0,         50, SYS_L1,         0, SYS_L0,    1,    3,    4,    2,    1300, 1200},    // 800, 133, 66, 133
     {SYS_L1,         40, SYS_L2,        10, SYS_L0,    2,    3,    4,    2,    1100, 1200},    // 400, 133, 66, 133
     {SYS_L2,         40, SYS_L3,        20, SYS_L0,    3,    3,    4,    2,    1050, 1200},    // 266, 133, 66, 133

@@ -947,8 +947,8 @@ ENDIF BSP_NO_LED !
 ;-------------------- GPIO --------------------
 IF BSP_NOGPIO !
 [HKEY_LOCAL_MACHINE\Drivers\BuiltIn\GPIO]
-    "Dll"="GPIO.dll"
-    "Prefix"="PIO"
+    "Dll"="GPIODriver.dll"
+    "Prefix"="GPIO"
     "Order"=dword:0
     "Index"=dword:1  
     "FriendlyName" = "GPIO Driver"

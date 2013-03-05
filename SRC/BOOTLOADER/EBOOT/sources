@@ -77,7 +77,9 @@ TARGETLIBS= \
     $(_COMMONOAKROOT)\lib\$(_CPUINDPATH)\fulllibc.lib					\
     $(_COMMONOAKROOT)\lib\$(_CPUINDPATH)\gsnull.lib						\
     $(_TARGETPLATROOT)\lib\$(_CPUINDPATH)\s3c6410_args.lib				\
+!if 0    
     $(_TARGETPLATROOT)\lib\$(_CPUINDPATH)\s3c6410_pm.lib 		        \
+!endif
 	$(_TARGETPLATROOT)\lib\$(_CPUINDPATH)\s3c6410_disp_lib.lib			\
     $(_TARGETPLATROOT)\lib\$(_CPUINDPATH)\s3c6410_ldi_lib.lib			\
     $(_TARGETPLATROOT)\lib\$(_CPUINDPATH)\oal_usbdbgsermdd.lib			\

@@ -27,7 +27,9 @@ TARGETLIBS= \
     $(_COMMONOAKROOT)\lib\$(_CPUDEPPATH)\nkldr.lib              \
     $(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\oal.lib               \
     $(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\s3c6410_args.lib      \
+!if 0 
     $(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\s3c6410_PM.lib        \
+!endif    
     $(_PLATCOMMONLIB)\$(_CPUDEPPATH)\s3c6410_system_lib_sec_v1.lib     \
     $(_PLATCOMMONLIB)\$(_CPUDEPPATH)\oal_intr_s3c6410_sec_v1.lib       \
     $(_PLATCOMMONLIB)\$(_CPUDEPPATH)\oal_ioctl_s3c6410_sec_v1.lib      \
