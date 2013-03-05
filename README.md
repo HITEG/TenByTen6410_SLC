@@ -4,14 +4,17 @@ This document list changes and ToDos for HITEG's TenByTen6410 SLC NAND WinCE 6R3
 
 ----------------------------- ToDo       -----------------------------------
 
-1. mDDR RAMs can do 166MHz, we currently support 133MHz, only, to achive 166MHz, all depending Freq. have to be reviewed 
-2. look if (1) is working, if we can also support 200MHz mDDRs....=>40% memory bandwidth improvement.
 3. Apply changes for Rev. 2 of TenByTen6410
 	a) no TV output, as connectors removed (SD TV is outdated)
 	b) change Hirose 24pin keyboard connector to 24pin 2.0mm header, add I2C support there
 	c) move 8pin connector (MINI2440v2 compatibility) to new location (TVOUT)
 	d) support USB internal connector for USB hub chips ==> new layout
 	e) EINT support for GPIODriver
+
+----------------------------- 05.03.2013 -----------------------------------
+1. mDDR RAMs can do 166MHz, we currently support 133MHz, only, to achive 166MHz, all depending Freq. have to be reviewed, running on 150MHz now for 900MHz ARMClk
+2. 800MHz Branch is now avail able. use with caution, not all boards are able to support 800MHz without small ( resistor ) changes.
+   To make 800MHz or even 900MHz working you need currently S3C6410_sec_v1 from github.com/sriemann 800MHz Branch. We'll upload the changes as fast as possibel to the official HITEG repo.
 
 ----------------------------- 25.02.2013 -----------------------------------
 1.	Rewrote GPIODriver to support GPIOs found on the TenByTen6410 GPIO connector
