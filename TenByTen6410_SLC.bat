@@ -74,7 +74,7 @@ set BSP_NOEXTPOWERCTL=
 @REM If you want to exclude USB Function driver in BSP. Set this variable
 set BSP_NOUSBFN=
 @REM This select default function driver
-@set set BSP_USBFNCLASS=SERIAL
+@REM set BSP_USBFNCLASS=SERIAL
 set BSP_USBFNCLASS=MASS_STORAGE
 
 @REM DVFS is not yet implemented.
@@ -133,7 +133,7 @@ set SAMPLES_CMM=
 @REM Silverlight for Windows Embedded(SYSGEN_XAML_RUNTIME)
 @REM is provided in Catalog
 @REM Silverlight for Windows Embedded Xamlperf.exe Sample Application
-set SYSGEN_SAMPLEXAMLPERF=
+set SYSGEN_SAMPLEXAMLPERF=1
 
 @REM Enable XAML Renderer HW Acceleration 
 @REM Need to sysgen. Choose only one or no Renderer Plugin.
@@ -148,7 +148,7 @@ set BSP_XRPLUGIN_DDRAW=1
 @REM if Silverlight doesn't work correctly, ex) Shader Loading Error
 @REM you can try to build SAMPLES\XRRENDEREROPENGL
 @REM that's also forked from PUBLIC codes
-set BSP_XRPLUGIN_OPENGL=
+set BSP_XRPLUGIN_OPENGL=1
 
 
 @REM ******** DDR Size Setting ******************

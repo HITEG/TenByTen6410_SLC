@@ -1,6 +1,6 @@
  eboot
 
- Timestamp is 5135b712 (Tue Mar 05 17:12:50 2013)
+ Timestamp is 5136bffe (Wed Mar 06 12:03:10 2013)
 
  Preferred load address is 00010000
 
@@ -16,8 +16,8 @@
 
   Address         Publics by Value              Rva+Base       Lib:Object
 
- 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
  0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
  0001:0000001c       ??_C@_1BC@ENMNNPAJ@?$AAS?$AAa?$AAt?$AAu?$AAr?$AAd?$AAa?$AAy?$AA?$AA@ 0001101c     main.obj
  0001:00000030       ??_C@_1O@PDICJHAG@?$AAF?$AAr?$AAi?$AAd?$AAa?$AAy?$AA?$AA@ 00011030     main.obj
  0001:00000040       ??_C@_1BC@HHMNLIHE@?$AAT?$AAh?$AAu?$AAr?$AAs?$AAd?$AAa?$AAy?$AA?$AA@ 00011040     main.obj
@@ -194,7 +194,7 @@
  0001:00001dc8       ??_C@_1GE@PICKJMPL@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?3?$AA?5?$AAB?$AAL?$AAF?$AAl?$AAa?$AAs?$AAh?$AAD?$AAo?$AAw?$AAn?$AAl?$AAo?$AAa?$AAd?$AA?3?$AA?5?$AAF?$AAM?$AAD?$AA_?$AAG?$AAe?$AAt?$AAI@ 00012dc8     main.obj
  0001:00001e30       ??_C@_1HI@LPCNMJDK@?$AAW?$AAA?$AAR?$AAN?$AAI?$AAN?$AAG?$AA?3?$AA?5?$AAO?$AAE?$AAM?$AAP?$AAl?$AAa?$AAt?$AAf?$AAo?$AAr?$AAm?$AAI?$AAn?$AAi?$AAt?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5@ 00012e30     main.obj
  0001:00001ea8       ??_C@_1BE@CFMGMFAD@?$AAB?$AAP?$AA_?$AAI?$AAn?$AAi?$AAt?$AA?$AN?$AA?6?$AA?$AA@ 00012ea8     main.obj
- 0001:00001ebc       ??_C@_0M@DFHIAFDF@Mar?5?55?52013?$AA@ 00012ebc     main.obj
+ 0001:00001ebc       ??_C@_0M@EJABPKI@Mar?5?56?52013?$AA@ 00012ebc     main.obj
  0001:00001ec8       ??_C@_0FE@MFHHNAPB@Microsoft?5Windows?5CE?5Bootloader?5@ 00012ec8     main.obj
  0001:00001f1c       ??_C@_1CI@MAEMAKDO@?$AA?$CL?$AAO?$AAE?$AAM?$AAP?$AAl?$AAa?$AAt?$AAf?$AAo?$AAr?$AAm?$AAI?$AAn?$AAi?$AAt?$AA?4?$AA?$AN?$AA?6?$AA?$AA@ 00012f1c     main.obj
  0001:00001f44       ??_C@_0BP@DPJKPABD@ERROR?3?5OEMLaunch?3?5Halting?4?4?4?$AN?6?$AA@ 00012f44     main.obj
