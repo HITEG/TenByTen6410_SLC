@@ -1,6 +1,6 @@
  eboot
 
- Timestamp is 51341027 (Mon Mar 04 11:08:23 2013)
+ Timestamp is 513ebab5 (Tue Mar 12 13:18:45 2013)
 
  Preferred load address is 00010000
 
@@ -16,8 +16,8 @@
 
   Address         Publics by Value              Rva+Base       Lib:Object
 
- 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
  0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
  0001:0000001c       ??_C@_1BC@ENMNNPAJ@?$AAS?$AAa?$AAt?$AAu?$AAr?$AAd?$AAa?$AAy?$AA?$AA@ 0001101c     main.obj
  0001:00000030       ??_C@_1O@PDICJHAG@?$AAF?$AAr?$AAi?$AAd?$AAa?$AAy?$AA?$AA@ 00011030     main.obj
  0001:00000040       ??_C@_1BC@HHMNLIHE@?$AAT?$AAh?$AAu?$AAr?$AAs?$AAd?$AAa?$AAy?$AA?$AA@ 00011040     main.obj
@@ -193,7 +193,7 @@
  0001:00001da8       ??_C@_1GE@PICKJMPL@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?3?$AA?5?$AAB?$AAL?$AAF?$AAl?$AAa?$AAs?$AAh?$AAD?$AAo?$AAw?$AAn?$AAl?$AAo?$AAa?$AAd?$AA?3?$AA?5?$AAF?$AAM?$AAD?$AA_?$AAG?$AAe?$AAt?$AAI@ 00012da8     main.obj
  0001:00001e10       ??_C@_1HI@LPCNMJDK@?$AAW?$AAA?$AAR?$AAN?$AAI?$AAN?$AAG?$AA?3?$AA?5?$AAO?$AAE?$AAM?$AAP?$AAl?$AAa?$AAt?$AAf?$AAo?$AAr?$AAm?$AAI?$AAn?$AAi?$AAt?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5@ 00012e10     main.obj
  0001:00001e88       ??_C@_1BE@CFMGMFAD@?$AAB?$AAP?$AA_?$AAI?$AAn?$AAi?$AAt?$AA?$AN?$AA?6?$AA?$AA@ 00012e88     main.obj
- 0001:00001e9c       ??_C@_0M@JDAPAOIB@Mar?5?54?52013?$AA@ 00012e9c     main.obj
+ 0001:00001e9c       ??_C@_0M@EAMOAKAO@Mar?512?52013?$AA@ 00012e9c     main.obj
  0001:00001ea8       ??_C@_0FE@MFHHNAPB@Microsoft?5Windows?5CE?5Bootloader?5@ 00012ea8     main.obj
  0001:00001efc       ??_C@_1CI@MAEMAKDO@?$AA?$CL?$AAO?$AAE?$AAM?$AAP?$AAl?$AAa?$AAt?$AAf?$AAo?$AAr?$AAm?$AAI?$AAn?$AAi?$AAt?$AA?4?$AA?$AN?$AA?6?$AA?$AA@ 00012efc     main.obj
  0001:00001f24       ??_C@_0BP@DPJKPABD@ERROR?3?5OEMLaunch?3?5Halting?4?4?4?$AN?6?$AA@ 00012f24     main.obj
@@ -1104,8 +1104,8 @@
  0001:0002aa68       FPE_Raise                  0003ba68 f   fulllibc:fpraise.obj
  0001:0002b108       __fp_div_common            0003c108     fulllibc:div.obj
  0001:0002b12c       __fp_rdv_common            0003c12c     fulllibc:div.obj
- 0001:0002b5d0       __fp_div_uncommon          0003c5d0     fulllibc:div.obj
  0001:0002b5d0       __fp_rdv_uncommon          0003c5d0     fulllibc:div.obj
+ 0001:0002b5d0       __fp_div_uncommon          0003c5d0     fulllibc:div.obj
  0001:0002b710       __fp_norm_op2              0003c710     fulllibc:normop2.obj
  0001:0002b7d0       _e2d                       0003c7d0     fulllibc:e2d.obj
  0001:0002b7dc       __fp_e2d                   0003c7dc     fulllibc:e2d.obj
