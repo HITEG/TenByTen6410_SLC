@@ -1,0 +1,16 @@
+OBJECTS=\
+    obj\ARMV4I\retail\main.obj\
+    obj\ARMV4I\retail\debug.obj\
+    obj\ARMV4I\retail\ether.obj\
+    obj\ARMV4I\retail\flash.obj\
+    obj\ARMV4I\retail\nand.obj\
+    obj\ARMV4I\retail\usb.obj\
+    obj\ARMV4I\retail\PWRCTL_MENU.obj\
+    obj\ARMV4I\retail\MegaDisplay.obj\
+    obj\ARMV4I\retail\iic.obj\
+    obj\ARMV4I\retail\utils.obj\
+    obj\ARMV4I\retail\DisplayMenu.obj\
+    obj\ARMV4I\retail\LogoCraft.obj\
+    obj\ARMV4I\retail\startup.obj\
+    obj\ARMV4I\retail\usbs.obj
+

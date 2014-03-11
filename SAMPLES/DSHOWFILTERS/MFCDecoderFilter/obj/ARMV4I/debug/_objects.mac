@@ -1,0 +1,9 @@
+OBJECTS=\
+    obj\ARMV4I\debug\MFCDecFilter.res\
+    obj\ARMV4I\debug\Auxiliary.obj\
+    obj\ARMV4I\debug\fMFCDecFilter.obj\
+    obj\ARMV4I\debug\fMFCDecFilter_ip.obj\
+    obj\ARMV4I\debug\fMFCDecFilter_op.obj\
+    obj\ARMV4I\debug\MFCDecFilter.obj\
+    obj\ARMV4I\debug\CSCFrame.obj
+

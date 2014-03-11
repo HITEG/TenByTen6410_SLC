@@ -384,6 +384,39 @@ static BOOL OALIoCtlHalPowerCTL(
     return !dwErr;
 }
 
+static BOOL OALIoCtlEBootMAC(
+        UINT32 dwIoControlCode, VOID *lpInBuf, UINT32 nInBufSize, VOID *lpOutBuf,
+        UINT32 nOutBufSize, UINT32* lpBytesReturned)
+{
+		OAL_KITL_ARGS *pKITLArgs;
+		BOOL rc = FALSE;
+
+
+		pKITLArgs = (OAL_KITL_ARGS *)OALArgsQuery(OAL_ARGS_QUERY_KITL);
+	// Check buffer size
+    if (lpBytesReturned != NULL)
+    {
+        *lpBytesReturned = sizeof(UINT8[6]);
+    }
+
+    if (lpOutBuf == NULL || nOutBufSize < sizeof(UINT8[6]))
+    {
+        NKSetLastError(ERROR_INSUFFICIENT_BUFFER);
+       RETAILMSG(TRUE, (L"WARN: OALIoCtlEBootMAC: Buffer too small\r\n"));
+    }
+    else
+    {
+        // Copy pattern to output buffer
+        memcpy(lpOutBuf, pKITLArgs->mac, sizeof(UINT8[6]));
+        // We are done
+        rc = TRUE;
+    }
+    // Indicate status
+    //OALMSG(OAL_IOCTL&&OAL_FUNC, (L"-OALIoCtlEBootMAC(rc = %d)\r\n", rc));
+	RETAILMSG(TRUE, (L"-OALIoCtlEBootMAC(rc = %d)\r\n", rc));
+    return rc;
+}
+
 //------------------------------------------------------------------------------
 //
 //  Function:  OALIoCtlHalSetSystemLevel

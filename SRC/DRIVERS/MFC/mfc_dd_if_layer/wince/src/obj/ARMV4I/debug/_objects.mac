@@ -1,0 +1,7 @@
+OBJECTS=\
+    obj\ARMV4I\debug\MfcDriver.res\
+    obj\ARMV4I\debug\MfcDriver.obj\
+    obj\ARMV4I\debug\MfcSetConfig.obj\
+    obj\ARMV4I\debug\MfcPwrMgmt.obj\
+    obj\ARMV4I\debug\MfcSetClk.obj
+

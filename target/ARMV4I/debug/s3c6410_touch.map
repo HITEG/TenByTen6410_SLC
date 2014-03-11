@@ -1,0 +1,328 @@
+ s3c6410_touch
+
+ Timestamp is 531ec5f9 (Tue Mar 11 16:14:49 2014)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 0000195cH .rdata                  CODE
+ 0001:0000197c 0000002aH .rdata$debug            CODE
+ 0001:000019a8 00006174H .text                   CODE
+ 0001:00007b1c 0000003cH .xdata                  CODE
+ 0001:00007b58 00000028H .idata$2                CODE
+ 0001:00007b80 00000014H .idata$3                CODE
+ 0001:00007b94 000000b4H .idata$4                CODE
+ 0001:00007c48 00000016H .idata$6                CODE
+ 0001:00007c60 00000161H .edata                  CODE
+ 0002:00000000 000000b4H .idata$5                DATA
+ 0002:000000b8 000004f0H .data                   DATA
+ 0002:000005c0 00000138H .bss                    DATA
+ 0003:00000000 00000260H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000040       ??_C@_1II@DGCOIMLP@?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?3?$AA?5?$AAI?$AAn?$AAt?$AAe?$AAr?$AAr?$AAu?$AAp?$AAt?$AAI?$AAn?$AAi?$AAt?$AAi@ 10001040     tchmain.obj
+ 0001:000000c8       ??_C@_1HK@PKLFBBPC@?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?3?$AA?5?$AAI?$AAn?$AAt?$AAe?$AAr?$AAr?$AAu?$AAp?$AAt?$AAI?$AAn?$AAi?$AAt?$AAi@ 100010c8     tchmain.obj
+ 0001:00000144       ??_C@_1DC@GDGJFAPL@?$AA?$CF?$AAd?$AA?5?$AAd?$AAo?$AAw?$AAn?$AA?5?$AAs?$AAa?$AAm?$AAp?$AAl?$AAe?$AAs?$AA?5?$AAq?$AAu?$AAe?$AAu?$AAe?$AAd?$AA?$AN?$AA?6?$AA?$AA@ 10001144     tchmain.obj
+ 0001:00000178       ??_C@_1FK@PCOIIHBJ@?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?5?$AAQ?$AAu?$AAe?$AAu?$AAi?$AAn?$AAg?$AA?5?$AAp?$AAo?$AAi?$AAn?$AAt?$AA?5?$AA?$CI?$AA?$CF?$AAd?$AA?0?$AA?5?$AA?$CF?$AAd?$AA?$CJ?$AA?0?$AA?5?$AAf?$AAl?$AAa@ 10001178     tchmain.obj
+ 0001:000001d4       ??_C@_1DI@KAFCCODB@?$AAM?$AA?5?$AA?$CF?$AAl?$AAd?$AA?0?$AA?$CF?$AAl?$AAd?$AA?5?$AA?5?$AA?$CF?$AAl?$AAd?$AA?0?$AA?$CF?$AAl?$AAd?$AA?5?$AA?5?$AA?$CF?$AAl?$AAd?$AA?0?$AA?$CF?$AAl?$AAd?$AA?$AA@ 100011d4     tchmain.obj
+ 0001:00000210       ??_C@_1GC@FJOPAGMC@?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?5?$AAC?$AAa?$AAl?$AAi?$AAb?$AAr?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAp?$AAo?$AAi?$AAn?$AAt?$AA?5?$AA?$CI?$AA?$CF?$AAd?$AA?0?$AA?5?$AA?$CF?$AAd?$AA?$CJ?$AA?0@ 10001210     tchmain.obj
+ 0001:00000274       ??_C@_1BG@FLJCGFBL@?$AAT?$AAC?$AAH?$AA_?$AAI?$AAN?$AAT?$AAR?$AA?$AN?$AA?6?$AA?$AA@ 10001274     tchmain.obj
+ 0001:00000290       ??_C@_1FA@JCKIIMMD@?$AAT?$AAO?$AAU?$AAC?$AAH?$AA?3?$AAT?$AAh?$AAr?$AAd?$AAP?$AAr?$AAi?$AAo?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?0?$AA?5?$AAT?$AAh?$AAr?$AAd?$AAH?$AAi?$AAg?$AAh?$AAP?$AAr?$AAi@ 10001290     tchmain.obj
+ 0001:000002e0       ??_C@_1CA@IHOLOKEO@?$AAH?$AAi?$AAg?$AAh?$AAP?$AAr?$AAi?$AAo?$AAr?$AAi?$AAt?$AAy?$AA2?$AA5?$AA6?$AA?$AA@ 100012e0     tchmain.obj
+ 0001:00000300       ??_C@_1JE@CEGKFACG@?$AAT?$AAO?$AAU?$AAC?$AAH?$AA?3?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAp?$AAG?$AAe?$AAt?$AAP?$AAr?$AAi?$AAo?$AAr?$AAi?$AAt?$AAy?$AA?5?$AA?9?$AA?5?$AAF@ 10001300     tchmain.obj
+ 0001:00000394       ??_C@_1BI@BHLBGEOK@?$AAP?$AAr?$AAi?$AAo?$AAr?$AAi?$AAt?$AAy?$AA2?$AA5?$AA6?$AA?$AA@ 10001394     tchmain.obj
+ 0001:000003b0       ??_C@_1LI@IHCCBOIO@?$AAT?$AAO?$AAU?$AAC?$AAH?$AA?3?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAp?$AAG?$AAe?$AAt?$AAP?$AAr?$AAi?$AAo?$AAr?$AAi?$AAt?$AAy?$AA?5?$AA?9?$AA?5?$AAR@ 100013b0     tchmain.obj
+ 0001:00000468       ??_C@_1CO@HCHNLANK@?$AA?2?$AAD?$AAr?$AAi?$AAv?$AAe?$AAr?$AAs?$AA?2?$AAB?$AAu?$AAi?$AAl?$AAt?$AAI?$AAn?$AA?2?$AAT?$AAo?$AAu?$AAc?$AAh?$AA?$AA@ 10001468     tchmain.obj
+ 0001:00000498       ??_C@_1FK@FNONLNGN@?$AA?$CF?$AAs?$AA?3?$AA?5?$AAD?$AAE?$AAB?$AAU?$AAG?$AAC?$AAH?$AAK?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAi?$AAn?$AA?5?$AAf?$AAi?$AAl?$AAe?$AA?5?$AA?$CF?$AAs?$AA?5?$AAa@ 10001498     tchmain.obj
+ 0001:000004f8       ??_C@_1II@LOMFJAKO@?$AAC?$AA?3?$AA?2?$AAW?$AAI?$AAN?$AAC?$AAE?$AA6?$AA0?$AA0?$AA?2?$AAP?$AAL?$AAA?$AAT?$AAF?$AAO?$AAR?$AAM?$AA?2?$AAT?$AAe?$AAn?$AAB?$AAy?$AAT?$AAe?$AAn?$AA6?$AA4?$AA1@ 100014f8     tchmain.obj
+ 0001:00000580       ??_C@_1BM@IOLIHJIC@?$AAA?$AAc?$AAt?$AAi?$AAv?$AAi?$AAt?$AAy?$AAE?$AAv?$AAe?$AAn?$AAt?$AA?$AA@ 10001580     tchmain.obj
+ 0001:0000059c       ??_C@_1BG@JBGCDLHB@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAG?$AAW?$AAE?$AA?$AA@ 1000159c     tchmain.obj
+ 0001:000005b4       ??_C@_1BA@LEPJIIOK@?$AAU?$AAn?$AAk?$AAn?$AAo?$AAw?$AAn?$AA?$AA@ 100015b4     tchbasic.obj
+ 0001:000005c8       ??_C@_1IK@GCFPFDFL@?$AAC?$AA?3?$AA?2?$AAW?$AAI?$AAN?$AAC?$AAE?$AA6?$AA0?$AA0?$AA?2?$AAP?$AAL?$AAA?$AAT?$AAF?$AAO?$AAR?$AAM?$AA?2?$AAT?$AAe?$AAn?$AAB?$AAy?$AAT?$AAe?$AAn?$AA6?$AA4?$AA1@ 100015c8     tchbasic.obj
+ 0001:00000654       ??_C@_1CK@KALIMGPI@?$AAD?$AAl?$AAl?$AA?5?$AAP?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AA?5?$AAD?$AAe?$AAt?$AAa?$AAc?$AAh?$AA?$AN?$AA?6?$AA?$AA@ 10001654     tchbasic.obj
+ 0001:00000680       ??_C@_1DG@ODCFLDLG@?$AAD?$AAd?$AAs?$AAi?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAA?$AAt?$AAt?$AAa?$AAc?$AAh?$AA?5?$AA?$DO?$AA?5?$AA1?$AA?$AN?$AA?6?$AA?$AA@ 10001680     tchbasic.obj
+ 0001:000006b8       ??_C@_1CK@MANAIBA@?$AAD?$AAl?$AAl?$AA?5?$AAP?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AA?5?$AAA?$AAt?$AAt?$AAa?$AAc?$AAh?$AA?$AN?$AA?6?$AA?$AA@ 100016b8     tchbasic.obj
+ 0001:000006e4       ??_C@_1CO@IBMILJAB@?$AA?7?$AAC?$AAa?$AAl?$AAi?$AAb?$AAr?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?4?$AA?$AN?$AA?6?$AA?$AA@ 100016e4     calibrat.obj
+ 0001:00000718       ??_C@_1FO@JLBFGOAH@?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAS?$AAe?$AAt?$AAC?$AAa?$AAl?$AAi?$AAb?$AAr?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?3?$AA?5?$AAd?$AAe?$AAl?$AAt?$AAa?$AA?5@ 10001718     calibrat.obj
+ 0001:00000778       ??_C@_1DG@BBHLEELA@?$AAc?$AAa?$AAl?$AAi?$AAb?$AAr?$AAa?$AAt?$AAi?$AAn?$AAg?$AA?5?$AA?$CF?$AAd?$AA?5?$AAp?$AAo?$AAi?$AAn?$AAt?$AA?5?$AAs?$AAe?$AAt?$AA?$AN?$AA?6?$AA?$AA@ 10001778     calibrat.obj
+ 0001:000007b0       ??_C@_1GI@MGLMFFFE@?$AAM?$AAa?$AAx?$AAi?$AAm?$AAu?$AAm?$AA?5?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?5?$AA?$CF?$AAu?$AA?5?$AAe?$AAx?$AAc?$AAe?$AAe?$AAd?$AAs?$AA?5?$AAc?$AAa?$AAl?$AAi?$AAb?$AAr?$AAa@ 100017b0     calibrat.obj
+ 0001:00000818       ??_C@_1II@DJLOMFPA@?$AAM?$AAa?$AAx?$AAi?$AAm?$AAu?$AAm?$AA?5?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?5?$AA?$CI?$AAs?$AAq?$AAu?$AAa?$AAr?$AAe?$AA?5?$AAo?$AAf?$AA?5?$AAE?$AAu?$AAc?$AAl?$AAi?$AAd?$AAe@ 10001818     calibrat.obj
+ 0001:000008a0       ??_C@_1DG@NEEPBIEH@?$AA?$CI?$AA?$CF?$AA4?$AAd?$AA?0?$AA?5?$AA?$CF?$AA4?$AAd?$AA?$CJ?$AA?5?$AA?$DN?$AA?$DO?$AA?5?$AA?$CI?$AA?$CF?$AA4?$AAd?$AA?0?$AA?5?$AA?$CF?$AA4?$AAd?$AA?$CJ?$AA?$AN?$AA?6?$AA?$AA@ 100018a0     calibrat.obj
+ 0001:000008d8       ??_C@_1DI@KOEAOJB@?$AA?5?$AA?5?$AA?5?$AAS?$AAc?$AAr?$AAe?$AAe?$AAn?$AA?5?$AA?5?$AA?5?$AA?5?$AA?$DN?$AA?$DO?$AA?5?$AA?5?$AA?5?$AA?5?$AAM?$AAa?$AAp?$AAp?$AAe?$AAd?$AA?$AN?$AA?6?$AA?$AA@ 100018d8     calibrat.obj
+ 0001:00000910       ??_C@_1CO@HGFEBAFC@?$AAC?$AAa?$AAl?$AAi?$AAb?$AAr?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAR?$AAe?$AAs?$AAu?$AAl?$AAt?$AAs?$AA?3?$AA?$AN?$AA?6?$AA?$AA@ 10001910     calibrat.obj
+ 0001:00000940       ??_C@_1DI@HBBBNELP@?$AAM?$AAa?$AAx?$AAi?$AAm?$AAu?$AAm?$AA?5?$AAA?$AAl?$AAl?$AAo?$AAw?$AAe?$AAd?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?5?$AA?$CF?$AAd?$AA?3?$AA?$AN?$AA?6?$AA?$AA@ 10001940     calibrat.obj
+ 0001:00000978       ??_C@_1BI@KKLLCJMC@?$AAM?$AAa?$AAx?$AAC?$AAa?$AAl?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?$AA@ 10001978     calibrat.obj
+ 0001:00000990       ??_C@_1DC@PPKDPGKC@?$AAH?$AAA?$AAR?$AAD?$AAW?$AAA?$AAR?$AAE?$AA?2?$AAD?$AAE?$AAV?$AAI?$AAC?$AAE?$AAM?$AAA?$AAP?$AA?2?$AAT?$AAO?$AAU?$AAC?$AAH?$AA?$AA@ 10001990     calibrat.obj
+ 0001:000009c8       ??_C@_1IK@FNFJBNEK@?$AAC?$AA?3?$AA?2?$AAW?$AAI?$AAN?$AAC?$AAE?$AA6?$AA0?$AA0?$AA?2?$AAP?$AAL?$AAA?$AAT?$AAF?$AAO?$AAR?$AAM?$AA?2?$AAT?$AAe?$AAn?$AAB?$AAy?$AAT?$AAe?$AAn?$AA6?$AA4?$AA1@ 100019c8     largenum.obj
+ 0001:00000a54       MIN_CAL_COUNT              10001a54     s3c6410_touch.obj
+ 0001:00000a58       ??_C@_1EC@FIMCDMEN@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AA?9?$AA?9?$AAD?$AAd?$AAs?$AAi?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?$CI?$AA?$CJ?$AA?$AN?$AA?6@ 10001a58     s3c6410_touch.obj
+ 0001:00000aa0       ??_C@_1HI@HBNKKLPF@?$AA?$FL?$AAT?$AAS?$AAP?$AA?3?$AAI?$AAN?$AAF?$AA?$FN?$AA?5?$AAD?$AAd?$AAs?$AAi?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?$CI?$AA?$CJ@ 10001aa0     s3c6410_touch.obj
+ 0001:00000b18       ??_C@_1GK@BLKCHMPM@?$AA?$FL?$AAT?$AAS?$AAP?$AA?3?$AAI?$AAN?$AAF?$AA?$FN?$AA?5?$AAD?$AAd?$AAs?$AAi?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?$CI?$AA?$CJ@ 10001b18     s3c6410_touch.obj
+ 0001:00000b88       ??_C@_1IM@OILNCOOK@?$AA?$FL?$AAT?$AAS?$AAP?$AA?3?$AAE?$AAR?$AAR?$AA?$FN?$AA?5?$AAD?$AAd?$AAs?$AAi?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?$CI?$AA?$CJ@ 10001b88     s3c6410_touch.obj
+ 0001:00000c18       ??_C@_1HO@MMODGKFJ@?$AA?$FL?$AAT?$AAS?$AAP?$AA?3?$AAE?$AAR?$AAR?$AA?$FN?$AA?5?$AAD?$AAd?$AAs?$AAi?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?$CI?$AA?$CJ@ 10001c18     s3c6410_touch.obj
+ 0001:00000c98       ??_C@_1EC@PCMEMHJG@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AA?$CL?$AA?$CL?$AAD?$AAd?$AAs?$AAi?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?$CI?$AA?$CJ?$AA?$AN?$AA?6@ 10001c98     s3c6410_touch.obj
+ 0001:00000ce0       ??_C@_1EE@IPBHIBDF@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AA?9?$AA?9?$AAT?$AAS?$AAP?$AA_?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAA?$AAl?$AAl?$AAo?$AAc?$AA?$CI?$AA?$CJ?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?$AN@ 10001ce0     s3c6410_touch.obj
+ 0001:00000d28       ??_C@_1FA@JOPFGOAC@?$AA?$FL?$AAT?$AAS?$AAP?$AA?3?$AAE?$AAR?$AAR?$AA?$FN?$AA?5?$AAT?$AAS?$AAP?$AA_?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAA?$AAl?$AAl?$AAo?$AAc?$AA?$CI?$AA?$CJ?$AA?5?$AA?3?$AA?5?$AAF@ 10001d28     s3c6410_touch.obj
+ 0001:00000d78       ??_C@_1HG@MGEOON@?$AA?$FL?$AAT?$AAS?$AAP?$AA?3?$AAE?$AAR?$AAR?$AA?$FN?$AA?5?$AAT?$AAS?$AAP?$AA_?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAA?$AAl?$AAl?$AAo?$AAc?$AA?$CI?$AA?$CJ?$AA?5?$AA?3?$AA?5?$AAg@ 10001d78     s3c6410_touch.obj
+ 0001:00000df0       ??_C@_1HI@IEGEBONG@?$AA?$FL?$AAT?$AAS?$AAP?$AA?3?$AAE?$AAR?$AAR?$AA?$FN?$AA?5?$AAT?$AAS?$AAP?$AA_?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAA?$AAl?$AAl?$AAo?$AAc?$AA?$CI?$AA?$CJ?$AA?5?$AA?3?$AA?5?$AAg@ 10001df0     s3c6410_touch.obj
+ 0001:00000e68       ??_C@_1HI@PLKNIFEF@?$AA?$FL?$AAT?$AAS?$AAP?$AA?3?$AAE?$AAR?$AAR?$AA?$FN?$AA?5?$AAT?$AAS?$AAP?$AA_?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAA?$AAl?$AAl?$AAo?$AAc?$AA?$CI?$AA?$CJ?$AA?5?$AA?3?$AA?5?$AAg@ 10001e68     s3c6410_touch.obj
+ 0001:00000ee0       ??_C@_1HG@BCJPJOFG@?$AA?$FL?$AAT?$AAS?$AAP?$AA?3?$AAE?$AAR?$AAR?$AA?$FN?$AA?5?$AAT?$AAS?$AAP?$AA_?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAA?$AAl?$AAl?$AAo?$AAc?$AA?$CI?$AA?$CJ?$AA?5?$AA?3?$AA?5?$AAg@ 10001ee0     s3c6410_touch.obj
+ 0001:00000f58       ??_C@_1HI@JOEBGMK@?$AA?$FL?$AAT?$AAS?$AAP?$AA?3?$AAE?$AAR?$AAR?$AA?$FN?$AA?5?$AAT?$AAS?$AAP?$AA_?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAA?$AAl?$AAl?$AAo?$AAc?$AA?$CI?$AA?$CJ?$AA?5?$AA?3?$AA?5?$AAg@ 10001f58     s3c6410_touch.obj
+ 0001:00000fd0       ??_C@_1DK@JIHLNHEH@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AA?$CL?$AA?$CL?$AAT?$AAS?$AAP?$AA_?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAA?$AAl?$AAl?$AAo?$AAc?$AA?$CI?$AA?$CJ?$AA?$AN?$AA?6?$AA?$AA@ 10001fd0     s3c6410_touch.obj
+ 0001:0000100c       ??_C@_1DI@PFMNCIOM@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AA?9?$AA?9?$AAT?$AAS?$AAP?$AA_?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAF?$AAr?$AAe?$AAe?$AA?$CI?$AA?$CJ?$AA?$AN?$AA?6?$AA?$AA@ 1000200c     s3c6410_touch.obj
+ 0001:00001044       ??_C@_1DI@HJEKKPEG@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AA?$CL?$AA?$CL?$AAT?$AAS?$AAP?$AA_?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAF?$AAr?$AAe?$AAe?$AA?$CI?$AA?$CJ?$AA?$AN?$AA?6?$AA?$AA@ 10002044     s3c6410_touch.obj
+ 0001:0000107c       ??_C@_1DA@MKAKEPNK@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AA?9?$AA?9?$AAT?$AAS?$AAP?$AA_?$AAP?$AAo?$AAw?$AAe?$AAr?$AAO?$AAn?$AA?$CI?$AA?$CJ?$AA?$AN?$AA?6?$AA?$AA@ 1000207c     s3c6410_touch.obj
+ 0001:000010ac       ??_C@_1DA@NIMHFOJC@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AA?$CL?$AA?$CL?$AAT?$AAS?$AAP?$AA_?$AAP?$AAo?$AAw?$AAe?$AAr?$AAO?$AAn?$AA?$CI?$AA?$CJ?$AA?$AN?$AA?6?$AA?$AA@ 100020ac     s3c6410_touch.obj
+ 0001:000010e0       ??_C@_1EE@IOJECGBK@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AA?9?$AA?9?$AAD?$AAd?$AAs?$AAi?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAD?$AAi?$AAs?$AAa?$AAb?$AAl?$AAe?$AA?$CI?$AA?$CJ?$AA?$AN@ 100020e0     s3c6410_touch.obj
+ 0001:00001128       ??_C@_1EE@MGDHLLFM@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AA?$CL?$AA?$CL?$AAD?$AAd?$AAs?$AAi?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAD?$AAi?$AAs?$AAa?$AAb?$AAl?$AAe?$AA?$CI?$AA?$CJ?$AA?$AN@ 10002128     s3c6410_touch.obj
+ 0001:0000116c       ??_C@_1DC@JHPJBGAI@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AA?9?$AA?9?$AAT?$AAS?$AAP?$AA_?$AAP?$AAo?$AAw?$AAe?$AAr?$AAO?$AAf?$AAf?$AA?$CI?$AA?$CJ?$AA?$AN?$AA?6?$AA?$AA@ 1000216c     s3c6410_touch.obj
+ 0001:000011a0       ??_C@_1DC@MFOJOBDK@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AA?$CL?$AA?$CL?$AAT?$AAS?$AAP?$AA_?$AAP?$AAo?$AAw?$AAe?$AAr?$AAO?$AAf?$AAf?$AA?$CI?$AA?$CJ?$AA?$AN?$AA?6?$AA?$AA@ 100021a0     s3c6410_touch.obj
+ 0001:000011d8       ??_C@_1JA@NHHCAGDK@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AAD?$AAd?$AAs?$AAi?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAG?$AAe?$AAt?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAC?$AAa?$AAp@ 100021d8     s3c6410_touch.obj
+ 0001:00001268       ??_C@_1HI@BADDPGJM@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AAD?$AAd?$AAs?$AAi?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAG?$AAe?$AAt?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAC?$AAa?$AAp@ 10002268     s3c6410_touch.obj
+ 0001:000012e0       ??_C@_1JI@CCHKFAMB@?$AAC?$AA?3?$AA?2?$AAW?$AAI?$AAN?$AAC?$AAE?$AA6?$AA0?$AA0?$AA?2?$AAP?$AAL?$AAA?$AAT?$AAF?$AAO?$AAR?$AAM?$AA?2?$AAT?$AAe?$AAn?$AAB?$AAy?$AAT?$AAe?$AAn?$AA6?$AA4?$AA1@ 100022e0     s3c6410_touch.obj
+ 0001:00001378       ??_C@_1II@LPGLCKOO@?$AA?$FL?$AAT?$AAS?$AAP?$AA?3?$AAE?$AAR?$AAR?$AA?$FN?$AA?5?$AAD?$AAd?$AAs?$AAi?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAG?$AAe?$AAt?$AAD?$AAe?$AAv?$AAi?$AAc@ 10002378     s3c6410_touch.obj
+ 0001:00001400       ??_C@_1EI@IMOFKJOI@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AA?9?$AA?9?$AAT?$AAS?$AAP?$AA_?$AAC?$AAa?$AAl?$AAi?$AAb?$AAr?$AAa?$AAt?$AAi?$AAo?$AAn?$AAP?$AAo?$AAi?$AAn?$AAt?$AAG?$AAe?$AAt?$AA?$CI@ 10002400     s3c6410_touch.obj
+ 0001:00001448       ??_C@_1IA@CJKFJGFC@?$AA?$FL?$AAT?$AAS?$AAP?$AA?3?$AAE?$AAR?$AAR?$AA?$FN?$AA?5?$AAT?$AAS?$AAP?$AA_?$AAC?$AAa?$AAl?$AAi?$AAb?$AAr?$AAa?$AAt?$AAi?$AAo?$AAn?$AAP?$AAo?$AAi?$AAn?$AAt?$AAG?$AAe@ 10002448     s3c6410_touch.obj
+ 0001:000014c8       ??_C@_1EA@KHOOFBID@?$AAT?$AAS?$AAP?$AA_?$AAC?$AAa?$AAl?$AAi?$AAb?$AAr?$AAa?$AAt?$AAi?$AAo?$AAn?$AAP?$AAo?$AAi?$AAn?$AAt?$AAG?$AAe?$AAt?$AA?3?$AA?$CF?$AAd?$AA?0?$AA?$CF?$AAd?$AA?$AN?$AA?6?$AA?$AA@ 100024c8     s3c6410_touch.obj
+ 0001:00001508       ??_C@_1EI@DKHMKDCC@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AA?$CL?$AA?$CL?$AAT?$AAS?$AAP?$AA_?$AAC?$AAa?$AAl?$AAi?$AAb?$AAr?$AAa?$AAt?$AAi?$AAo?$AAn?$AAP?$AAo?$AAi?$AAn?$AAt?$AAG?$AAe?$AAt?$AA?$CI@ 10002508     s3c6410_touch.obj
+ 0001:00001550       ??_C@_1EO@NOMCOPHL@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AA?9?$AA?9?$AAD?$AAd?$AAs?$AAi?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAS?$AAe?$AAt?$AAM?$AAo?$AAd?$AAe?$AA?$CI?$AA?$CJ?$AA?5@ 10002550     s3c6410_touch.obj
+ 0001:000015a0       ??_C@_1HM@NIINAGFL@?$AA?$FL?$AAT?$AAS?$AAP?$AA?3?$AAE?$AAR?$AAR?$AA?$FN?$AA?5?$AAD?$AAd?$AAs?$AAi?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAS?$AAe?$AAt?$AAM?$AAo?$AAd?$AAe?$AA?$CI@ 100025a0     s3c6410_touch.obj
+ 0001:00001620       ??_C@_1EI@LLHMLDJK@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AA?$CL?$AA?$CL?$AAD?$AAd?$AAs?$AAi?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAS?$AAe?$AAt?$AAM?$AAo?$AAd?$AAe?$AA?$CI?$AA?$CF?$AAd@ 10002620     s3c6410_touch.obj
+ 0001:00001668       ??_C@_1EG@MOAFKJFA@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AA?9?$AA?9?$AAD?$AAd?$AAs?$AAi?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAG?$AAe?$AAt?$AAP?$AAo?$AAi?$AAn?$AAt?$AA?$CI?$AA?$CJ@ 10002668     s3c6410_touch.obj
+ 0001:000016b0       ??_C@_1CM@JEEBPCOG@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AAU?$AAn?$AAk?$AAn?$AAo?$AAw?$AAn?$AA?5?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?$AN?$AA?6?$AA?$AA@ 100026b0     s3c6410_touch.obj
+ 0001:000016dc       ??_C@_1CC@OFIPLLGP@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AAP?$AAe?$AAn?$AA?5?$AAU?$AAp?$AA?5?$AA?$CL?$AA?$AN?$AA?6?$AA?$AA@ 100026dc     s3c6410_touch.obj
+ 0001:00001700       ??_C@_1FM@GIGGPAEF@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AAg?$AAI?$AAn?$AAt?$AAr?$AAT?$AAo?$AAu?$AAc?$AAh?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAd?$AA?$CI?$AAP?$AAH?$AAY?$AAI?$AAR?$AAQ?$AA_?$AAT@ 10002700     s3c6410_touch.obj
+ 0001:0000175c       ??_C@_1CC@FKALEFEA@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AAP?$AAe?$AAn?$AA?5?$AAD?$AAo?$AAw?$AAn?$AA?$AN?$AA?6?$AA?$AA@ 1000275c     s3c6410_touch.obj
+ 0001:00001780       ??_C@_1BO@HNBOLMAE@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AAP?$AAe?$AAn?$AA?5?$AAU?$AAp?$AA?$AN?$AA?6?$AA?$AA@ 10002780     s3c6410_touch.obj
+ 0001:000017a0       ??_C@_1EM@HLBDNCLF@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AAg?$AAI?$AAn?$AAt?$AAr?$AAT?$AAo?$AAu?$AAc?$AAh?$AA?$CI?$AAP?$AAH?$AAY?$AAI?$AAR?$AAQ?$AA_?$AAP?$AAE?$AAN?$AAD?$AAN?$AA?$CJ?$AA?5?$AAC@ 100027a0     s3c6410_touch.obj
+ 0001:000017f0       ??_C@_1EG@OGJIOGIJ@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AA?$CL?$AA?$CL?$AAD?$AAd?$AAs?$AAi?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAG?$AAe?$AAt?$AAP?$AAo?$AAi?$AAn?$AAt?$AA?$CI?$AA?$CJ@ 100027f0     s3c6410_touch.obj
+ 0001:00001838       ??_C@_1EO@MOHPCIOI@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AA?9?$AA?9?$AAD?$AAd?$AAs?$AAi?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAP?$AAo?$AAw?$AAe?$AAr?$AAH?$AAa?$AAn?$AAd?$AAl@ 10002838     s3c6410_touch.obj
+ 0001:00001888       ??_C@_1FC@PEBFMBID@?$AA?$FL?$AAT?$AAS?$AAP?$AA?$FN?$AA?5?$AA?$CL?$AA?$CL?$AAD?$AAd?$AAs?$AAi?$AAT?$AAo?$AAu?$AAc?$AAh?$AAP?$AAa?$AAn?$AAe?$AAl?$AAP?$AAo?$AAw?$AAe?$AAr?$AAH?$AAa?$AAn?$AAd?$AAl@ 10002888     s3c6410_touch.obj
+ 0001:000018dc       ??_C@_1CM@DKJPPKPA@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?1?$AAG?$AAw?$AAe?$AAA?$AAp?$AAi?$AAS?$AAe?$AAt?$AAR?$AAe?$AAa?$AAd?$AAy?$AA?$AA@ 100028dc     s3c6410_touch.obj
+ 0001:00001908       ??_C@_1FE@CBHDNHHK@?$AA?$FL?$AAT?$AAO?$AAU?$AAC?$AAH?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?$FN?$AA?5?$AAE?$AAx?$AAi?$AAs?$AAt?$AA?5?$AAC?$AAa?$AAl?$AAi?$AAb?$AAr?$AAa?$AAt?$AAi?$AAo?$AAn@ 10002908     s3c6410_touch.obj
+ 0001:0000195c       ??_C@_1CA@BNLIHNAH@?$AAC?$AAa?$AAl?$AAi?$AAb?$AAr?$AAa?$AAt?$AAi?$AAo?$AAn?$AAD?$AAa?$AAt?$AAa?$AA?$AA@ 1000295c     s3c6410_touch.obj
+ 0001:000019a8       TouchPanelGetDeviceCaps    100029a8 f   tchmain.obj
+ 0001:00001a54       TouchPanelSetMode          10002a54 f   tchmain.obj
+ 0001:00001b2c       TouchPanelPowerHandler     10002b2c f   tchmain.obj
+ 0001:00001b48       TouchPanelEnable           10002b48 f   tchmain.obj
+ 0001:000027a8       TouchPanelDisable          100037a8 f   tchmain.obj
+ 0001:0000297c       TouchPanelReadCalibrationPoint 1000397c f   tchmain.obj
+ 0001:00002bd0       TouchPanelReadCalibrationAbort 10003bd0 f   tchmain.obj
+ 0001:00002c3c       SetEvent                   10003c3c f i tchmain.obj
+ 0001:00002c74       TouchPanelDllEntry         10003c74 f   tchbasic.obj
+ 0001:00002de4       DllMain                    10003de4 f   tchbasic.obj
+ 0001:00002e28       TouchPanelSetCalibration   10003e28 f   calibrat.obj
+ 0001:0000358c       ComputeMatrix33            1000458c f   calibrat.obj
+ 0001:00003758       TouchPanelCalibrateAPoint  10004758 f   calibrat.obj
+ 0001:00003878       ErrorAnalysis              10004878 f   calibrat.obj
+ 0001:00003af0       LargeNumSet                10004af0 f   largenum.obj
+ 0001:00003bac       IsLargeNumNotZero          10004bac f   largenum.obj
+ 0001:00003c2c       IsLargeNumNegative         10004c2c f   largenum.obj
+ 0001:00003c78       IsLargeNumMagGreaterThan   10004c78 f   largenum.obj
+ 0001:00003d64       IsLargeNumMagLessThan      10004d64 f   largenum.obj
+ 0001:00003e50       LargeNumMagInc             10004e50 f   largenum.obj
+ 0001:00003f14       LargeNumMagAdd             10004f14 f   largenum.obj
+ 0001:00004064       LargeNumMagSub             10005064 f   largenum.obj
+ 0001:000041b8       LargeNumAdd                100051b8 f   largenum.obj
+ 0001:000042c8       LargeNumSub                100052c8 f   largenum.obj
+ 0001:000043d8       LargeNumMulUint32          100053d8 f   largenum.obj
+ 0001:00004540       LargeNumMulInt32           10005540 f   largenum.obj
+ 0001:0000461c       LargeNumMult               1000561c f   largenum.obj
+ 0001:0000480c       LargeNumSignedFormat       1000580c f   largenum.obj
+ 0001:000048fc       LargeNumRAShift            100058fc f   largenum.obj
+ 0001:00004b3c       LargeNumDivInt32           10005b3c f   largenum.obj
+ 0001:00004dfc       LargeNumBits               10005dfc f   largenum.obj
+ 0001:00004ef0       LargeNumToAscii            10005ef0 f   largenum.obj
+ 0001:000050d8       DdsiTouchPanelEnable       100060d8 f   s3c6410_touch.obj
+ 0001:000059f8       DdsiTouchPanelDisable      100069f8 f   s3c6410_touch.obj
+ 0001:00005bd0       DdsiTouchPanelGetDeviceCaps 10006bd0 f   s3c6410_touch.obj
+ 0001:000060f8       DdsiTouchPanelSetMode      100070f8 f   s3c6410_touch.obj
+ 0001:00006270       DdsiTouchPanelGetPoint     10007270 f   s3c6410_touch.obj
+ 0001:00006b68       DdsiTouchPanelAttach       10007b68 f   s3c6410_touch.obj
+ 0001:00006b80       DdsiTouchPanelDetach       10007b80 f   s3c6410_touch.obj
+ 0001:00006b98       DdsiTouchPanelPowerHandler 10007b98 f   s3c6410_touch.obj
+ 0001:00006d64       ?StartCalibrationThread@@YAXXZ 10007d64 f   s3c6410_touch.obj
+ 0001:00006ed8       LeaveCriticalSection       10007ed8 f   coredll:COREDLL.dll
+ 0001:00006ee8       EnterCriticalSection       10007ee8 f   coredll:COREDLL.dll
+ 0001:00006ef8       CeSetThreadPriority        10007ef8 f   coredll:COREDLL.dll
+ 0001:00006f08       CreateThread               10007f08 f   coredll:COREDLL.dll
+ 0001:00006f18       NKDbgPrintfW               10007f18 f   coredll:COREDLL.dll
+ 0001:00006f28       InterruptInitialize        10007f28 f   coredll:COREDLL.dll
+ 0001:00006f38       InterruptDisable           10007f38 f   coredll:COREDLL.dll
+ 0001:00006f48       InterruptDone              10007f48 f   coredll:COREDLL.dll
+ 0001:00006f58       InitializeCriticalSection  10007f58 f   coredll:COREDLL.dll
+ 0001:00006f68       CreateEventW               10007f68 f   coredll:COREDLL.dll
+ 0001:00006f78       ExitThread                 10007f78 f   coredll:COREDLL.dll
+ 0001:00006f88       GetTickCount               10007f88 f   coredll:COREDLL.dll
+ 0001:00006f98       WaitForSingleObject        10007f98 f   coredll:COREDLL.dll
+ 0001:00006fa8       EventModify                10007fa8 f   coredll:COREDLL.dll
+ 0001:00006fb8       RegCloseKey                10007fb8 f   coredll:COREDLL.dll
+ 0001:00006fc8       RegQueryValueExW           10007fc8 f   coredll:COREDLL.dll
+ 0001:00006fd8       RegOpenKeyExW              10007fd8 f   coredll:COREDLL.dll
+ 0001:00006fe8       DeleteCriticalSection      10007fe8 f   coredll:COREDLL.dll
+ 0001:00006ff8       CloseHandle                10007ff8 f   coredll:COREDLL.dll
+ 0001:00007008       OpenEventW                 10008008 f   coredll:COREDLL.dll
+ 0001:00007018       SetLastError               10008018 f   coredll:COREDLL.dll
+ 0001:00007028       DisableThreadLibraryCalls  10008028 f   coredll:COREDLL.dll
+ 0001:00007038       RegisterDbgZones           10008038 f   coredll:COREDLL.dll
+ 0001:00007048       KernelIoControl            10008048 f   coredll:COREDLL.dll
+ 0001:00007058       SetInterruptEvent          10008058 f   coredll:COREDLL.dll
+ 0001:00007068       TouchCalibrate             10008068 f   coredll:COREDLL.dll
+ 0001:00007078       MmMapIoSpace               10008078 f   ceddk:CEDDK.dll
+ 0001:00007088       MmUnmapIoSpace             10008088 f   ceddk:CEDDK.dll
+ 0001:00007098       _DllMainCRTStartup         10008098 f   corelib0:pegdmain.obj
+ 0001:00007240       __security_init_cookie     10008240 f   corelib0:seccinit.obj
+ 0001:00007308       __GSHandlerCheck           10008308 f   corelib0:gshandler.obj
+ 0001:00007350       __GSHandlerCheckCommon     10008350 f   corelib0:gshandler.obj
+ 0001:000073f8       __security_check_cookie    100083f8 f   corelib0:armsecgs.obj
+ 0001:0000740c       __gsfailure                1000840c f   corelib0:armsecgs.obj
+ 0001:00007450       exit                       10008450 f   corelib0:cexit.obj
+ 0001:000075d0       _exit                      100085d0 f   corelib0:cexit.obj
+ 0001:000075f4       _cexit                     100085f4 f   corelib0:cexit.obj
+ 0001:00007610       _c_exit                    10008610 f   corelib0:cexit.obj
+ 0001:0000762c       GetCurrentProcess          1000862c f i corelib0:cexit.obj
+ 0001:00007644       _initterm                  10008644 f   corelib0:crt0dat.obj
+ 0001:00007698       _cinit                     10008698 f   corelib0:crt0dat.obj
+ 0001:000076d4       _onexit                    100086d4 f   corelib0:onexit.obj
+ 0001:000079d8       atexit                     100089d8 f   corelib0:onexit.obj
+ 0001:00007a2c       __rt_sdiv                  10008a2c f   corelib1:COREDLL.dll
+ 0001:00007a3c       __rt_udiv                  10008a3c f   corelib1:COREDLL.dll
+ 0001:00007a4c       memcpy                     10008a4c f   corelib1:COREDLL.dll
+ 0001:00007a5c       abs                        10008a5c f   corelib1:COREDLL.dll
+ 0001:00007a6c       _XcptFilter                10008a6c f   corelib1:COREDLL.dll
+ 0001:00007a7c       __C_specific_handler       10008a7c f   corelib1:COREDLL.dll
+ 0001:00007a8c       __security_gen_cookie2     10008a8c f   corelib1:COREDLL.dll
+ 0001:00007a9c       __report_gsfailure         10008a9c f   corelib1:COREDLL.dll
+ 0001:00007aac       free                       10008aac f   corelib1:COREDLL.dll
+ 0001:00007abc       malloc                     10008abc f   corelib1:COREDLL.dll
+ 0001:00007acc       realloc                    10008acc f   corelib1:COREDLL.dll
+ 0001:00007adc       _msize                     10008adc f   corelib1:COREDLL.dll
+ 0001:00007aec       InterlockedExchange        10008aec f   coredll:COREDLL.dll
+ 0001:00007afc       TerminateProcess           10008afc f   coredll:COREDLL.dll
+ 0001:00007b0c       InterlockedCompareExchange 10008b0c f   coredll:COREDLL.dll
+ 0001:00007b58       __IMPORT_DESCRIPTOR_COREDLL 10008b58     coredll:COREDLL.dll
+ 0001:00007b6c       __IMPORT_DESCRIPTOR_CEDDK  10008b6c     ceddk:CEDDK.dll
+ 0001:00007b80       __NULL_IMPORT_DESCRIPTOR   10008b80     coredll:COREDLL.dll
+ 0002:00000000       __imp_MmMapIoSpace         10009000     ceddk:CEDDK.dll
+ 0002:00000004       __imp_MmUnmapIoSpace       10009004     ceddk:CEDDK.dll
+ 0002:00000008       \177CEDDK_NULL_THUNK_DATA  10009008     ceddk:CEDDK.dll
+ 0002:0000000c       __imp_CreateThread         1000900c     coredll:COREDLL.dll
+ 0002:00000010       __imp_NKDbgPrintfW         10009010     coredll:COREDLL.dll
+ 0002:00000014       __imp_InterruptInitialize  10009014     coredll:COREDLL.dll
+ 0002:00000018       __imp_InterruptDisable     10009018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_InterruptDone        1000901c     coredll:COREDLL.dll
+ 0002:00000020       __imp_InitializeCriticalSection 10009020     coredll:COREDLL.dll
+ 0002:00000024       __imp_CreateEventW         10009024     coredll:COREDLL.dll
+ 0002:00000028       __imp_ExitThread           10009028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_GetTickCount         1000902c     coredll:COREDLL.dll
+ 0002:00000030       __imp_WaitForSingleObject  10009030     coredll:COREDLL.dll
+ 0002:00000034       __imp_EventModify          10009034     coredll:COREDLL.dll
+ 0002:00000038       __imp_CeSetThreadPriority  10009038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_RegQueryValueExW     1000903c     coredll:COREDLL.dll
+ 0002:00000040       __imp_RegOpenKeyExW        10009040     coredll:COREDLL.dll
+ 0002:00000044       __imp_DeleteCriticalSection 10009044     coredll:COREDLL.dll
+ 0002:00000048       __imp_CloseHandle          10009048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_OpenEventW           1000904c     coredll:COREDLL.dll
+ 0002:00000050       __imp_SetLastError         10009050     coredll:COREDLL.dll
+ 0002:00000054       __imp_DisableThreadLibraryCalls 10009054     coredll:COREDLL.dll
+ 0002:00000058       __imp_RegisterDbgZones     10009058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_KernelIoControl      1000905c     coredll:COREDLL.dll
+ 0002:00000060       __imp_SetInterruptEvent    10009060     coredll:COREDLL.dll
+ 0002:00000064       __imp_TouchCalibrate       10009064     coredll:COREDLL.dll
+ 0002:00000068       __imp_EnterCriticalSection 10009068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_RegCloseKey          1000906c     coredll:COREDLL.dll
+ 0002:00000070       __imp_LeaveCriticalSection 10009070     coredll:COREDLL.dll
+ 0002:00000074       __imp___rt_sdiv            10009074     corelib1:COREDLL.dll
+ 0002:00000078       __imp___rt_udiv            10009078     corelib1:COREDLL.dll
+ 0002:0000007c       __imp_memcpy               1000907c     corelib1:COREDLL.dll
+ 0002:00000080       __imp_abs                  10009080     corelib1:COREDLL.dll
+ 0002:00000084       __imp__XcptFilter          10009084     corelib1:COREDLL.dll
+ 0002:00000088       __imp___C_specific_handler 10009088     corelib1:COREDLL.dll
+ 0002:0000008c       __imp___security_gen_cookie2 1000908c     corelib1:COREDLL.dll
+ 0002:00000090       __imp___report_gsfailure   10009090     corelib1:COREDLL.dll
+ 0002:00000094       __imp_free                 10009094     corelib1:COREDLL.dll
+ 0002:00000098       __imp_malloc               10009098     corelib1:COREDLL.dll
+ 0002:0000009c       __imp_realloc              1000909c     corelib1:COREDLL.dll
+ 0002:000000a0       __imp__msize               100090a0     corelib1:COREDLL.dll
+ 0002:000000a4       __imp_InterlockedExchange  100090a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_TerminateProcess     100090a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_InterlockedCompareExchange 100090ac     coredll:COREDLL.dll
+ 0002:000000b0       \177COREDLL_NULL_THUNK_DATA 100090b0     coredll:COREDLL.dll
+ 0002:000000b8       dpCurSettings              100090b8     tchmain.obj
+ 0002:000004fc       gdwTouchIstTimeout         100094fc     tchmain.obj
+ 0002:00000500       v_pfnSetCalibration        10009500     tchmain.obj
+ 0002:00000504       v_pfnGetDeviceCaps         10009504     tchmain.obj
+ 0002:00000508       v_pfnSetMode               10009508     tchmain.obj
+ 0002:0000050c       v_pfnPowerHandler          1000950c     tchmain.obj
+ 0002:00000510       v_pfnEnableTest            10009510     tchmain.obj
+ 0002:00000514       v_pfnDisableTest           10009514     tchmain.obj
+ 0002:00000518       v_pfnReadCalibrationPointTest 10009518     tchmain.obj
+ 0002:0000051c       v_pfnCalibrationPointAbortTest 1000951c     tchmain.obj
+ 0002:000005a0       __security_cookie          100095a0     corelib0:seccinit.obj
+ 0002:000005a4       __security_cookie_complement 100095a4     corelib0:seccinit.obj
+ 0002:000005ec       _bTchThreadHighPriority    100095ec     tchmain.obj
+ 0002:000005f0       hThread                    100095f0     tchmain.obj
+ 0002:000005f8       v_pfnCgrCallback           100095f8     tchbasic.obj
+ 0002:00000650       ?TouchType@@3KA            10009650     s3c6410_touch.obj
+ 0002:0000065c       gIntrTouch                 1000965c     s3c6410_touch.obj
+ 0002:00000660       gIntrTouchChanged          10009660     s3c6410_touch.obj
+ 0002:00000698       _exitflag                  10009698     corelib0:cexit.obj
+ 0002:0000069c       v_pfnCgrPointCallback      1000969c     <common>
+ 0002:000006a0       v_pfnPointCallback         100096a0     <common>
+ 0002:000006a4       CalibrationState           100096a4     <common>
+ 0002:000006a8       ghevCalibrationActivity    100096a8     <common>
+ 0002:000006ac       culReferenceCount          100096ac     <common>
+ 0002:000006b0       DisplayHeight              100096b0     <common>
+ 0002:000006c0       csMutex                    100096c0     <common>
+ 0002:000006d4       hTouchPanelEvent           100096d4     <common>
+ 0002:000006d8       hCalibrationSampleAvailable 100096d8     <common>
+ 0002:000006dc       DisplayWidth               100096dc     <common>
+ 0002:000006e0       lCalibrationYCoord         100096e0     <common>
+ 0002:000006e4       lCalibrationXCoord         100096e4     <common>
+ 0002:000006e8       __onexitend                100096e8     <common>
+ 0002:000006ec       __onexitbegin              100096ec     <common>
+ 0002:000006f0       g_pcsExit                  100096f0     <common>
+ 0002:000006f4       _pRawDllMain               100096f4     <common>
+
+ entry point at        0001:00007098
+
+ Static symbols
+
+ 0001:00001e20       TouchPanelpDetach          10002e20 f   tchmain.obj
+ 0001:00001e24       TouchPanelpAttach          10002e24 f   tchmain.obj
+ 0001:00001f28       TouchPanelpISR             10002f28 f   tchmain.obj
+ 0001:00002594       TouchPanelpGetPriority     10003594 f   tchmain.obj
+ 0001:00005380       ?TSP_VirtualAlloc@@YAHXZ   10006380 f   s3c6410_touch.obj
+ 0001:000056ec       ?TSP_VirtualFree@@YAXXZ    100066ec f   s3c6410_touch.obj
+ 0001:00005854       ?TSP_PowerOn@@YAXXZ        10006854 f   s3c6410_touch.obj
+ 0001:00005a88       ?TSP_PowerOff@@YAXXZ       10006a88 f   s3c6410_touch.obj
+ 0001:00005b4c       ?TSP_SampleStop@@YAXXZ     10006b4c f   s3c6410_touch.obj
+ 0001:00005e10       ?TSP_CalibrationPointGet@@YAHPAUTPDC_CALIBRATION_POINT@@@Z 10006e10 f   s3c6410_touch.obj
+ 0001:00006700       ?TSP_SampleStart@@YAXXZ    10007700 f   s3c6410_touch.obj
+ 0001:00006814       ?TSP_GetXY@@YAHPAH0@Z      10007814 f   s3c6410_touch.obj
+ 0001:00006c44       ?Touch_Pen_Filtering@@YAHPAH0@Z 10007c44 f   s3c6410_touch.obj
+ 0001:00006db4       ?CalibrationThread@@YAKXZ  10007db4 f   s3c6410_touch.obj
+ 0001:000070ec       _DllMainCRTStartupHelper   100080ec f   corelib0:pegdmain.obj
+ 0001:00007474       doexit                     10008474 f   corelib0:cexit.obj
+ 0001:00007730       lockexit                   10008730 f   corelib0:onexit.obj
+ 0001:000077cc       unlockexit                 100087cc f   corelib0:onexit.obj
+ 0001:000077f8       _onexit_nolock             100087f8 f   corelib0:onexit.obj

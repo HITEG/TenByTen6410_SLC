@@ -1,0 +1,4 @@
+OBJECTS=\
+    obj\ARMV4I\debug\s3c6410_pm.obj\
+    obj\ARMV4I\debug\dvs.obj
+

@@ -1,0 +1,22 @@
+OBJECTS=\
+    obj\ARMV4I\retail\initproc.obj\
+    obj\ARMV4I\retail\oidproc.obj\
+    obj\ARMV4I\retail\hwacproc.obj\
+    obj\ARMV4I\retail\cmdproc.obj\
+    obj\ARMV4I\retail\miscproc.obj\
+    obj\ARMV4I\retail\pnpproc.obj\
+    obj\ARMV4I\retail\txproc.obj\
+    obj\ARMV4I\retail\rxproc.obj\
+    obj\ARMV4I\retail\intproc.obj\
+    obj\ARMV4I\retail\power.obj\
+    obj\ARMV4I\retail\cmdsend.obj\
+    obj\ARMV4I\retail\NDISLoader.obj\
+    obj\ARMV4I\retail\exitproc.obj\
+    obj\ARMV4I\retail\wlan_11d.obj\
+    obj\ARMV4I\retail\wlan_ccx.obj\
+    obj\ARMV4I\retail\wmm.obj\
+    obj\ARMV4I\retail\wlan_roam.obj\
+    obj\ARMV4I\retail\wlan_thread.obj\
+    obj\ARMV4I\retail\aes.obj\
+    obj\ARMV4I\retail\custom_interface.obj
+

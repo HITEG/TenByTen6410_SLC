@@ -1,0 +1,54 @@
+#
+# DAVICOM_DEBUG_MODE declares in CDEFINES that will enable debug mode
+#
+
+DM9CE_SOURCENAME = DM9000
+DM9CE_TARGET = DM9000
+
+#PERF_TEST=0
+
+RELEASETYPE = PLATFORM
+TARGETNAME = $(DM9CE_TARGET)
+TARGETTYPE = DYNLINK
+TARGETDEFNAME = $(TARGETNAME)
+DEFFILE = $(TARGETNAME).def
+
+DLLENTRY = DllEntry
+
+TARGETLIBS = \
+    $(_PROJECTROOT)\cesysgen\sdk\lib\$(_CPUINDPATH)\coredll.lib \
+    $(_PROJECTROOT)\cesysgen\sdk\lib\$(_CPUINDPATH)\ndis.lib \
+    $(_PROJECTROOT)\cesysgen\sdk\lib\$(_CPUINDPATH)\ntcompat.lib \
+    $(_PROJECTROOT)\cesysgen\sdk\lib\$(_CPUINDPATH)\coredll.lib \
+    $(_PROJECTROOT)\cesysgen\oak\lib\$(_CPUINDPATH)\ceddk.lib \
+
+	
+	
+SOURCELIBS = \
+    $(_COMMONSDKROOT)\lib\$(_CPUINDPATH)\ndis.lib \
+    $(_COMMONSDKROOT)\lib\$(_CPUINDPATH)\coredll.lib \
+    $(_COMMONSDKROOT)\lib\$(_CPUINDPATH)\ceddk.lib \
+
+INCLUDES = ..\..\INC; $(_COMMONDDKROOT)\inc; $(INCLUDES)
+
+CDEFINES = $(CDEFINES) -DNDIS_MINIPORT_DRIVER -D$(DM9CE_SOURCENAME) -DNDIS40_MINIPORT -D_WIN32_WCE=$(CEVERSION) -DUNDER_CE=$(CEVERSION) -D"UNICODE" -DIMPL_DEVICE_ISR -DIMPL_PRELOAD
+CDEFINES = $(CDEFINES) -DXSC1
+
+SOURCES = \
+  wince.c \
+  common.cpp \
+  driver.cpp \
+  device.cpp \
+  $(DM9CE_SOURCENAME).cpp \
+FILE_VIEW_RESOURCE_FOLDER= \
+    DM9000.reg \
+
+FILE_VIEW_RESOURCE_FOLDER= \
+    DM9000.reg \
+
+FILE_VIEW_RESOURCE_FOLDER= \
+    DM9000.reg \
+
+FILE_VIEW_RESOURCE_FOLDER= \
+    DM9000.reg \
+

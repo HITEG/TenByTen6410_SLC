@@ -1,0 +1,4 @@
+OBJECTS=\
+    obj\ARMV4I\retail\usbfn.obj\
+    obj\ARMV4I\retail\s3c6410otgdevice.obj
+

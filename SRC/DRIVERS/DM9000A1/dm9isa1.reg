@@ -23,12 +23,11 @@
 	"RecvBuffer"=dword:20
        "IrqNumber"=dword:7
 	"NetworkAddress"="02-03-04-05-06-09"
-;	"IrqNumber"=dword:12
 	"SysIntr"=dword:12
 	"IoAddress"=dword:18000300
 
 [HKEY_LOCAL_MACHINE\Comm\DM9CE11\Parms\TcpIp]
-	"EnableDHCP"=dword:0
+	"EnableDHCP"=dword:1
 	"UseZeroBroadcast"=dword:0
 	"DefaultGateway"="192.168.1.1"
 	"IpAddress"="192.168.1.216"

@@ -1,0 +1,274 @@
+ s3c6410_jpeg
+
+ Timestamp is 531ec5fd (Tue Mar 11 16:14:53 2014)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00001d92H .rdata                  CODE
+ 0001:00001d94 00000029H .rdata$debug            CODE
+ 0001:00001dc0 00003fc4H .text                   CODE
+ 0001:00005d88 000000a0H .xdata                  CODE
+ 0001:00005e28 00000028H .idata$2                CODE
+ 0001:00005e50 00000014H .idata$3                CODE
+ 0001:00005e64 00000088H .idata$4                CODE
+ 0001:00005eec 00000016H .idata$6                CODE
+ 0001:00005f10 000000d9H .edata                  CODE
+ 0002:00000000 00000088H .idata$5                DATA
+ 0002:00000088 0000069cH .data                   DATA
+ 0002:00000724 0000001cH .bss                    DATA
+ 0003:00000000 00000190H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000020       ??_C@_1FM@EPJDBANO@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAE?$AAG?$AA?9?$AAD?$AAA?$AAT?$AAA?$AA?9?$AAM?$AAE?$AAM?$AAO?$AAR?$AAY?$AA?5?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AA?5@ 10001020     JPGDriver.obj
+ 0001:00000080       ??_C@_1FM@ILLECMKP@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAE?$AAG?$AA?9?$AAH?$AAO?$AAS?$AAT?$AA?9?$AAM?$AAE?$AAM?$AAO?$AAR?$AAY?$AA?5?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AA?5@ 10001080     JPGDriver.obj
+ 0001:000000e0       ??_C@_1FC@DAHEFDPO@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAM?$AAe?$AAm?$AAo?$AAr?$AAy?$AA?5?$AAC?$AAo?$AAn?$AAt?$AAe?$AAx?$AAt?$AA?5?$AAA?$AAl?$AAl?$AAo?$AAc?$AAa?$AAt?$AAi?$AAo@ 100010e0     JPGDriver.obj
+ 0001:00000134       ??_C@_1DE@KLCMHHKI@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAM?$AAu?$AAt?$AAe?$AAx?$AA?5?$AAL?$AAo?$AAc?$AAk?$AA?5?$AAF?$AAa?$AAi?$AAl?$AA?$AN?$AA?6?$AA?$AA@ 10001134     JPGDriver.obj
+ 0001:00000168       ??_C@_1EO@NLMCHDCH@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAM?$AAu?$AAt?$AAe?$AAx?$AA?5?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AA?5?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?5?$AA?3@ 10001168     JPGDriver.obj
+ 0001:000001b8       ??_C@_1EO@HOEKLLEG@?$AAD?$AAD?$AA?3?$AA?3?$AA?5?$AAJ?$AAP?$AAE?$AAG?$AA?5?$AA?9?$AA?5?$AAS?$AAe?$AAt?$AA?5?$AAC?$AAl?$AAo?$AAc?$AAk?$AA?5?$AAD?$AAi?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?5?$AAF?$AAa@ 100011b8     JPGDriver.obj
+ 0001:00000208       ??_C@_1EM@EFKFMFBH@?$AAD?$AAD?$AA?3?$AA?3?$AA?5?$AAJ?$AAP?$AAE?$AAG?$AA?5?$AA?9?$AA?5?$AAP?$AAW?$AAC?$AA0?$AA?5?$AAO?$AAp?$AAe?$AAn?$AA?5?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?5?$AAF?$AAa?$AAi@ 10001208     JPGDriver.obj
+ 0001:00000254       ??_C@_1M@NPGHCEML@?$AAP?$AAW?$AAC?$AA0?$AA?3?$AA?$AA@ 10001254     JPGDriver.obj
+ 0001:00000260       ??_C@_1FE@LHLPJDFN@?$AAD?$AAD?$AA?3?$AA?3?$AA?5?$AAF?$AAo?$AAr?$AA?5?$AAs?$AA6?$AA4?$AA1?$AA0?$AAP?$AAW?$AAR?$AA?3?$AA?5?$AAM?$AAm?$AAM?$AAa?$AAp?$AAI?$AAo?$AAS?$AAp?$AAa?$AAc?$AAe?$AA?5@ 10001260     JPGDriver.obj
+ 0001:000002b4       ??_C@_0O@NDNNEOKA@DD?3?3JPG_Init?6?$AA@ 100012b4     JPGDriver.obj
+ 0001:000002c4       ??_C@_1DO@PJCNGMNO@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAI?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAI?$AAn?$AAp?$AAu?$AAt?$AA?5?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AA?$AN?$AA?6?$AA?$AA@ 100012c4     JPGDriver.obj
+ 0001:00000304       ??_C@_0BA@MLFLNEA@DD?3?3JPG_Deinit?6?$AA@ 10001304     JPGDriver.obj
+ 0001:00000314       ??_C@_0BB@KDEHCFFN@instanceNo?5?3?5?$CFd?6?$AA@ 10001314     JPGDriver.obj
+ 0001:00000328       ??_C@_1FI@ENHPGICA@?$AAD?$AAD?$AA?3?$AA?3?$AAI?$AAn?$AAs?$AAt?$AAa?$AAn?$AAc?$AAe?$AA?5?$AAN?$AAu?$AAm?$AAb?$AAe?$AAr?$AA?5?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?9?$AAJ?$AAP?$AAE?$AAG?$AA?5?$AAi@ 10001328     JPGDriver.obj
+ 0001:00000380       ??_C@_0BA@FHLBPEDK@DD?3?3JPG_open?5?$AN?6?$AA@ 10001380     JPGDriver.obj
+ 0001:00000390       ??_C@_1FO@HMHBPFJK@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AA?5?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAF?$AAr?$AAe?$AAe?$AAE?$AAx?$AA?$CI?$AAr?$AAg?$AAb?$AAB?$AAu?$AAf?$AA?$CJ?$AA?5?$AAr@ 10001390     JPGDriver.obj
+ 0001:000003f0       ??_C@_0BB@HIDIKMCF@decommit?5rgbBuf?6?$AA@ 100013f0     JPGDriver.obj
+ 0001:00000408       ??_C@_1HA@NLBHGPP@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AA?5?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAF?$AAr?$AAe?$AAe?$AAE?$AAx?$AA?$CI?$AAf?$AAr?$AAm?$AAU?$AAs?$AAe?$AAr?$AAT?$AAh@ 10001408     JPGDriver.obj
+ 0001:00000478       ??_C@_0BK@KBPNPKLH@decommit?5frmUserThumbBuf?6?$AA@ 10001478     JPGDriver.obj
+ 0001:00000498       ??_C@_1GC@EAGNADKH@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AA?5?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAF?$AAr?$AAe?$AAe?$AAE?$AAx?$AA?$CI?$AAS?$AAT?$AAR?$AAM?$AA_?$AAB?$AAU?$AAF?$AA?$CJ@ 10001498     JPGDriver.obj
+ 0001:000004fc       ??_C@_0BF@DPELOMOL@decommit?5frmUserBuf?6?$AA@ 100014fc     JPGDriver.obj
+ 0001:00000518       ??_C@_1HA@NHCHNHAN@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AA?5?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAF?$AAr?$AAe?$AAe?$AAE?$AAx?$AA?$CI?$AAs?$AAt?$AAr?$AAU?$AAs?$AAe?$AAr?$AAT?$AAh@ 10001518     JPGDriver.obj
+ 0001:00000588       ??_C@_0BK@BHJLKHA@decommit?5strUserThumbBuf?6?$AA@ 10001588     JPGDriver.obj
+ 0001:000005a8       ??_C@_1GE@OKLOFLEF@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAF?$AAr?$AAe?$AAe?$AAE?$AAx?$AA?$CI?$AAs?$AAt?$AAr?$AAU?$AAs?$AAe?$AAr?$AAB?$AAu?$AAf@ 100015a8     JPGDriver.obj
+ 0001:0000060c       ??_C@_0BF@JFOAGGCB@decommit?5strUserBuf?6?$AA@ 1000160c     JPGDriver.obj
+ 0001:00000624       ??_C@_0CB@GLGOEDGJ@JPGRegCtx?9?$DOcallerProcess?5?3?50x?$CFx?6@ 10001624     JPGDriver.obj
+ 0001:00000648       ??_C@_1FA@CHKDGMIG@?$AAD?$AAD?$AA?3?$AA?3?$AAP?$AAo?$AAw?$AAe?$AAr?$AA?5?$AAs?$AAt?$AAa?$AAt?$AAe?$AA?5?$AAi?$AAs?$AA?5?$AAc?$AAh?$AAa?$AAn?$AAg?$AAe?$AAd?$AA?5?$AAa?$AAf?$AAt?$AAe?$AAr@ 10001648     JPGDriver.obj
+ 0001:00000698       ??_C@_0P@JEEOCJGN@DD?3?3JPG_Close?6?$AA@ 10001698     JPGDriver.obj
+ 0001:000006a8       ??_C@_1DI@PBFLHDFF@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAI?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?$AN?$AA?6?$AA?$AA@ 100016a8     JPGDriver.obj
+ 0001:000006e0       ??_C@_1FI@DBAMGPCC@?$AAD?$AAD?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAI?$AAO?$AAC?$AAT?$AAL?$AA_?$AAJ?$AAP?$AAG?$AA_?$AAG?$AAE?$AAT?$AA_?$AAP?$AAH?$AAY?$AA_?$AAR?$AAG?$AAB?$AAB?$AAU?$AAF?$AA?5@ 100016e0     JPGDriver.obj
+ 0001:00000738       ??_C@_0CB@BLHBPIMG@IOCTL_JPG_GET_PHY_RGBBUF?5?3?50x?$CFx?6@ 10001738     JPGDriver.obj
+ 0001:00000760       ??_C@_1HK@KEOMAKME@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAI?$AAO?$AAC?$AAT?$AAL?$AA_?$AAJ?$AAP?$AAG?$AA_?$AAG?$AAE?$AAT?$AA_?$AAP?$AAH?$AAY?$AA_?$AAR?$AAG?$AAB?$AAB?$AAU?$AAF@ 10001760     JPGDriver.obj
+ 0001:000007e0       ??_C@_1FA@BBEBGPNG@?$AAD?$AAD?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAI?$AAO?$AAC?$AAT?$AAL?$AA_?$AAJ?$AAP?$AAG?$AA_?$AAG?$AAE?$AAT?$AA_?$AAR?$AAG?$AAB?$AAB?$AAU?$AAF?$AA?5?$AAe?$AAx?$AAc?$AAe@ 100017e0     JPGDriver.obj
+ 0001:00000830       ??_C@_1HC@HGBBEHEC@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAI?$AAO?$AAC?$AAT?$AAL?$AA_?$AAJ?$AAP?$AAG?$AA_?$AAG?$AAE?$AAT?$AA_?$AAR?$AAG?$AAB?$AAB?$AAU?$AAF?$AA?5?$AAE?$AAr?$AAr@ 10001830     JPGDriver.obj
+ 0001:000008a4       ??_C@_0BK@GFLAPFJB@DD?3?3IOCTL_JPG_GET_RGBBUF?6?$AA@ 100018a4     JPGDriver.obj
+ 0001:000008c0       ??_C@_1FM@KIKPIPJB@?$AAD?$AAD?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAI?$AAO?$AAC?$AAT?$AAL?$AA_?$AAJ?$AAP?$AAG?$AA_?$AAG?$AAE?$AAT?$AA_?$AAT?$AAH?$AAU?$AAM?$AAB?$AA_?$AAF?$AAR?$AAM?$AAB?$AAU@ 100018c0     JPGDriver.obj
+ 0001:00000920       ??_C@_1HO@JIJHNFPN@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAI?$AAO?$AAC?$AAT?$AAL?$AA_?$AAJ?$AAP?$AAG?$AA_?$AAG?$AAE?$AAT?$AA_?$AAT?$AAH?$AAU?$AAM?$AAB?$AA_?$AAF?$AAR?$AAM?$AAB@ 10001920     JPGDriver.obj
+ 0001:000009a0       ??_C@_0CA@NNPNIGNI@DD?3?3IOCTL_JPG_GET_THUMB_FRMBUF?6?$AA@ 100019a0     JPGDriver.obj
+ 0001:000009c0       ??_C@_1FI@JDIDLHCJ@?$AAD?$AAD?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAI?$AAO?$AAC?$AAT?$AAL?$AA_?$AAJ?$AAP?$AAG?$AA_?$AAG?$AAE?$AAT?$AA_?$AAP?$AAH?$AAY?$AA_?$AAF?$AAR?$AAM?$AAB?$AAU?$AAF?$AA?5@ 100019c0     JPGDriver.obj
+ 0001:00000a18       ??_C@_0CB@BAAOIFNO@IOCTL_JPG_GET_PHY_FRMBUF?5?3?50x?$CFx?6@ 10001a18     JPGDriver.obj
+ 0001:00000a40       ??_C@_1HK@EHNEDMPH@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAI?$AAO?$AAC?$AAT?$AAL?$AA_?$AAJ?$AAP?$AAG?$AA_?$AAG?$AAE?$AAT?$AA_?$AAP?$AAH?$AAY?$AA_?$AAF?$AAR?$AAM?$AAB?$AAU?$AAF@ 10001a40     JPGDriver.obj
+ 0001:00000ac0       ??_C@_1FA@LDMOLHNN@?$AAD?$AAD?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAI?$AAO?$AAC?$AAT?$AAL?$AA_?$AAJ?$AAP?$AAG?$AA_?$AAG?$AAE?$AAT?$AA_?$AAF?$AAR?$AAM?$AAB?$AAU?$AAF?$AA?5?$AAe?$AAx?$AAc?$AAe@ 10001ac0     JPGDriver.obj
+ 0001:00000b10       ??_C@_0CO@KPDGLMMK@DD?3?3frmUserBuf?5?3?50x?$CFx?5CallerProc@ 10001b10     JPGDriver.obj
+ 0001:00000b40       ??_C@_1HC@JFCJHBHB@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAI?$AAO?$AAC?$AAT?$AAL?$AA_?$AAJ?$AAP?$AAG?$AA_?$AAG?$AAE?$AAT?$AA_?$AAF?$AAR?$AAM?$AAB?$AAU?$AAF?$AA?5?$AAE?$AAr?$AAr@ 10001b40     JPGDriver.obj
+ 0001:00000bb4       ??_C@_0BK@FJPBMLPM@DD?3?3IOCTL_JPG_GET_FRMBUF?6?$AA@ 10001bb4     JPGDriver.obj
+ 0001:00000bd0       ??_C@_1FM@CHLPKKHJ@?$AAD?$AAD?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAI?$AAO?$AAC?$AAT?$AAL?$AA_?$AAJ?$AAP?$AAG?$AA_?$AAG?$AAE?$AAT?$AA_?$AAT?$AAH?$AAU?$AAM?$AAB?$AA_?$AAS?$AAT?$AAR?$AAB?$AAU@ 10001bd0     JPGDriver.obj
+ 0001:00000c2c       ??_C@_0DD@EPBBKEDH@DD?3?3strUserThumbBuf?5?3?50x?$CFx?5Calle@ 10001c2c     JPGDriver.obj
+ 0001:00000c60       ??_C@_1HO@CNFPCKNA@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAI?$AAO?$AAC?$AAT?$AAL?$AA_?$AAJ?$AAP?$AAG?$AA_?$AAG?$AAE?$AAT?$AA_?$AAT?$AAH?$AAU?$AAM?$AAB?$AA_?$AAS?$AAT?$AAR?$AAB@ 10001c60     JPGDriver.obj
+ 0001:00000ce0       ??_C@_0CA@HIPGDMOD@DD?3?3IOCTL_JPG_GET_THUMB_STRBUF?6?$AA@ 10001ce0     JPGDriver.obj
+ 0001:00000d00       ??_C@_1FA@DMNOJCDF@?$AAD?$AAD?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAI?$AAO?$AAC?$AAT?$AAL?$AA_?$AAJ?$AAP?$AAG?$AA_?$AAG?$AAE?$AAT?$AA_?$AAS?$AAT?$AAR?$AAB?$AAU?$AAF?$AA?5?$AAe?$AAx?$AAc?$AAe@ 10001d00     JPGDriver.obj
+ 0001:00000d50       ??_C@_0CO@JNAHFAGC@DD?3?3strUserBuf?5?3?50x?$CFx?5CallerProc@ 10001d50     JPGDriver.obj
+ 0001:00000d80       ??_C@_1EC@IMEDNCMJ@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAM?$AAe?$AAm?$AAo?$AAr?$AAy?$AA?5?$AAA?$AAl?$AAl?$AAo?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAF?$AAa?$AAi?$AAl?$AA?$AN?$AA?6@ 10001d80     JPGDriver.obj
+ 0001:00000dc8       ??_C@_1HC@CAOBIOFM@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAI?$AAO?$AAC?$AAT?$AAL?$AA_?$AAJ?$AAP?$AAG?$AA_?$AAG?$AAE?$AAT?$AA_?$AAS?$AAT?$AAR?$AAB?$AAU?$AAF?$AA?5?$AAE?$AAr?$AAr@ 10001dc8     JPGDriver.obj
+ 0001:00000e3c       ??_C@_0BO@PNODJNFF@DD?3?3JPG?5IOCTL_JPG_GET_STRBUF?6?$AA@ 10001e3c     JPGDriver.obj
+ 0001:00000e60       ??_C@_1IC@FMOHDNLL@?$AAJ?$AAP?$AAG?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAC?$AAl?$AAo?$AAs?$AAe?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf@ 10001e60     JPGDriver.obj
+ 0001:00000ee4       ??_C@_0BM@FDBHKLPF@DD?3?3encoded?5file?5size?5?3?5?$CFd?6?$AA@ 10001ee4     JPGDriver.obj
+ 0001:00000f00       ??_C@_0DG@GIEOMHMN@DD?3?3width?5?3?5?$CFd?5hegiht?5?3?5?$CFd?5encty@ 10001f00     JPGDriver.obj
+ 0001:00000f38       ??_C@_1IA@BCADHLIN@?$AAJ?$AAP?$AAG?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAO?$AAp?$AAe?$AAn?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf?$AAe@ 10001f38     JPGDriver.obj
+ 0001:00000fb8       ??_C@_0BH@OOFKJCAC@DD?3?3IOCTL_JPEG_ENCODE?6?$AA@ 10001fb8     JPGDriver.obj
+ 0001:00000fd0       ??_C@_1IC@MEFHHFJD@?$AAJ?$AAP?$AAG?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAC?$AAl?$AAo?$AAs?$AAe?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf@ 10001fd0     JPGDriver.obj
+ 0001:00001054       ??_C@_0CG@CPIEPBDL@DD?3?3width?5?3?5?$CFd?5hegiht?5?3?5?$CFd?5size?5@ 10002054     JPGDriver.obj
+ 0001:00001080       ??_C@_1IA@IKLDDDKF@?$AAJ?$AAP?$AAG?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAO?$AAp?$AAe?$AAn?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf?$AAe@ 10002080     JPGDriver.obj
+ 0001:00001100       ??_C@_0BH@CAPHMGGG@DD?3?3IOCTL_JPEG_DECODE?6?$AA@ 10002100     JPGDriver.obj
+ 0001:00001118       ??_C@_0L@DNGECIAM@DD?3?3IOCTL?6?$AA@ 10002118     JPGDriver.obj
+ 0001:00001124       ??_C@_0BB@DEIELEKF@DD?3?3JPEG_Write?5?6?$AA@ 10002124     JPGDriver.obj
+ 0001:00001138       ??_C@_0BD@OBHGLCIP@DD?3?3JPEG_PowerUp?5?6?$AA@ 10002138     JPGDriver.obj
+ 0001:0000114c       ??_C@_0CF@DAJOAGH@DD?3?3JPEG_PowerDown?$CIinstanceNo?5?3?5@ 1000214c     JPGDriver.obj
+ 0001:00001178       ??_C@_1GE@FGMBNNHA@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAF?$AAr?$AAe?$AAe?$AAE?$AAx?$AA?$CI?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?5?$AAc?$AAa?$AAs?$AAe@ 10002178     JPGDriver.obj
+ 0001:000011e0       ??_C@_1GA@IHMJGKGH@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAM?$AAe?$AAm?$AAo?$AAr?$AAy?$AA?5?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAC?$AAo?$AAp?$AAy?$AAE?$AAx?$AA?5?$AAF?$AAa?$AAi@ 100021e0     JPGDriver.obj
+ 0001:00001240       ??_C@_1GA@JFLBBNCJ@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAM?$AAe?$AAm?$AAo?$AAr?$AAy?$AA?5?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAA?$AAl?$AAl?$AAo?$AAc?$AA?5?$AAF?$AAa?$AAi?$AAl@ 10002240     JPGDriver.obj
+ 0001:000012a0       ??_C@_1FG@JBMKIJEI@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAI?$AAO?$AAC?$AAT?$AAL?$AA_?$AAP?$AAW?$AAR?$AAC?$AAO?$AAN?$AA_?$AAS?$AAE?$AAT?$AA_?$AAP?$AAO?$AAW?$AAE?$AAR?$AA_?$AAO@ 100022a0     JPGDriver.obj
+ 0001:000012f8       ??_C@_0O@OELOOBHF@JPEG?5powerON?6?$AA@ 100022f8     JPGDriver.obj
+ 0001:00001308       ??_C@_1FI@GBGBKMCE@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAI?$AAO?$AAC?$AAT?$AAL?$AA_?$AAP?$AAW?$AAR?$AAC?$AAO?$AAN?$AA_?$AAS?$AAE?$AAT?$AA_?$AAP?$AAO?$AAW?$AAE?$AAR?$AA_?$AAO@ 10002308     JPGDriver.obj
+ 0001:00001360       ??_C@_0P@GGFAIPJD@JPEG?5powerOFF?6?$AA@ 10002360     JPGDriver.obj
+ 0001:00001370       ??_C@_0BI@IBAGGIKB@DD?3?3JPEG?5Power?5Control?6?$AA@ 10002370     JPGDriver.obj
+ 0001:00001388       ??_C@_1GE@GECNOAHC@?$AAJ?$AAP?$AAG?$AAS?$AAe?$AAt?$AAC?$AAl?$AAk?$AAD?$AAi?$AAv?$AA?3?$AA?5?$AAJ?$AAP?$AAG?$AA?5?$AAc?$AAl?$AAo?$AAc?$AAk?$AA?5?$AAd?$AAi?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?5@ 10002388     JPGDriver.obj
+ 0001:00001480       ??_C@_1FI@INDLJHKJ@?$AA?$FL?$AAM?$AAF?$AAC?$AA?3?$AAE?$AAR?$AAR?$AA?$FN?$AA?5?$AA?$CF?$AAs?$AA?5?$AA?3?$AA?5?$AAM?$AAa?$AAp?$AAp?$AAi?$AAn?$AAg?$AA?5?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AA?$FL?$AAP@ 10002480     JPGMem.obj
+ 0001:000014d8       ??_C@_0M@BAFAGEHP@Phy2VirAddr?$AA@ 100024d8     JPGMem.obj
+ 0001:000014e8       ??_C@_1EO@OIBPIBIC@?$AAD?$AAD?$AA?3?$AA?3?$AAv?$AA_?$AAp?$AAJ?$AAP?$AAG?$AA_?$AAR?$AAE?$AAG?$AA?3?$AA?5?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAA?$AAl?$AAl?$AAo?$AAc?$AA?5?$AAf?$AAa?$AAi@ 100024e8     JPGMem.obj
+ 0001:00001538       ??_C@_1CI@OHCJFJPM@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?5?$AAl?$AAi?$AAn?$AAe?$AA?5?$AA?$CF?$AAd?$AA?3?$AA?5?$AA?$AA@ 10002538     JPGMem.obj
+ 0001:00001560       ??_C@_1IE@BOJNCPOD@?$AAC?$AA?3?$AA?2?$AAW?$AAI?$AAN?$AAC?$AAE?$AA6?$AA0?$AA0?$AA?2?$AAP?$AAL?$AAA?$AAT?$AAF?$AAO?$AAR?$AAM?$AA?2?$AAT?$AAe?$AAn?$AAB?$AAy?$AAT?$AAe?$AAn?$AA6?$AA4?$AA1@ 10002560     JPGMem.obj
+ 0001:000015e8       ??_C@_1FI@ICDFEEDM@?$AAD?$AAD?$AA?3?$AA?3?$AAv?$AA_?$AAp?$AAJ?$AAP?$AAG?$AAD?$AAa?$AAt?$AAa?$AA_?$AAB?$AAu?$AAf?$AAf?$AA?3?$AA?5?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAA?$AAl?$AAl?$AAo@ 100025e8     JPGMem.obj
+ 0001:00001640       ??_C@_1DI@LFFBPMJL@?$AAD?$AAD?$AA?3?$AA?3?$AAM?$AAU?$AAT?$AAE?$AAX?$AA?5?$AAL?$AAO?$AAC?$AAK?$AA?5?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?5?$AA?3?$AA?5?$AA?$CF?$AAd?$AA?$AN?$AA?6?$AA?$AA@ 10002640     JPGMisc.obj
+ 0001:00001678       ??_C@_1DM@HFCDHBAJ@?$AAD?$AAD?$AA?3?$AA?3?$AAM?$AAU?$AAT?$AAE?$AAX?$AA?5?$AAU?$AAN?$AAL?$AAO?$AAC?$AAK?$AA?5?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?5?$AA?3?$AA?5?$AA?$CF?$AAd?$AA?$AN?$AA?6?$AA?$AA@ 10002678     JPGMisc.obj
+ 0001:000016b8       QTBL_Luminance             100026b8     JPGOpr.obj
+ 0001:000017b8       QTBL_Chrominance           100027b8     JPGOpr.obj
+ 0001:000018b8       QTBL0                      100028b8     JPGOpr.obj
+ 0001:000018f8       std_chrominance_quant_tbl_plus 100028f8     JPGOpr.obj
+ 0001:00001938       HACTBLG0                   10002938     JPGOpr.obj
+ 0001:000019dc       ??_C@_1DE@JEJCCIAD@?$AAd?$AAe?$AAc?$AAo?$AAd?$AAe?$AAJ?$AAP?$AAG?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAe?$AAx?$AAc?$AAe?$AAp?$AAt?$AAi?$AAo?$AAn?$AA?6?$AA?$AA@ 100029dc     JPGOpr.obj
+ 0001:00001a10       ??_C@_0CD@FDFHNJCC@DD?3?3?5orgwidth?5?3?5?$CFd?5orgheight?5?3?5?$CF@ 10002a10     JPGOpr.obj
+ 0001:00001a38       ??_C@_1EC@OKDKPELL@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAB?$AAo?$AAd?$AAy?$AA?5?$AAD?$AAe?$AAc?$AAo?$AAd?$AAi?$AAn?$AAg?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?$CI?$AA?$CF?$AAd?$AA?$CJ?$AA?6@ 10002a38     JPGOpr.obj
+ 0001:00001a80       ??_C@_1EE@EMNNCCAD@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAh?$AAa?$AAs?$AA?5?$AAi?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAw?$AAi?$AAd?$AAt?$AAh?$AA?1?$AAh?$AAe?$AAi?$AAg?$AAh?$AAt@ 10002a80     JPGOpr.obj
+ 0001:00001ac4       ??_C@_0CB@FIGCFHLG@DD?3?3?5width?5?3?50x?$CFx?5height?5?3?50x?$CFx?6@ 10002ac4     JPGOpr.obj
+ 0001:00001ae8       ??_C@_1EC@MNIEFNAA@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAh?$AAa?$AAs?$AA?5?$AAi?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAs?$AAa?$AAm?$AAp?$AAl?$AAe?$AAM?$AAo?$AAd?$AAe?$AA?$AN?$AA?6@ 10002ae8     JPGOpr.obj
+ 0001:00001b2c       ??_C@_0BF@PHFBKJAB@DD?3?3sampleMode?5?3?5?$CFd?6?$AA@ 10002b2c     JPGOpr.obj
+ 0001:00001b48       ??_C@_1EG@KMPKDKBE@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAH?$AAe?$AAa?$AAd?$AAe?$AAr?$AA?5?$AAP?$AAa?$AAr?$AAs?$AAi?$AAn?$AAg?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?$CI?$AA?$CF?$AAd?$AA?$CJ@ 10002b48     JPGOpr.obj
+ 0001:00001b90       ??_C@_1CM@FBAONJGP@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAC?$AAT?$AAX?$AA?5?$AAi?$AAs?$AA?5?$AAN?$AAU?$AAL?$AAL?$AA?$AN?$AA?6?$AA?$AA@ 10002b90     JPGOpr.obj
+ 0001:00001bbc       ??_C@_0P@DJNECAOC@DD?3?3decodeJPG?6?$AA@ 10002bbc     JPGOpr.obj
+ 0001:00001bcc       ??_C@_0DD@OGCAFAL@DD?3?3after?5error?5correction?5?3?5wid@ 10002bcc     JPGOpr.obj
+ 0001:00001c00       ??_C@_0BN@LIEJKAA@DD?3?3start?5header?5correction?6?$AA@ 10002c00     JPGOpr.obj
+ 0001:00001c20       ??_C@_0BI@FNBBAOKC@DD?3?3match?5FFC0?$CIi?5?3?5?$CFd?$CJ?6?$AA@ 10002c20     JPGOpr.obj
+ 0001:00001c38       ??_C@_0CD@CEJCPAAJ@DD?3?3Header?5is?5not?5multiple?5of?5MC@ 10002c38     JPGOpr.obj
+ 0001:00001c5c       ??_C@_0O@OGGANPDP@DD?3?3resetJPG?6?$AA@ 10002c5c     JPGOpr.obj
+ 0001:00001c6c       ??_C@_0BC@FALHMHJC@DD?3?3decodeHeader?6?$AA@ 10002c6c     JPGOpr.obj
+ 0001:00001c80       ??_C@_0BA@JPMAMEBN@DD?3?3decodeBody?6?$AA@ 10002c80     JPGOpr.obj
+ 0001:00001c90       ??_C@_0BA@BKMNGMKP@DD?3?3rewriteYUV?6?$AA@ 10002c90     JPGOpr.obj
+ 0001:00001ca0       ??_C@_0CG@DGFJMFFO@DD?3?3i?3?5?$CFd?5result?5?3?5?$CFd?5OPRstatus?5@ 10002ca0     JPGOpr.obj
+ 0001:00001cc8       ??_C@_0BA@NLOOJDLP@DD?3?3waitForIRQ?6?$AA@ 10002cc8     JPGOpr.obj
+ 0001:00001cd8       ??_C@_1DE@FANCCCFC@?$AAe?$AAn?$AAc?$AAo?$AAd?$AAe?$AAJ?$AAP?$AAG?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAe?$AAx?$AAc?$AAe?$AAp?$AAt?$AAi?$AAo?$AAn?$AA?6?$AA?$AA@ 10002cd8     JPGOpr.obj
+ 0001:00001d0c       ??_C@_1DI@NKKNEOBG@?$AAD?$AAD?$AA?3?$AA?3?$AAJ?$AAP?$AAG?$AA?5?$AAE?$AAn?$AAc?$AAo?$AAd?$AAi?$AAn?$AAg?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?$CI?$AA?$CF?$AAd?$AA?$CJ?$AA?6?$AA?$AA@ 10002d0c     JPGOpr.obj
+ 0001:00001d48       ??_C@_1EK@NKKPEAEA@?$AAD?$AAD?$AA?3?$AA?3?$AAE?$AAn?$AAc?$AAo?$AAd?$AAe?$AAr?$AA?5?$AA?3?$AA?5?$AAI?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAw?$AAi?$AAd?$AAt?$AAh?$AA?1?$AAh?$AAe?$AAi?$AAg@ 10002d48     JPGOpr.obj
+ 0001:00001dc0       JPG_Init                   10002dc0 f   JPGDriver.obj
+ 0001:00002114       JPG_Deinit                 10003114 f   JPGDriver.obj
+ 0001:0000220c       JPG_Open                   1000320c f   JPGDriver.obj
+ 0001:00002318       JPG_Close                  10003318 f   JPGDriver.obj
+ 0001:00002674       JPG_IOControl              10003674 f   JPGDriver.obj
+ 0001:00003688       JPG_Write                  10004688 f   JPGDriver.obj
+ 0001:000036bc       JPG_PowerUp                100046bc f   JPGDriver.obj
+ 0001:000036dc       JPG_PowerDown              100046dc f   JPGDriver.obj
+ 0001:00003b68       JPG_DllMain                10004b68 f   JPGDriver.obj
+ 0001:00003bb0       GetCurrentProcessId        10004bb0 f i JPGDriver.obj
+ 0001:00003bdc       Phy2VirAddr                10004bdc f   JPGMem.obj
+ 0001:00003c68       FreeVirAddr                10004c68 f   JPGMem.obj
+ 0001:00003c88       JPGMemMapping              10004c88 f   JPGMem.obj
+ 0001:00003d14       JPGMemFree                 10004d14 f   JPGMem.obj
+ 0001:00003d48       JPGBuffMapping             10004d48 f   JPGMem.obj
+ 0001:00003eb0       JPGBuffFree                10004eb0 f   JPGMem.obj
+ 0001:00003fc0       CreateJPGmutex             10004fc0 f   JPGMisc.obj
+ 0001:00004008       LockJPGMutex               10005008 f   JPGMisc.obj
+ 0001:00004088       UnlockJPGMutex             10005088 f   JPGMisc.obj
+ 0001:000040f0       DeleteJPGMutex             100050f0 f   JPGMisc.obj
+ 0001:00004128       printD                     10005128 f   JPGMisc.obj
+ 0001:0000421c       decodeJPG                  1000521c f   JPGOpr.obj
+ 0001:0000463c       isCorrectHeader            1000563c f   JPGOpr.obj
+ 0001:000048f4       rewriteHeader              100058f4 f   JPGOpr.obj
+ 0001:00004a9c       resetJPG                   10005a9c f   JPGOpr.obj
+ 0001:00004ad4       decodeHeader               10005ad4 f   JPGOpr.obj
+ 0001:00004b98       decodeBody                 10005b98 f   JPGOpr.obj
+ 0001:00004ce4       rewriteYUV                 10005ce4 f   JPGOpr.obj
+ 0001:00004e18       waitForIRQ                 10005e18 f   JPGOpr.obj
+ 0001:00004f98       getSampleType              10005f98 f   JPGOpr.obj
+ 0001:00005090       getXY                      10006090 f   JPGOpr.obj
+ 0001:000050d4       getYUVSize                 100060d4 f   JPGOpr.obj
+ 0001:000051b4       encodeJPG                  100061b4 f   JPGOpr.obj
+ 0001:00005974       GetLastError               10006974 f   coredll:COREDLL.dll
+ 0001:00005984       CloseHandle                10006984 f   coredll:COREDLL.dll
+ 0001:00005994       CreateFileW                10006994 f   coredll:COREDLL.dll
+ 0001:000059a4       NKDbgPrintfW               100069a4 f   coredll:COREDLL.dll
+ 0001:000059b4       VirtualFreeEx              100069b4 f   coredll:COREDLL.dll
+ 0001:000059c4       GetDirectCallerProcessId   100069c4 f   coredll:COREDLL.dll
+ 0001:000059d4       SetLastError               100069d4 f   coredll:COREDLL.dll
+ 0001:000059e4       CeCloseCallerBuffer        100069e4 f   coredll:COREDLL.dll
+ 0001:000059f4       CeOpenCallerBuffer         100069f4 f   coredll:COREDLL.dll
+ 0001:00005a04       VirtualCopyEx              10006a04 f   coredll:COREDLL.dll
+ 0001:00005a14       VirtualAllocEx             10006a14 f   coredll:COREDLL.dll
+ 0001:00005a24       __GetUserKData             10006a24 f   coredll:COREDLL.dll
+ 0001:00005a34       DeviceIoControl            10006a34 f   coredll:COREDLL.dll
+ 0001:00005a44       RegisterDbgZones           10006a44 f   coredll:COREDLL.dll
+ 0001:00005a54       CreateMutexW               10006a54 f   coredll:COREDLL.dll
+ 0001:00005a64       WaitForSingleObject        10006a64 f   coredll:COREDLL.dll
+ 0001:00005a74       ReleaseMutex               10006a74 f   coredll:COREDLL.dll
+ 0001:00005a84       MultiByteToWideChar        10006a84 f   coredll:COREDLL.dll
+ 0001:00005a94       Sleep                      10006a94 f   coredll:COREDLL.dll
+ 0001:00005aa4       MmMapIoSpace               10006aa4 f   ceddk:CEDDK.dll
+ 0001:00005ab4       MmUnmapIoSpace             10006ab4 f   ceddk:CEDDK.dll
+ 0001:00005ac4       __security_init_cookie     10006ac4 f   corelib0:seccinit.obj
+ 0001:00005b8c       __GSHandlerCheck           10006b8c f   corelib0:gshandler.obj
+ 0001:00005bd4       __GSHandlerCheckCommon     10006bd4 f   corelib0:gshandler.obj
+ 0001:00005c7c       __security_check_cookie    10006c7c f   corelib0:armsecgs.obj
+ 0001:00005c90       __gsfailure                10006c90 f   corelib0:armsecgs.obj
+ 0001:00005cd4       free                       10006cd4 f   corelib1:COREDLL.dll
+ 0001:00005ce4       memset                     10006ce4 f   corelib1:COREDLL.dll
+ 0001:00005cf4       malloc                     10006cf4 f   corelib1:COREDLL.dll
+ 0001:00005d04       __C_specific_handler       10006d04 f   corelib1:COREDLL.dll
+ 0001:00005d14       __rt_sdiv                  10006d14 f   corelib1:COREDLL.dll
+ 0001:00005d24       strlen                     10006d24 f   corelib1:COREDLL.dll
+ 0001:00005d34       vsprintf                   10006d34 f   corelib1:COREDLL.dll
+ 0001:00005d44       __rt_udiv                  10006d44 f   corelib1:COREDLL.dll
+ 0001:00005d54       memmove                    10006d54 f   corelib1:COREDLL.dll
+ 0001:00005d64       __security_gen_cookie2     10006d64 f   corelib1:COREDLL.dll
+ 0001:00005d74       __report_gsfailure         10006d74 f   corelib1:COREDLL.dll
+ 0001:00005e28       __IMPORT_DESCRIPTOR_COREDLL 10006e28     coredll:COREDLL.dll
+ 0001:00005e3c       __IMPORT_DESCRIPTOR_CEDDK  10006e3c     ceddk:CEDDK.dll
+ 0001:00005e50       __NULL_IMPORT_DESCRIPTOR   10006e50     coredll:COREDLL.dll
+ 0002:00000000       __imp_MmMapIoSpace         10007000     ceddk:CEDDK.dll
+ 0002:00000004       __imp_MmUnmapIoSpace       10007004     ceddk:CEDDK.dll
+ 0002:00000008       \177CEDDK_NULL_THUNK_DATA  10007008     ceddk:CEDDK.dll
+ 0002:0000000c       __imp_NKDbgPrintfW         1000700c     coredll:COREDLL.dll
+ 0002:00000010       __imp_VirtualFreeEx        10007010     coredll:COREDLL.dll
+ 0002:00000014       __imp_GetDirectCallerProcessId 10007014     coredll:COREDLL.dll
+ 0002:00000018       __imp_SetLastError         10007018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_CeCloseCallerBuffer  1000701c     coredll:COREDLL.dll
+ 0002:00000020       __imp_CeOpenCallerBuffer   10007020     coredll:COREDLL.dll
+ 0002:00000024       __imp_VirtualCopyEx        10007024     coredll:COREDLL.dll
+ 0002:00000028       __imp_VirtualAllocEx       10007028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_CreateFileW          1000702c     coredll:COREDLL.dll
+ 0002:00000030       __imp_DeviceIoControl      10007030     coredll:COREDLL.dll
+ 0002:00000034       __imp_RegisterDbgZones     10007034     coredll:COREDLL.dll
+ 0002:00000038       __imp_CreateMutexW         10007038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_WaitForSingleObject  1000703c     coredll:COREDLL.dll
+ 0002:00000040       __imp_ReleaseMutex         10007040     coredll:COREDLL.dll
+ 0002:00000044       __imp_MultiByteToWideChar  10007044     coredll:COREDLL.dll
+ 0002:00000048       __imp_Sleep                10007048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_CloseHandle          1000704c     coredll:COREDLL.dll
+ 0002:00000050       __imp___GetUserKData       10007050     coredll:COREDLL.dll
+ 0002:00000054       __imp_GetLastError         10007054     coredll:COREDLL.dll
+ 0002:00000058       __imp_free                 10007058     corelib1:COREDLL.dll
+ 0002:0000005c       __imp_memset               1000705c     corelib1:COREDLL.dll
+ 0002:00000060       __imp_malloc               10007060     corelib1:COREDLL.dll
+ 0002:00000064       __imp___C_specific_handler 10007064     corelib1:COREDLL.dll
+ 0002:00000068       __imp___rt_sdiv            10007068     corelib1:COREDLL.dll
+ 0002:0000006c       __imp_strlen               1000706c     corelib1:COREDLL.dll
+ 0002:00000070       __imp_vsprintf             10007070     corelib1:COREDLL.dll
+ 0002:00000074       __imp___rt_udiv            10007074     corelib1:COREDLL.dll
+ 0002:00000078       __imp_memmove              10007078     corelib1:COREDLL.dll
+ 0002:0000007c       __imp___security_gen_cookie2 1000707c     corelib1:COREDLL.dll
+ 0002:00000080       __imp___report_gsfailure   10007080     corelib1:COREDLL.dll
+ 0002:00000084       \177COREDLL_NULL_THUNK_DATA 10007084     coredll:COREDLL.dll
+ 0002:00000088       dpCurSettings              10007088     JPGDriver.obj
+ 0002:000004d0       std_luminance_quant_tbl    100074d0     JPGOpr.obj
+ 0002:00000510       std_chrominance_quant_tbl  10007510     JPGOpr.obj
+ 0002:00000550       HDCTBL0                    10007550     JPGOpr.obj
+ 0002:00000560       HDCTBLG0                   10007560     JPGOpr.obj
+ 0002:0000056c       HACTBL0                    1000756c     JPGOpr.obj
+ 0002:0000057c       len_dc_luminance           1000757c     JPGOpr.obj
+ 0002:0000058c       val_dc_luminance           1000758c     JPGOpr.obj
+ 0002:00000598       len_ac_luminance           10007598     JPGOpr.obj
+ 0002:000005a8       val_ac_luminance           100075a8     JPGOpr.obj
+ 0002:0000064c       len_dc_chrominance         1000764c     JPGOpr.obj
+ 0002:0000065c       val_dc_chrominance         1000765c     JPGOpr.obj
+ 0002:00000668       len_ac_chrominance         10007668     JPGOpr.obj
+ 0002:00000678       val_ac_chrominance         10007678     JPGOpr.obj
+ 0002:0000071c       __security_cookie          1000771c     corelib0:seccinit.obj
+ 0002:00000720       __security_cookie_complement 10007720     corelib0:seccinit.obj
+ 0002:00000724       s6410PWR                   10007724     JPGDriver.obj
+ 0002:00000728       instanceNo                 10007728     JPGDriver.obj
+ 0002:0000072c       PowerChange                1000772c     JPGDriver.obj
+ 0002:00000738       JPG_SOF_MARKER             10007738     <common>
+ 0002:0000073c       hPwrControl                1000773c     <common>
+
+ entry point at        0001:00003b68
+
+ Static symbols
+
+ 0001:00003738       AllocateAndMapToUserMemory 10004738 f   JPGDriver.obj
+ 0001:00003870       JPGPowerControl            10004870 f   JPGDriver.obj
+ 0001:00003a50       JPGSetClkDiv               10004a50 f   JPGDriver.obj
+ 0001:00003ae4       Delay                      10004ae4 f   JPGDriver.obj

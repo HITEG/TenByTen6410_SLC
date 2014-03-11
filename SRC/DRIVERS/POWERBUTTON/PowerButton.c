@@ -226,13 +226,13 @@ AllocResources(void)
     //--------------------
     // Power Button Interrupt
     //--------------------
-    dwIRQ = IRQ_EINT9;
+    dwIRQ = IRQ_EINT0;
     g_dwSysIntrPowerBtn = SYSINTR_UNDEFINED;
     g_hEventPowerBtn = NULL;
 
     if (!KernelIoControl(IOCTL_HAL_REQUEST_SYSINTR, &dwIRQ, sizeof(DWORD), &g_dwSysIntrPowerBtn, sizeof(DWORD), NULL))
     {
-        RETAILMSG(PWR_ZONE_ERROR, (_T("[PWR:ERR] %s() : IOCTL_HAL_REQUEST_SYSINTR Power Button Failed \n\r"), _T(__FUNCTION__)));
+        RETAILMSG(TRUE, (_T("[PWR:ERR] %s() : IOCTL_HAL_REQUEST_SYSINTR Power Button Failed \n\r"), _T(__FUNCTION__)));
         g_dwSysIntrPowerBtn = SYSINTR_UNDEFINED;
         return FALSE;
     }
@@ -255,7 +255,7 @@ AllocResources(void)
         //--------------------
         // Reset Button Interrupt
         //--------------------
-        dwIRQ = IRQ_EINT11;
+        dwIRQ = IRQ_EINT1;
         g_dwSysIntrResetBtn = SYSINTR_UNDEFINED;
         g_hEventResetBtn = NULL;
 
@@ -465,37 +465,13 @@ PWR_Init(DWORD dwContext)
 {
     LPTSTR   szActiveKey = (LPTSTR)dwContext; // name of driver's active key
     HKEY     hDeviceKey = NULL;               // handle to driver's reg key
-    DWORD    dwEthKitlIntEnabled;
-    DWORD    dwValueLength;
+
 
     RETAILMSG(PWR_ZONE_ENTER, (_T("[PWR] ++%s(0x%08x)\r\n"), _T(__FUNCTION__), dwContext));
 
-    // open the driver's registry key and look if Ethernet KITL interrupt is enabled
-    // This key is set by KITL during its initialization.
-    // if yes, it clashes with reset button interrupt and so disable reset button
-    //
-    hDeviceKey = GetDeviceRegKey(szActiveKey);
-    if (!hDeviceKey) 
-    {
-        DEBUGMSG(ZONE_INIT|ZONE_ERROR, (_T("PWR_Init: Failed to open active key(%s)\r\n"), szActiveKey));
-        goto CleanUp;
-    }
 
-    dwValueLength = sizeof(DWORD);
-    if (ERROR_SUCCESS == RegQueryValueEx(hDeviceKey, ETHKITL_VALNAME, NULL, NULL, (LPBYTE)&dwEthKitlIntEnabled, &dwValueLength))
-    {
-        if (dwEthKitlIntEnabled == 1)
-        {
-            g_bResetButtonEnabled = FALSE;
-        }
-    }
-    RegCloseKey(hDeviceKey);
-    
-    if (AllocResources() == FALSE)
-    {
-        RETAILMSG(PWR_ZONE_ERROR, (_T("[PWR:ERR] %s() : AllocResources() Failed \n\r"), _T(__FUNCTION__)));
-        goto CleanUp;
-    }
+    g_bResetButtonEnabled = TRUE;
+	if(AllocResources() == FALSE) return FALSE;
 
     Button_initialize_register_address((void *)g_pGPIOReg);
 

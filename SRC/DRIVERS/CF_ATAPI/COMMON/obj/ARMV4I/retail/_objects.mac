@@ -1,0 +1,10 @@
+OBJECTS=\
+    obj\ARMV4I\retail\csgreq.obj\
+    obj\ARMV4I\retail\atamain.obj\
+    obj\ARMV4I\retail\atapipm.obj\
+    obj\ARMV4I\retail\diskmain.obj\
+    obj\ARMV4I\retail\atapiio.obj\
+    obj\ARMV4I\retail\helper.obj\
+    obj\ARMV4I\retail\debug.obj\
+    obj\ARMV4I\retail\zones.obj
+

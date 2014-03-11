@@ -1,0 +1,4 @@
+OBJECTS=\
+    obj\ARMV4I\debug\usbdbgpdd.obj\
+    obj\ARMV4I\debug\otgdev.obj
+

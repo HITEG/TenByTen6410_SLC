@@ -1,0 +1,9 @@
+OBJECTS=\
+    obj\ARMV4I\debug\SsapMp4Parser.res\
+    obj\ARMV4I\debug\get_videoinfo.obj\
+    obj\ARMV4I\debug\Auxiliary.obj\
+    obj\ARMV4I\debug\fSsapMp4Parser.obj\
+    obj\ARMV4I\debug\fSsapMp4Parser_VideoOp.obj\
+    obj\ARMV4I\debug\fSsapMp4Parser_AudioOp.obj\
+    obj\ARMV4I\debug\SsapMp4Parser.obj
+

@@ -1,0 +1,6 @@
+OBJECTS=\
+    obj\ARMV4I\retail\fmd.obj\
+    obj\ARMV4I\retail\fmd_LB.obj\
+    obj\ARMV4I\retail\fmd_SB.obj\
+    obj\ARMV4I\retail\nand.obj
+

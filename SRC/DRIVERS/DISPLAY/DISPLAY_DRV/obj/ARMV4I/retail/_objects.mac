@@ -1,0 +1,16 @@
+OBJECTS=\
+    obj\ARMV4I\retail\display_main.obj\
+    obj\ARMV4I\retail\ddoverlay.obj\
+    obj\ARMV4I\retail\dispmode.obj\
+    obj\ARMV4I\retail\cursor.obj\
+    obj\ARMV4I\retail\line.obj\
+    obj\ARMV4I\retail\hwblt.obj\
+    obj\ARMV4I\retail\blt.obj\
+    obj\ARMV4I\retail\blt_alpha.obj\
+    obj\ARMV4I\retail\surf.obj\
+    obj\ARMV4I\retail\halcaps.obj\
+    obj\ARMV4I\retail\haldd.obj\
+    obj\ARMV4I\retail\halsurf.obj\
+    obj\ARMV4I\retail\tvcontrol.obj\
+    obj\ARMV4I\retail\accel_2d.obj
+

@@ -805,7 +805,8 @@ SCODE S3C6410Disp::AcceleratedBltSelect(GPEBltParms *pBltParms)
         if( pBltParms->prclDst && 
             pBltParms->pSrc &&
             pBltParms->pDst &&
-             (SURFACE_WIDTH(pBltParms->pDst) < MAX_2DHW_WIDTH) &&
+             (SURFACE_WIDTH(pBltParms->pDst) < MAX_2DHW_WIDTH) &&
+
              (SURFACE_WIDTH(pBltParms->pSrc) < MAX_2DHW_WIDTH) 
 #if G2D_BLT_OPTIMIZE    
             &&    (ABS(RECT_WIDTH(pBltParms->prclSrc))*ABS(RECT_HEIGHT(pBltParms->prclSrc)*BYTES_PER_PIXEL(pBltParms->pSrc)) > G2D_COMPROMISE_LIMIT)
@@ -896,7 +897,8 @@ SCODE S3C6410Disp::AcceleratedBltSelect(GPEBltParms *pBltParms)
             (pBltParms->prclDst->bottom >= 0 )) &&
             pBltParms->pSrc &&
             pBltParms->pDst &&
-             (SURFACE_WIDTH(pBltParms->pDst) < MAX_2DHW_WIDTH) &&
+             (SURFACE_WIDTH(pBltParms->pDst) < MAX_2DHW_WIDTH) &&
+
              (SURFACE_WIDTH(pBltParms->pSrc) < MAX_2DHW_WIDTH) 
 #if G2D_BLT_OPTIMIZE    
             &&    (ABS(RECT_WIDTH(pBltParms->prclSrc))*ABS(RECT_HEIGHT(pBltParms->prclSrc)*BYTES_PER_PIXEL(pBltParms->pSrc)) > G2D_COMPROMISE_LIMIT)

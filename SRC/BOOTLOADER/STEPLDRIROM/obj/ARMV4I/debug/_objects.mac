@@ -1,0 +1,5 @@
+OBJECTS=\
+    obj\ARMV4I\debug\startup.obj\
+    obj\ARMV4I\debug\main.obj\
+    obj\ARMV4I\debug\utils.obj
+

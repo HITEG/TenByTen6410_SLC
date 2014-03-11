@@ -414,7 +414,7 @@ IF BSP_NOPWRBTN !
     "Prefix"="PWR"
     "Order"=dword:2
     "FriendlyName"="SMDK6410 Power Button Driver"
-;   "IClass"="{A32942B7-920C-486b-B0E6-92A702A99B35}"   ; Power-manageable generic
+    "IClass"="{A32942B7-920C-486b-B0E6-92A702A99B35}"   ; Power-manageable generic
 ENDIF BSP_NOPWRBTN !
 ; @CESYSGEN ENDIF DEVICE_PMIF
 ;-------------------------------------------------------------------------
@@ -436,13 +436,13 @@ IF BSP_NOI2C !
 ;; I2C Bus Driver
 [HKEY_LOCAL_MACHINE\Drivers\BuiltIn\IIC]
     "Prefix"="IIC"
-    "Dll"="s3c6410_iic.dll"
+	"Dll"="i2c.dll"
     "Order"=dword:1				; 5 -> 1, Now LDI depends on this
     "Index"=dword:0
     "Mode"=dword:1              ; Mode: 0 = POLLING, 1 = INTERRUPT
     "SlaveAddress"=dword:0      ; Bus Driver's Slave Address
     "FriendlyName"="IIC Bus Driver"
-    "IClass"="{A32942B7-920C-486b-B0E6-92A702A99B35}"   ; Power-manageable generic
+;;    "IClass"="{A32942B7-920C-486b-B0E6-92A702A99B35}"   ; Power-manageable generic
 ENDIF BSP_NOI2C !
 ;-------------------------------------------------------------------------
 
@@ -886,20 +886,20 @@ IF BSP_NOBACKLIGHT !
     "Order"=dword:40
     "IClass"="{A32942B7-920C-486b-B0E6-92A702A99B35}"
 
-[HKEY_CURRENT_USER\ControlPanel\Backlight]
-    "BatteryTimeout"=dword:3c   ;For battery, unit is sec,  0x3c == 60(dec) - It means that backlight will be turned off after 60 seconds,
-    "BacklightOnTap"=dword:1
-    "ACTimeout"=dword:258       ;For AC Power, unit is sec,     0x258 == 600(dec),
-    "ACBacklightOnTap"=dword:1
+;;[HKEY_CURRENT_USER\ControlPanel\Backlight]
+;;    "BatteryTimeout"=dword:3c   ;For battery, unit is sec,  0x3c == 60(dec) - It means that backlight will be turned off after 60 seconds,
+;;    "BacklightOnTap"=dword:1
+;;    "ACTimeout"=dword:258       ;For AC Power, unit is sec,     0x258 == 600(dec),
+;;    "ACBacklightOnTap"=dword:1
 
-[HKEY_CURRENT_USER\ControlPanel\Backlight]
-    "OnOff"=dword:00000001
-    "Brightness"=dword:00000032         ;the brightness of backlight while OS use Battery Power
-    "ACBrightness"=dword:00000040           ;the brightness of backlight while OS use AC power.
-    "ACTimeoutUnchecked"=dword:00000000     ;temporary store ACTimeout
-    "ACBacklightOnTap"=dword:00000001
-    "BatteryTimeoutUnchecked"=dword:00000000    ;temporary store BatteryTimeout
-    "ExtOnOff"=dword:00000001
+;;[HKEY_CURRENT_USER\ControlPanel\Backlight]
+;;    "OnOff"=dword:00000001
+;;    "Brightness"=dword:00000032         ;the brightness of backlight while OS use Battery Power
+;;    "ACBrightness"=dword:00000040           ;the brightness of backlight while OS use AC power.
+;;    "ACTimeoutUnchecked"=dword:00000000     ;temporary store ACTimeout
+;;    "ACBacklightOnTap"=dword:00000001
+;;    "BatteryTimeoutUnchecked"=dword:00000000    ;temporary store BatteryTimeout
+;;    "ExtOnOff"=dword:00000001
 ENDIF BSP_NOBACKLIGHT !
 ; @CESYSGEN ENDIF DEVICE_PMIF
 ;------------------------------------------------------------------------------
@@ -1004,7 +1004,7 @@ IF BSP_XRPLUGIN_OPENGL
 
 ENDIF BSP_XRPLUGIN_OPENGL
 IF BSP_NODM9000A1 !
-#include "$(_TARGETPLATROOT)\SRC\DRIVERS\DM9000A1\dm9isa1.reg"
+#include "$(_TARGETPLATROOT)\SRC\DRIVERS\DM9000A\dm9000.reg"
 ENDIF BSP_NODM9000A1 !
 ;-------------------- Led --------------------
 IF BSP_NO_LED !
@@ -1049,10 +1049,28 @@ ENDIF BSP_NOEXTPOWERCTL !
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\Timeouts]
 ; @CESYSGEN IF PM_PM_DEFAULT_PDD
-    "ACUserIdle"=dword:0    ; in seconds
-    "ACSystemIdle"=dword:0  ; in seconds
-    "ACSuspend"=dword:0     ; in seconds
-    "BattUserIdle"=dword:0  ; in seconds
-    "BattSystemIdle"=dword:0; in seconds
-    "BattSuspend"=dword:0   ; in seconds
+    "ACUserIdle"=dword:0      ; in seconds
+    "ACSystemIdle"=dword:0    ; in seconds
+    "ACSuspend"=dword:0       ; in seconds
+    "BattUserIdle"=dword:0      ; in seconds
+    "BattSystemIdle"=dword:0   ; in seconds
+    "BattSuspend"=dword:0      ; in seconds
+    "BattPowerOff"=dword:0
+	"ExtPowerOff"=dword:0
+	"WakeupPowerOff"=dword:0
+	"ScreenPowerOff"=dword:0
 ; @CESYSGEN ENDIF PM_PM_DEFAULT_PDD
+
+--------------------HIVE BASE REGISTRY----------------------------------------------------------
+; @CESYSGEN IF FILESYS_FSREGHIVE   
+; HIVE BOOT SECTION
+[HKEY_LOCAL_MACHINE\init\BootVars]
+   		"SystemHive"="Documents and Settings\\system.hv"
+   		"ProfileDir"="Documents and Settings"
+   		"Start DevMgr" = dword:1 
+   		"DefaultUser" = "default" 
+    	"RegistryFlags" = dword:1 
+      "Flags"=dword:3  
+
+; END HIVE BOOT SECTION
+; @CESYSGEN ENDIF FILESYS_FSREGHIVE

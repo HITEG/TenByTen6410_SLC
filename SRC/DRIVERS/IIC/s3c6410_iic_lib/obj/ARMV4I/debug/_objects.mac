@@ -1,0 +1,3 @@
+OBJECTS=\
+    obj\ARMV4I\debug\s3c6410_iic_lib.obj
+

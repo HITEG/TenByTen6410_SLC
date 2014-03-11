@@ -1,0 +1,4 @@
+OBJECTS=\
+    obj\ARMV4I\debug\FIMGSE2D.obj\
+    obj\ARMV4I\debug\regctrl_g2d.obj
+

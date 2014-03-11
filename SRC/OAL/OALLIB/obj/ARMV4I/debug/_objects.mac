@@ -1,0 +1,8 @@
+OBJECTS=\
+    obj\ARMV4I\debug\debug.obj\
+    obj\ARMV4I\debug\init.obj\
+    obj\ARMV4I\debug\intr.obj\
+    obj\ARMV4I\debug\ioctl.obj\
+    obj\ARMV4I\debug\power.obj\
+    obj\ARMV4I\debug\startup.obj
+

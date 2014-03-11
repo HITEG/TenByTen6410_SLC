@@ -1,0 +1,6 @@
+OBJECTS=\
+    obj\ARMV4I\debug\JPGDriver.obj\
+    obj\ARMV4I\debug\JPGMem.obj\
+    obj\ARMV4I\debug\JPGMisc.obj\
+    obj\ARMV4I\debug\JPGOpr.obj
+

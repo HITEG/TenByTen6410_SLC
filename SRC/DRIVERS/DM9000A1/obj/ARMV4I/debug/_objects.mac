@@ -1,0 +1,7 @@
+OBJECTS=\
+    obj\ARMV4I\debug\dm9isa.obj\
+    obj\ARMV4I\debug\driver.obj\
+    obj\ARMV4I\debug\device.obj\
+    obj\ARMV4I\debug\common.obj\
+    obj\ARMV4I\debug\wince.obj
+

@@ -1,0 +1,4 @@
+OBJECTS=\
+    obj\ARMV4I\retail\usbrndis.obj\
+    obj\ARMV4I\retail\rndismin.obj
+

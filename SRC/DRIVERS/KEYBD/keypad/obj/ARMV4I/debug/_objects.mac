@@ -1,0 +1,4 @@
+OBJECTS=\
+    obj\ARMV4I\debug\keymatrix.obj\
+    obj\ARMV4I\debug\kbd.obj
+

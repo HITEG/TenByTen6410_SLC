@@ -38,9 +38,15 @@ Notes:
 #include "s3c6410_display_con.h"
 #include "s3c6410_display_con_macro.h"
 
+#ifdef DEBUG
 #define DISP_MSG(x)    RETAILMSG(TRUE, x)
 #define DISP_INF(x)    RETAILMSG(TRUE, x)
 #define DISP_ERR(x)    RETAILMSG(TRUE, x)
+#else
+#define DISP_MSG(x)    
+#define DISP_INF(x)    
+#define DISP_ERR(x)    RETAILMSG(TRUE, x)
+#endif
 
 #define ITU601OUTPUT    (FALSE)
 
@@ -1129,7 +1135,7 @@ static DISP_ERROR Disp_initialize_port_RGBIF(DISP_RGBIFOUT_MODE RGBOutMode)
 
     // LCD Interface Type
     g_pGPIOReg->SPCON = (g_pGPIOReg->SPCON & ~(0x3)) | (0x1); // Select RGBIF style PIN
-	g_pGPIOReg->SPCON &=~(3<<24); // better pictures on displays connected with LONG cables....
+	
     DISP_MSG((_T("[DISP]--Disp_initialize_port_RGBIF() : %d\n\r"), error));
 
     return error;

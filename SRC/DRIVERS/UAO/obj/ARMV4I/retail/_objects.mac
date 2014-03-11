@@ -1,0 +1,5 @@
+OBJECTS=\
+    obj\ARMV4I\retail\UAOMisc.obj\
+    obj\ARMV4I\retail\UAODriver.obj\
+    obj\ARMV4I\retail\UAOSet.obj
+

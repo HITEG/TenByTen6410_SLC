@@ -40,11 +40,11 @@ static SVEnginePowerContext SVEPMCtxt;
 
 BOOL SVE_initialize_video_engine(void)
 {
-	DWORD dwDisplayType[2] = {123,16};
+	DWORD dwDisplayType[3] = {123,16,0};
     DWORD dwBytesRet = 0;
     SVEngineContext *pCtxt;
 
-    RETAILMSG(1,(_T("[VDE] ++SVE_initialize_video_engine()\r\n")));
+    VDE_MSG((_T("[VDE] ++SVE_initialize_video_engine()\r\n")));
 
     pCtxt = SVE_get_context();
 
@@ -89,15 +89,16 @@ BOOL SVE_initialize_video_engine(void)
     TVEnc_initialize_register_address((void *)pCtxt->pTVEncReg, (void *)pCtxt->pGPIOReg);
 
 
-	if (   KernelIoControl (IOCTL_HAL_QUERY_DISPLAYSETTINGS, NULL, 0, dwDisplayType, sizeof(DWORD)*2, &dwBytesRet)  // get data from BSP_ARGS via KernelIOCtl
-                        && (dwBytesRet == (sizeof(DWORD)*2)))
+	if (   KernelIoControl (IOCTL_HAL_QUERY_DISPLAYSETTINGS, NULL, 0, dwDisplayType, sizeof(DWORD)*3, &dwBytesRet)  // get data from BSP_ARGS via KernelIOCtl
+                        && (dwBytesRet == (sizeof(DWORD)*3)))
 	{
-		RETAILMSG(1,(TEXT("[DISPDRV1] display driver display: %s\r\n"),LDI_getDisplayName((HITEG_DISPLAY_TYPE)dwDisplayType[0])));
+		VDE_MSG((_T("[SVE] display driver display: %s\r\n"),LDI_getDisplayName((HITEG_DISPLAY_TYPE)dwDisplayType[0])));
 		LDI_set_LCD_module_type((HITEG_DISPLAY_TYPE)dwDisplayType[0]);
+		LDI_setDisplayCurrent(dwDisplayType[2] &0xFFFF0000);
 	}
 	else
 	{
-		RETAILMSG(1,(TEXT("[DISPDRV1] Error getting Display type from args section via Kernel IOCTL!!!\r\n")));
+		VDE_ERR((_T("[SVE] Error getting Display type from args section via Kernel IOCTL!!!\r\n")));
 	}
 
     SVE_hw_power_control(HWPWR_DISPLAY_ON);
@@ -106,7 +107,7 @@ BOOL SVE_initialize_video_engine(void)
     SVE_hw_clock_control(HWCLK_DISPLAY_ON);
     SVE_hw_clock_control(HWCLK_2D_ON);
 
-    RETAILMSG(1,(_T("[VDE] --SVE_initialize_video_engine()\r\n")));
+    VDE_MSG((_T("[VDE] --SVE_initialize_video_engine()\r\n")));
 
     return TRUE;
 
@@ -137,7 +138,7 @@ void SVE_deinitialize_video_engine(void)
 
 SVEngineContext* SVE_get_context(void)
 {
-	RETAILMSG( 1, ( _T("VDE_SVEEINGINEcontext: Context 0x%X, 0x%X\n"), SVECtxt, &SVECtxt) );
+	VDE_MSG((_T("VDE_SVEEINGINEcontext: Context 0x%X, 0x%X\n"), SVECtxt, &SVECtxt) );
     return &SVECtxt;
 }
 

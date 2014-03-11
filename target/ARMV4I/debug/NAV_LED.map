@@ -1,0 +1,96 @@
+ NAV_LED
+
+ Timestamp is 531ec5ff (Tue Mar 11 16:14:55 2014)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000056eH .rdata                  CODE
+ 0001:00000570 00000024H .rdata$debug            CODE
+ 0001:00000594 00001240H .text                   CODE
+ 0001:000017d4 00000028H .idata$2                CODE
+ 0001:000017fc 00000014H .idata$3                CODE
+ 0001:00001810 00000018H .idata$4                CODE
+ 0001:00001828 00000016H .idata$6                CODE
+ 0001:00001840 000000ffH .edata                  CODE
+ 0002:00000000 00000018H .idata$5                DATA
+ 0002:00000018 00000444H .data                   DATA
+ 0002:0000045c 00000004H .bss                    DATA
+ 0003:00000000 00000088H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:0000001c       ??_C@_1DE@MCAGIAPB@?$AAL?$AAE?$AAD?$AA?5?$AAi?$AAn?$AAi?$AAt?$AA?5?$AAa?$AAd?$AAd?$AAr?$AAe?$AAs?$AAs?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?$AN?$AA?6?$AA?$AA@ 1000101c     Led.obj
+ 0001:00000050       ??_C@_1CA@NEMDNKI@?$AA?$CL?$AA?$CL?$AAI?$AAn?$AAi?$AAt?$AAL?$AAe?$AAd?$AAA?$AAd?$AAd?$AAr?$AA?$AN?$AA?6?$AA?$AA@ 10001050     Led.obj
+ 0001:00000070       ??_C@_1BK@KDFHFBHK@?$AAP?$AAr?$AAo?$AAc?$AAL?$AAe?$AAd?$AA?9?$AA?9?$AA?9?$AA?$AN?$AA?6?$AA?$AA@ 10001070     Led.obj
+ 0001:0000008c       ??_C@_1CE@GINFJDFN@?$AAO?$AAp?$AAe?$AAr?$AAa?$AAt?$AAe?$AA?5?$AAL?$AAE?$AAD?$AA?3?$AA?5?$AA?$CF?$AAd?$AA?$AN?$AA?6?$AA?$AA@ 1000108c     Led.obj
+ 0001:000000b0       ??_C@_1EI@JGGPMPCN@?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AAv?$AA_?$AAp?$AAI?$AAO?$AAP?$AA_?$AAL?$AAE?$AAD?$AA_?$AAr?$AAe?$AAg?$AAs?$AA?9?$AA?$DO?$AAG?$AAP?$AAM?$AAD?$AAA?$AAT?$AA?$DN?$AA?$CF?$AAx@ 100010b0     Led.obj
+ 0001:000000f8       ??_C@_1EI@HMJCPPIF@?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AAv?$AA_?$AAp?$AAI?$AAO?$AAP?$AA_?$AAL?$AAE?$AAD?$AA_?$AAr?$AAe?$AAg?$AAs?$AA?9?$AA?$DO?$AAG?$AAP?$AAM?$AAC?$AAO?$AAN?$AA?$DN?$AA?$CF?$AAx@ 100010f8     Led.obj
+ 0001:00000140       ??_C@_1DE@NLHEEIGD@?$AAi?$AAn?$AAp?$AAu?$AAt?$AA?5?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?0?$AAe?$AAx?$AAi?$AAt?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10001140     Led.obj
+ 0001:00000174       ??_C@_1BK@IHBLINFK@?$AAP?$AAr?$AAo?$AAc?$AAL?$AAe?$AAd?$AA?$CL?$AA?$CL?$AA?$CL?$AA?$AN?$AA?6?$AA?$AA@ 10001174     Led.obj
+ 0001:00000190       ??_C@_1DE@FCAAIIOP@?$AAL?$AAE?$AAD?$AA?3?$AA?5?$AAD?$AAL?$AAL?$AA_?$AAP?$AAR?$AAO?$AAC?$AAE?$AAS?$AAS?$AA_?$AAD?$AAE?$AAT?$AAA?$AAC?$AAH?$AA?$AN?$AA?6?$AA?$AA@ 10001190     Led.obj
+ 0001:000001c4       ??_C@_1CC@BJMIFJFL@?$AAp?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AA?5?$AAa?$AAt?$AAt?$AAa?$AAc?$AAh?$AA?$AN?$AA?6?$AA?$AA@ 100011c4     Led.obj
+ 0001:000001e8       ??_C@_1BO@HNDDILBK@?$AAL?$AAE?$AAD?$AA_?$AAC?$AAl?$AAo?$AAs?$AAe?$AA?9?$AA?9?$AA?9?$AA?$AN?$AA?6?$AA?$AA@ 100011e8     Led.obj
+ 0001:00000208       ??_C@_1BO@FJHPFHDK@?$AAL?$AAE?$AAD?$AA_?$AAC?$AAl?$AAo?$AAs?$AAe?$AA?$CL?$AA?$CL?$AA?$CL?$AA?$AN?$AA?6?$AA?$AA@ 10001208     Led.obj
+ 0001:00000228       ??_C@_1CA@KJKOPDEO@?$AAL?$AAE?$AAD?$AA_?$AAD?$AAe?$AAi?$AAn?$AAi?$AAt?$AA?9?$AA?9?$AA?9?$AA?$AN?$AA?6?$AA?$AA@ 10001228     Led.obj
+ 0001:00000248       ??_C@_1CA@INOCCPGO@?$AAL?$AAE?$AAD?$AA_?$AAD?$AAe?$AAi?$AAn?$AAi?$AAt?$AA?$CL?$AA?$CL?$AA?$CL?$AA?$AN?$AA?6?$AA?$AA@ 10001248     Led.obj
+ 0001:00000268       ??_C@_1BM@EJBEGPPL@?$AAL?$AAE?$AAD?$AA_?$AAI?$AAn?$AAi?$AAt?$AA?9?$AA?9?$AA?9?$AA?$AN?$AA?6?$AA?$AA@ 10001268     Led.obj
+ 0001:00000284       ??_C@_1BM@GNFILDNL@?$AAL?$AAE?$AAD?$AA_?$AAI?$AAn?$AAi?$AAt?$AA?$CL?$AA?$CL?$AA?$CL?$AA?$AN?$AA?6?$AA?$AA@ 10001284     Led.obj
+ 0001:000002a0       ??_C@_1CG@LEKGAOHE@?$AAL?$AAE?$AAD?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?9?$AA?9?$AA?9?$AA?$AN?$AA?6?$AA?$AA@ 100012a0     Led.obj
+ 0001:000002c8       ??_C@_1DC@EGCJIGGE@?$AAL?$AAE?$AAD?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAd?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AA?$AN?$AA?6?$AA?$AA@ 100012c8     Led.obj
+ 0001:000002fc       ??_C@_1DI@DEEPMDGN@?$AAL?$AAE?$AAD?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAI?$AAO?$AA_?$AAL?$AAE?$AAD?$AA_?$AAO?$AAF?$AAF?$AA?$AN?$AA?6?$AA?$AA@ 100012fc     Led.obj
+ 0001:00000334       ??_C@_1CM@JJPJKPAM@?$AAT?$AAh?$AAe?$AA?5?$AAl?$AAp?$AAI?$AAn?$AAB?$AAu?$AAf?$AA?5?$AAi?$AAs?$AA?5?$AAN?$AAU?$AAL?$AAL?$AA?$AN?$AA?6?$AA?$AA@ 10001334     Led.obj
+ 0001:00000360       ??_C@_1DG@HPCHONBN@?$AAL?$AAE?$AAD?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAI?$AAO?$AA_?$AAL?$AAE?$AAD?$AA_?$AAO?$AAN?$AA?$AN?$AA?6?$AA?$AA@ 10001360     Led.obj
+ 0001:00000398       ??_C@_1DA@HKEHFAHM@?$AAd?$AAw?$AAI?$AAo?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAC?$AAo?$AAd?$AAe?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?4?$AA?$AN?$AA?6?$AA?$AA@ 10001398     Led.obj
+ 0001:000003c8       ??_C@_1CG@JAOKNCFE@?$AAL?$AAE?$AAD?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?$CL?$AA?$CL?$AA?$CL?$AA?$AN?$AA?6?$AA?$AA@ 100013c8     Led.obj
+ 0001:000003f0       ??_C@_1BM@OJBOIJIA@?$AAL?$AAE?$AAD?$AA_?$AAO?$AAp?$AAe?$AAn?$AA?9?$AA?9?$AA?9?$AA?$AN?$AA?6?$AA?$AA@ 100013f0     Led.obj
+ 0001:0000040c       ??_C@_1BM@MNFCFFKA@?$AAL?$AAE?$AAD?$AA_?$AAO?$AAp?$AAe?$AAn?$AA?$CL?$AA?$CL?$AA?$CL?$AA?$AN?$AA?6?$AA?$AA@ 1000140c     Led.obj
+ 0001:00000428       ??_C@_1CG@ONLLBDJJ@?$AAL?$AAE?$AAD?$AA_?$AAP?$AAo?$AAw?$AAe?$AAr?$AAD?$AAo?$AAw?$AAn?$AA?9?$AA?9?$AA?9?$AA?$AN?$AA?6?$AA?$AA@ 10001428     Led.obj
+ 0001:00000450       ??_C@_1CG@MJPHMPLJ@?$AAL?$AAE?$AAD?$AA_?$AAP?$AAo?$AAw?$AAe?$AAr?$AAD?$AAo?$AAw?$AAn?$AA?$CL?$AA?$CL?$AA?$CL?$AA?$AN?$AA?6?$AA?$AA@ 10001450     Led.obj
+ 0001:00000478       ??_C@_1CC@OAJFDEPL@?$AAL?$AAE?$AAD?$AA_?$AAP?$AAo?$AAw?$AAe?$AAr?$AAU?$AAp?$AA?9?$AA?9?$AA?9?$AA?$AN?$AA?6?$AA?$AA@ 10001478     Led.obj
+ 0001:0000049c       ??_C@_1CC@MENJOINL@?$AAL?$AAE?$AAD?$AA_?$AAP?$AAo?$AAw?$AAe?$AAr?$AAU?$AAp?$AA?$CL?$AA?$CL?$AA?$CL?$AA?$AN?$AA?6?$AA?$AA@ 1000149c     Led.obj
+ 0001:000004c0       ??_C@_1BM@HDNGIPOL@?$AAL?$AAE?$AAD?$AA_?$AAR?$AAe?$AAa?$AAd?$AA?9?$AA?9?$AA?9?$AA?$AN?$AA?6?$AA?$AA@ 100014c0     Led.obj
+ 0001:000004dc       ??_C@_1BM@FHJKFDML@?$AAL?$AAE?$AAD?$AA_?$AAR?$AAe?$AAa?$AAd?$AA?$CL?$AA?$CL?$AA?$CL?$AA?$AN?$AA?6?$AA?$AA@ 100014dc     Led.obj
+ 0001:000004f8       ??_C@_1BM@JEBEEMNM@?$AAL?$AAE?$AAD?$AA_?$AAS?$AAe?$AAe?$AAk?$AA?9?$AA?9?$AA?9?$AA?$AN?$AA?6?$AA?$AA@ 100014f8     Led.obj
+ 0001:00000514       ??_C@_1BM@LAFIJAPM@?$AAL?$AAE?$AAD?$AA_?$AAS?$AAe?$AAe?$AAk?$AA?$CL?$AA?$CL?$AA?$CL?$AA?$AN?$AA?6?$AA?$AA@ 10001514     Led.obj
+ 0001:00000530       ??_C@_1BO@ICNOPGOJ@?$AAL?$AAE?$AAD?$AA_?$AAW?$AAr?$AAi?$AAt?$AAe?$AA?9?$AA?9?$AA?9?$AA?$AN?$AA?6?$AA?$AA@ 10001530     Led.obj
+ 0001:00000550       ??_C@_1BO@KGJCCKMJ@?$AAL?$AAE?$AAD?$AA_?$AAW?$AAr?$AAi?$AAt?$AAe?$AA?$CL?$AA?$CL?$AA?$CL?$AA?$AN?$AA?6?$AA?$AA@ 10001550     Led.obj
+ 0001:00000594       InitLedAddr                10001594 f   Led.obj
+ 0001:00000670       GPIOInit                   10001670 f   Led.obj
+ 0001:00000b60       ControlLed                 10001b60 f   Led.obj
+ 0001:00000c2c       ProcLed                    10001c2c f   Led.obj
+ 0001:00000fb0       DllMain                    10001fb0 f   Led.obj
+ 0001:00001078       LED_Close                  10002078 f   Led.obj
+ 0001:00001104       LED_Deinit                 10002104 f   Led.obj
+ 0001:00001190       LED_Init                   10002190 f   Led.obj
+ 0001:00001224       LED_IOControl              10002224 f   Led.obj
+ 0001:00001444       LED_Open                   10002444 f   Led.obj
+ 0001:000014d0       LED_PowerDown              100024d0 f   Led.obj
+ 0001:00001570       LED_PowerUp                10002570 f   Led.obj
+ 0001:000015f0       LED_Read                   100025f0 f   Led.obj
+ 0001:0000167c       LED_Seek                   1000267c f   Led.obj
+ 0001:00001708       LED_Write                  10002708 f   Led.obj
+ 0001:00001794       NKDbgPrintfW               10002794 f   coredll:COREDLL.dll
+ 0001:000017a4       DisableThreadLibraryCalls  100027a4 f   coredll:COREDLL.dll
+ 0001:000017b4       RegisterDbgZones           100027b4 f   coredll:COREDLL.dll
+ 0001:000017c4       MmMapIoSpace               100027c4 f   ceddk:CEDDK.dll
+ 0001:000017d4       __IMPORT_DESCRIPTOR_COREDLL 100027d4     coredll:COREDLL.dll
+ 0001:000017e8       __IMPORT_DESCRIPTOR_CEDDK  100027e8     ceddk:CEDDK.dll
+ 0001:000017fc       __NULL_IMPORT_DESCRIPTOR   100027fc     coredll:COREDLL.dll
+ 0002:00000000       __imp_MmMapIoSpace         10003000     ceddk:CEDDK.dll
+ 0002:00000004       \177CEDDK_NULL_THUNK_DATA  10003004     ceddk:CEDDK.dll
+ 0002:00000008       __imp_RegisterDbgZones     10003008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_DisableThreadLibraryCalls 1000300c     coredll:COREDLL.dll
+ 0002:00000010       __imp_NKDbgPrintfW         10003010     coredll:COREDLL.dll
+ 0002:00000014       \177COREDLL_NULL_THUNK_DATA 10003014     coredll:COREDLL.dll
+ 0002:00000018       dpCurSettings              10003018     Led.obj
+ 0002:0000045c       v_pIOP_LED_regs            1000345c     Led.obj
+
+ entry point at        0001:00000fb0
+
+ Static symbols
+
+ 0001:00000ad0       Led_Off                    10001ad0 f   Led.obj
+ 0001:00000b9c       Led_On                     10001b9c f   Led.obj

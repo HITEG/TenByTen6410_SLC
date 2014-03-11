@@ -1,0 +1,197 @@
+
+          Davicom DM9000x Driver for WinCE4.2/5.0/6.0 Release Note
+
+      The Davicom DM9000x NDIS CE miniport device driver is used to be 
+  the network component of the Microsoft WinCE 5.0 enables hardware
+  containing Davicom's ISA Fast Ethernet controller 'DM9000x'.
+    
+      This file describes the procedures of the driver installation. Note that
+  this is not written for end-users.
+
+CONTENTS:
+
+    dm9000.README         - This README file
+    HISTORY
+    makefile
+    sources
+    dm9isa.def
+    wince.c
+    common.h
+    driver.h
+    device.h
+    dm9isa.h
+    dm_type.h
+    common.cpp
+    driver.cpp
+    device.cpp
+    dm9isa.cpp
+
+1. How to Install DM9000x Driver on the Platform BSP :
+
+- Total 4 steps to add your DM9000x driver into the Platform BSP
+    (1) Copy driver source code to "X:\WINCE600\PLATFORM\ <yourBSP> \SRC\DRIVERS"
+    (2) Insert command into the project bib file
+    (3) Insert registries into the project reg file
+    (4) Build (Sub Project & MakeImg)
+
+- Total 4 steps to add your DM9000x (Dynamic Link Library)
+    (1) Copy "DM9ISA.DLL" to "X:\WINCE600\PLATFORM\ <yourBSP> \FILES"
+    (2) Insert command into the project bib file
+    (3) Insert registries into the project reg file
+    (4) Build (OSDesign)
+
+Note: For WinCE 5.0 :
+    "X:\WINCE500\PLATFORM\ <yourBSP> \SRC\DRIVERS"
+        &
+    "X:\WINCE500\PLATFORM\ <yourBSP> \FILES"
+
+2. Your WinCE BSP:
+
+According your BSP package, follow the document to install your BSP. After installation finish,
+you can have a "X:\WINCE600\PLATFORM\ <yourBSP> \" directory in your host PC. Also you can
+successfully build OS image (NK.bin) for your target board.
+
+Note: For WinCE 5.0 : "X:\WINCE500\PLATFORM\ <yourBSP> \"
+
+3. The detail for 4 steps to add DM9000x driver
+
+(1) The copy driver source code
+    copy DM9ISA <DIR> to "X:\WINCE600\PLATFORM\ <yourBSP> \SRC\DRIVERS\"
+    Add DM9ISA into the content of "X:\WINCE600\PLATFORM\ <yourBSP> \SRC\DRIVERS\dirs"
+
+    Note: If you are working for ¡§DM9ISA.DLL¡¨, Copy ¡§DM9ISA.DLL¡¨ to
+            "X:\WINCE600\PLATFORM\ <yourBSP> \FILES¡¨
+
+Note: For WinCE 5.0 : "X:\WINCE500\PLATFORM\ <yourBSP> \SRC\DRIVERS\¡¨, ¡K
+
+(2) Modify the project bib file
+    "X:\WINCE600\OSDesign\OSDesign??\OSDesign??\WINCE600\ <yourBSP_XXX> \oak\FILES\project.bib"
+    Add the folloing instruction to your project bib file.
+
+        [WinCE6.0]
+            MODULES
+        ;  Name             Path                                    Memory Type
+        ;  --------------  --------------------------------------  -----------
+        dm9isa.dll          $(_FLATRELEASEDIR)\dm9isa.dll           NK SHK
+
+Note: For WinCE 5.0 :
+        [WinCE 4.2/5.0]
+            MODULES
+        ;  Name             Path                                    Memory Type
+        ;  --------------  --------------------------------------  -----------
+        dm9isa.dll          $(_FLATRELEASEDIR)\dm9isa.dll           NK SH
+
+(3) Modify the project reg file
+    "X:\WINCE600\OSDesign\OSDesign??\OSDesign??\WINCE600\ <yourBSP_XXX> \oak\FILES\project.reg"
+     Add the follow content to the above .reg file: (refer to ¡§DM9ISA.reg¡¨)
+
+         [HKEY_LOCAL_MACHINE\Comm\DM9CE]
+             "DisplayName"="DM9000x Fast Ethernet Adapter"
+             "Group"="NDIS"
+             "ImagePath"="dm9isa.dll"
+
+         [HKEY_LOCAL_MACHINE\Comm\DM9CE\Linkage]
+             "Route"=multi_sz:"DM9CE1"
+
+         [HKEY_LOCAL_MACHINE\Comm\DM9CE1]
+             "DisplayName"="DM9000x Fast Ethernet Adapter"
+             "Group"="NDIS"
+             "ImagePath"="dm9isa.dll"
+
+         [HKEY_LOCAL_MACHINE\Comm\Tcpip\Linkage]
+             "Bind"="dm9ce1"
+
+         [HKEY_LOCAL_MACHINE\Comm\DM9CE1\Parms]
+            "BusNumber"=dword:0
+            "BusType"=dword:0
+            "IoBaseAddress"=dword:18000000
+            "IrqNumber"=dword:4 
+            "Int_Active_High"=dword:1
+            "Flow_Control_Enable"=dword:1
+            "MAC_Load_Mode"=dword:0
+            "MAC_ADDR_0"=dword:00
+            "MAC_ADDR_1"=dword:60
+            "MAC_ADDR_2"=dword:6e
+            "MAC_ADDR_3"=dword:90
+            "MAC_ADDR_4"=dword:00
+            "MAC_ADDR_5"=dword:de
+
+         [HKEY_LOCAL_MACHINE\Comm\DM9CE1\Parms\TcpIp]
+             "EnableDHCP"=dword:0
+             "UseZeroBroadcast"=dword:0
+             "DefaultGateway"="x.x.x.x"
+             "IpAddress"="x.x.x.x"
+             "Subnetmask"="x.x.x.x"
+             "DNS"="x.x.x.x"
+             "WINS"="x.x.x.x"
+
+Note:
+    3.1 DM9000 Configurables 
+        The DM9000 configurable parameters are located at [HKEY_LOCAL_MACHINE\Comm\DM9CE1\Parms]
+        Their definitions are explained below.
+    3.1.1 BusType
+        Type: DWORD
+        Description: The type of the bus it connects
+        Valid Values:
+        0 - Internal
+    3.1.2 BusNumber
+        Type: DWORD
+        Description: The bus number of the device
+    3.1.3 IoAddress
+        Type: DWORD
+        Description: The base I/O address of the device
+    3.1.4 IrqNumber
+        Type: DWORD
+        Description: The IRQ number of the device.
+    3.1.5 Int_Active_High
+        Type: DWORD
+        Description: int pin active voltage.
+            0  - low active
+            1  - high active
+    3.1.6 Flow_Control_Enable
+        Type: DWORD
+        Description: 802.3x Flow Control support 
+            0  - Disable
+            1  - Enable   
+    3.1.7 MAC_Load_Mode
+        Type: DWORD
+        Description: NIC MAC address settign 
+            0  - use register file MAC_ADDR_0 ~ MAC_ADDR_5 setting
+            1  - use boot system to setting PAR (0x01 ~ 0x15 register) 
+            2  - use auto check flash data 
+                    if Flash data first 3 bytes matches MAC_ADDR_0 ~ MAC_ADDR_3
+                    then load Flash data last 3 byte to system continueously.
+            3  - use EEPROM data
+            4  - use Random create
+    3.1.8 MAC_ADDR_0 ~ MAC_ADDR_5
+        Type: DWORD
+        Description: MAC ADDRESS setting 
+
+    3.2 TCP/IP configurations
+    3.2.1 EnableDHCP
+        Set 1 for DHCP enable, 0 for disable.
+    3.2.2 UseZeroBroadcast
+        Set 1 for use zero broadcast, 0 for not.
+    3.2.3 DefaultGateway
+        Specify your gateway address in x.x.x.x format.
+    3.2.4 IpAddress
+        Specify your IP address in x.x.x.x format.
+    3.2.5 Subnetmask
+        Specify your subnet mask in x.x.x.x format.
+    3.2.6 DNS
+        Specify your domain name server's address in x.x.x.x format.
+    3.2.7 WINS
+        Specify your WINS server's address in x.x.x.x format.
+
+(4) Build OS image (NK.bin)
+    On the Build menu, click Build OSDesign?? to build the Eboot and OSimage.
+
+Note: If not first time build your image, Instead you can build ¡§sub project & MakeImg¡¨, 
+        Right button on your driver project in ¡§Solution Explore¡¨ Tab inVisual Studio, 
+        Select ¡§Rebuild¡¨ menu item to build OS image.
+
+Note: For WinCE5.0: On the Build OS menu, click Build and Sysgen to build the EBoot and OS
+        image. If not first time build your image, Instead you can press the project item 
+        (in FileView tag) and confirm to check the ¡§Clear Before Building¡¨, and ¡§Make 
+        Run-Time Image After Build¡¨ items, and then select ¡§Build Current Project¡¨ item 
+        to build OS image.

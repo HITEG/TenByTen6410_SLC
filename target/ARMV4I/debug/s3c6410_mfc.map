@@ -1,0 +1,439 @@
+ s3c6410_mfc
+
+ Timestamp is 531ec5fd (Tue Mar 11 16:14:53 2014)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0001699cH .rdata                  CODE
+ 0001:0001699c 00000028H .rdata$debug            CODE
+ 0001:000169c4 00008d14H .text                   CODE
+ 0001:0001f6d8 00000028H .xdata                  CODE
+ 0001:0001f700 00000028H .idata$2                CODE
+ 0001:0001f728 00000014H .idata$3                CODE
+ 0001:0001f73c 000000d0H .idata$4                CODE
+ 0001:0001f80c 00000016H .idata$6                CODE
+ 0001:0001f830 000000cdH .edata                  CODE
+ 0002:00000000 000000d0H .idata$5                DATA
+ 0002:000000d0 00000024H .data                   DATA
+ 0002:000000f8 00000638H .bss                    DATA
+ 0003:00000000 00000360H .pdata                  DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 000003b4H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000020       ??_C@_1GA@INNJJGFM@?$AA?6?$AA?$FL?$AAM?$AAF?$AAC?$AA_?$AAO?$AAp?$AAe?$AAn?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?$FN?$AA?5?$AAM?$AAF?$AAC?$AA?5?$AAI?$AAn?$AAs?$AAt?$AAa?$AAn?$AAc?$AAe?$AA?5?$AAC@ 10001020     MfcDriver.obj
+ 0001:00000080       ??_C@_1FI@OHMINHDO@?$AA?6?$AA?$FL?$AAM?$AAF?$AAC?$AA_?$AAO?$AAp?$AAe?$AAn?$AA?$FN?$AA?5?$AAP?$AAo?$AAw?$AAe?$AAr?$AA?5?$AAM?$AAa?$AAn?$AAa?$AAg?$AAe?$AAr?$AA?5?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe@ 10001080     MfcDriver.obj
+ 0001:000000d8       ??_C@_1FG@MIJJDACL@?$AA?6?$AA?$FL?$AAM?$AAF?$AAC?$AA_?$AAO?$AAp?$AAe?$AAn?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?$FN?$AA?5?$AAM?$AAo?$AAm?$AAo?$AAr?$AAy?$AA?5?$AAA?$AAl?$AAl?$AAo?$AAc?$AAa?$AAt@ 100010d8     MfcDriver.obj
+ 0001:00000130       ??_C@_1FK@IHPBDBJM@?$AA?6?$AA?$FL?$AAM?$AAF?$AAC?$AA_?$AAC?$AAl?$AAo?$AAs?$AAe?$AA?$FN?$AA?5?$AAP?$AAo?$AAw?$AAe?$AAr?$AA?5?$AAM?$AAa?$AAn?$AAa?$AAg?$AAe?$AAr?$AA?5?$AAH?$AAa?$AAn?$AAd?$AAl@ 10001130     MfcDriver.obj
+ 0001:00000190       ??_C@_1GK@NEODOOOF@?$AA?6?$AA?$FL?$AAM?$AAF?$AAC?$AA_?$AAC?$AAl?$AAo?$AAs?$AAe?$AA?$FN?$AA?5?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAF?$AAr?$AAe?$AAe?$AAE?$AAx?$AA?$CI?$AAF?$AAR?$AAA?$AAM?$AA_@ 10001190     MfcDriver.obj
+ 0001:00000200       ??_C@_1GK@GOHNJHIK@?$AA?6?$AA?$FL?$AAM?$AAF?$AAC?$AA_?$AAC?$AAl?$AAo?$AAs?$AAe?$AA?$FN?$AA?5?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAF?$AAr?$AAe?$AAe?$AAE?$AAx?$AA?$CI?$AAS?$AAT?$AAR?$AAM?$AA_@ 10001200     MfcDriver.obj
+ 0001:00000270       ??_C@_1EI@PCOFNEN@?$AA?$FL?$AAM?$AAF?$AAC?$AA?$FN?$AA?5?$AAW?$AAa?$AAk?$AAe?$AAU?$AAP?$AA?$CB?$AA?5?$AA?$CI?$AAN?$AAu?$AAm?$AAO?$AAf?$AAI?$AAn?$AAs?$AAt?$AAa?$AAn?$AAc?$AAe?$AA?$DN?$AA?$CF?$AAd?$AA?$CJ@ 10001270     MfcDriver.obj
+ 0001:000002b8       ??_C@_0DB@NHKFGGEG@?$FLMFC?5IOCTL_POWER_SET?$FN?5POWER?5UP?0?5@ 100012b8     MfcDriver.obj
+ 0001:000002ec       ??_C@_0O@KFOFPCDM@MFC_IOControl?$AA@ 100012ec     MfcDriver.obj
+ 0001:000002fc       ??_C@_0CP@KHCMHLFD@?$FLMFC?5IOCTL_POWER_SET?$FN?5nNumOfInst@ 100012fc     MfcDriver.obj
+ 0001:00000330       ??_C@_1EG@MMBJCLLP@?$AA?$FL?$AAM?$AAF?$AAC?$AA?$FN?$AA?5?$AAS?$AAl?$AAe?$AAe?$AAp?$AA?$CB?$AA?5?$AA?$CI?$AAN?$AAu?$AAm?$AAO?$AAf?$AAI?$AAn?$AAs?$AAt?$AAa?$AAn?$AAc?$AAe?$AA?$DN?$AA?$CF?$AAd?$AA?$CJ?$AA?5@ 10001330     MfcDriver.obj
+ 0001:00000378       ??_C@_0DD@PDEMBNGO@?$FLMFC?5IOCTL_POWER_SET?$FN?5POWER?5DOWN@ 10001378     MfcDriver.obj
+ 0001:000003b0       ??_C@_0EB@LLLLCLL@?$FLMFC?5IOCTL_POWER_SET?$FN?5MFC?5doesn?8@ 100013b0     MfcDriver.obj
+ 0001:000003f4       ??_C@_0CK@BBLGFNLB@?$FLMFC?5IOCTL_POWER_SET?$FN?5MFC?5State?5@ 100013f4     MfcDriver.obj
+ 0001:00000420       ??_C@_1JE@BAGEPGJL@?$AA?$FL?$AAM?$AAF?$AAC?$AA?5?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?$FN?$AA?5?$AAR?$AAe?$AAq?$AAu?$AAe?$AAs?$AAt?$AAe?$AAd?$AA?5?$AAi?$AAo?$AAc?$AAt?$AAl?$AA?5@ 10001420     MfcDriver.obj
+ 0001:000004b8       ??_C@_1IK@KKCALEOE@?$AAM?$AAF?$AAC?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAC?$AAl?$AAo?$AAs?$AAe?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf@ 100014b8     MfcDriver.obj
+ 0001:00000548       ??_C@_1II@LFDAOLGK@?$AAM?$AAF?$AAC?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAO?$AAp?$AAe?$AAn?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf?$AAe@ 10001548     MfcDriver.obj
+ 0001:000005d0       ??_C@_1IK@LHKIJBEA@?$AAM?$AAF?$AAC?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAC?$AAl?$AAo?$AAs?$AAe?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf@ 100015d0     MfcDriver.obj
+ 0001:00000660       ??_C@_1II@KILIMOMO@?$AAM?$AAF?$AAC?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAO?$AAp?$AAe?$AAn?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf?$AAe@ 10001660     MfcDriver.obj
+ 0001:000006e8       ??_C@_1JM@NECABABE@?$AAM?$AAF?$AAC?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAC?$AAl?$AAo?$AAs?$AAe?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf@ 100016e8     MfcDriver.obj
+ 0001:00000788       ??_C@_1JK@BJDOEJAM@?$AAM?$AAF?$AAC?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAO?$AAp?$AAe?$AAn?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf?$AAe@ 10001788     MfcDriver.obj
+ 0001:00000828       ??_C@_1KA@BJGEIPNM@?$AAM?$AAF?$AAC?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAC?$AAl?$AAo?$AAs?$AAe?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf@ 10001828     MfcDriver.obj
+ 0001:000008c8       ??_C@_1JO@NODAGEEB@?$AAM?$AAF?$AAC?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAO?$AAp?$AAe?$AAn?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf?$AAe@ 100018c8     MfcDriver.obj
+ 0001:00000968       ??_C@_1JI@MCAPDBJK@?$AAM?$AAF?$AAC?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAC?$AAl?$AAo?$AAs?$AAe?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf@ 10001968     MfcDriver.obj
+ 0001:00000a00       ??_C@_1GA@BHMKPEGE@?$AAD?$AAD?$AA?3?$AA?3?$AAM?$AAF?$AAC?$AA?5?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAC?$AAo?$AAp?$AAy?$AAE?$AAx?$AA?$CI?$AAp?$AAF?$AAr?$AAa?$AAm?$AAB?$AAu?$AAf?$AA?$CJ?$AA?5@ 10001a00     MfcDriver.obj
+ 0001:00000a60       ??_C@_1GC@BEPOMOHE@?$AAD?$AAD?$AA?3?$AA?3?$AAM?$AAF?$AAC?$AA?5?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAA?$AAl?$AAl?$AAo?$AAc?$AAE?$AAx?$AA?$CI?$AAp?$AAF?$AAr?$AAa?$AAm?$AAB?$AAu?$AAf?$AA?$CJ@ 10001a60     MfcDriver.obj
+ 0001:00000ac8       ??_C@_1IG@HNAJPJLP@?$AA?$FL?$AAM?$AAF?$AAC?$AA?5?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?$FN?$AA?5?$AAI?$AAO?$AAC?$AAT?$AAL?$AA_?$AAM?$AAF?$AAC?$AA_?$AAG?$AAE?$AAT?$AA_?$AAF?$AAR?$AAA?$AAM?$AA_?$AAB@ 10001ac8     MfcDriver.obj
+ 0001:00000b50       ??_C@_1JG@JFALLEEN@?$AAM?$AAF?$AAC?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAO?$AAp?$AAe?$AAn?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf?$AAe@ 10001b50     MfcDriver.obj
+ 0001:00000be8       ??_C@_1JI@MDMBBBNE@?$AAM?$AAF?$AAC?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAC?$AAl?$AAo?$AAs?$AAe?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf@ 10001be8     MfcDriver.obj
+ 0001:00000c80       ??_C@_1GA@FMCDFEIG@?$AAD?$AAD?$AA?3?$AA?3?$AAM?$AAF?$AAC?$AA?5?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAC?$AAo?$AAp?$AAy?$AAE?$AAx?$AA?$CI?$AAp?$AAS?$AAt?$AAr?$AAm?$AAB?$AAu?$AAf?$AA?$CJ?$AA?5@ 10001c80     MfcDriver.obj
+ 0001:00000ce0       ??_C@_1GC@FPBHGOJG@?$AAD?$AAD?$AA?3?$AA?3?$AAM?$AAF?$AAC?$AA?5?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AAA?$AAl?$AAl?$AAo?$AAc?$AAE?$AAx?$AA?$CI?$AAp?$AAS?$AAt?$AAr?$AAm?$AAB?$AAu?$AAf?$AA?$CJ@ 10001ce0     MfcDriver.obj
+ 0001:00000d48       ??_C@_1JG@JEMFJEAD@?$AAM?$AAF?$AAC?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAO?$AAp?$AAe?$AAn?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf?$AAe@ 10001d48     MfcDriver.obj
+ 0001:00000de0       ??_C@_1IM@DKMDKFHL@?$AAM?$AAF?$AAC?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAC?$AAl?$AAo?$AAs?$AAe?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf@ 10001de0     MfcDriver.obj
+ 0001:00000e70       ??_C@_1IK@GEBHEDML@?$AAM?$AAF?$AAC?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAO?$AAp?$AAe?$AAn?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf?$AAe@ 10001e70     MfcDriver.obj
+ 0001:00000f00       ??_C@_1IO@LCAFIEDC@?$AAM?$AAF?$AAC?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAC?$AAl?$AAo?$AAs?$AAe?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf@ 10001f00     MfcDriver.obj
+ 0001:00000f90       ??_C@_1IM@BPKJDDBD@?$AAM?$AAF?$AAC?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAO?$AAp?$AAe?$AAn?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf?$AAe@ 10001f90     MfcDriver.obj
+ 0001:00001020       ??_C@_1IO@FEAFOJJC@?$AAM?$AAF?$AAC?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAC?$AAl?$AAo?$AAs?$AAe?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf@ 10002020     MfcDriver.obj
+ 0001:000010b0       ??_C@_1IM@PJKJFOLD@?$AAM?$AAF?$AAC?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAO?$AAp?$AAe?$AAn?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf?$AAe@ 100020b0     MfcDriver.obj
+ 0001:00001140       ??_C@_1JA@ECNDKPOK@?$AAM?$AAF?$AAC?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAC?$AAl?$AAo?$AAs?$AAe?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf@ 10002140     MfcDriver.obj
+ 0001:000011d0       ??_C@_1IO@JLEJDBIK@?$AAM?$AAF?$AAC?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAC?$AAe?$AAO?$AAp?$AAe?$AAn?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AAB?$AAu?$AAf?$AAf?$AAe@ 100021d0     MfcDriver.obj
+ 0001:00001260       ??_C@_1EI@OEHIAMFL@?$AA?$FL?$AAM?$AAF?$AAC?$AA?5?$AAI?$AAO?$AAC?$AAT?$AAL?$AA_?$AAP?$AAO?$AAW?$AAE?$AAR?$AA_?$AAS?$AAE?$AAT?$AA?$FN?$AA?5?$AAe?$AAx?$AAc?$AAe?$AAp?$AAt?$AAi?$AAo?$AAn?$AA?4@ 10002260     MfcDriver.obj
+ 0001:000012a8       ??_C@_1GA@PBJNPB@?$AA?$FL?$AAM?$AAF?$AAC?$AA?5?$AAI?$AAO?$AAC?$AAT?$AAL?$AA_?$AAP?$AAO?$AAW?$AAE?$AAR?$AA_?$AAS?$AAE?$AAT?$AA?$FN?$AA?5?$AAU?$AAs?$AAe?$AAr?$AA?5?$AAm?$AAo?$AAd?$AAe?$AA?5@ 100022a8     MfcDriver.obj
+ 0001:00001308       ??_C@_1FK@DDDJHGLK@?$AA?$FL?$AAM?$AAF?$AAC?$AA?5?$AAI?$AAO?$AAC?$AAT?$AAL?$AA_?$AAP?$AAO?$AAW?$AAE?$AAR?$AA_?$AAC?$AAA?$AAP?$AAA?$AAB?$AAI?$AAL?$AAI?$AAT?$AAI?$AAE?$AAS?$AA?$FN?$AA?5?$AAe@ 10002308     MfcDriver.obj
+ 0001:00001368       ??_C@_1FG@PBMPHDMG@?$AA?$FL?$AAM?$AAF?$AAC?$AA?5?$AAI?$AAO?$AAC?$AAT?$AAL?$AA_?$AAP?$AAO?$AAW?$AAE?$AAR?$AA_?$AAC?$AAA?$AAP?$AAA?$AAB?$AAI?$AAL?$AAI?$AAT?$AAI?$AAE?$AAS?$AA?$FN?$AA?5?$AAl@ 10002368     MfcDriver.obj
+ 0001:000013c0       ??_C@_1EA@JFLPLLOC@?$AA?$FL?$AAM?$AAF?$AAC?$AA?5?$AAI?$AAO?$AAC?$AAT?$AAL?$AA_?$AAP?$AAO?$AAW?$AAE?$AAR?$AA_?$AAC?$AAA?$AAP?$AAA?$AAB?$AAI?$AAL?$AAI?$AAT?$AAI?$AAE?$AAS?$AA?$FN?$AA?6?$AA?$AA@ 100023c0     MfcDriver.obj
+ 0001:00001400       ??_C@_0N@ILBDCFHL@others?4?4?4?4?4?6?$AA@ 10002400     MfcDriver.obj
+ 0001:00001410       ??_C@_0BB@PJIMLBLM@nInBufSize?5?$DN?$DN?50?6?$AA@ 10002410     MfcDriver.obj
+ 0001:00001424       ??_C@_0BA@DIOODEBO@pInBuf?5?$DN?$DN?5NULL?6?$AA@ 10002424     MfcDriver.obj
+ 0001:00001434       ??_C@_0BE@FFGJOBJ@OpenHandle?5?$DN?$DN?5NULL?6?$AA@ 10002434     MfcDriver.obj
+ 0001:00001448       ??_C@_1EK@POEAFNEJ@?$AAM?$AAF?$AAC?$AA?5?$AAI?$AAn?$AAt?$AAe?$AAr?$AAr?$AAu?$AAp?$AAt?$AA?5?$AAh?$AAa?$AAs?$AA?5?$AAb?$AAe?$AAe?$AAn?$AA?5?$AAi?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz@ 10002448     MfcDriver.obj
+ 0001:00001498       ??_C@_1EE@PLEPGLA@?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAc?$AAr?$AAe?$AAa?$AAt?$AAe?$AA?5?$AAi?$AAn?$AAt?$AAe?$AAr?$AAr?$AAu?$AAp?$AAt?$AA?5?$AAt?$AAh?$AAr?$AAe?$AAa@ 10002498     MfcDriver.obj
+ 0001:000014e0       ??_C@_1EM@MFKCHDPH@?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAi?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AA?5?$AAo?$AAu?$AAt?$AAp?$AAu?$AAt?$AA?5?$AAi?$AAn?$AAt?$AAe@ 100024e0     MfcDriver.obj
+ 0001:00001530       ??_C@_1GK@GCNIMDMC@?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAt?$AAo?$AA?5?$AAr?$AAe?$AAq?$AAu?$AAe?$AAs?$AAt?$AA?5?$AAs?$AAy?$AAs?$AAi?$AAn?$AAt?$AAr?$AA?5?$AAv?$AAa?$AAl?$AAu?$AAe?$AA?5@ 10002530     MfcDriver.obj
+ 0001:000015a0       ??_C@_1FA@IOKABMIL@?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAc?$AAr?$AAe?$AAa?$AAt?$AAe?$AA?5?$AAi?$AAn?$AAt?$AAe?$AAr?$AAr?$AAu?$AAp?$AAt?$AA?5?$AAn?$AAo?$AAt?$AAi?$AAf@ 100025a0     MfcDriver.obj
+ 0001:000015f0       ??_C@_1EC@NAAPKPML@?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAc?$AAr?$AAe?$AAa?$AAt?$AAe?$AA?5?$AAi?$AAn?$AAt?$AAe?$AAr?$AAr?$AAu?$AAp?$AAt?$AA?5?$AAe?$AAv?$AAe?$AAn?$AAt@ 100025f0     MfcDriver.obj
+ 0001:00001634       ??_C@_1CI@OHCJFJPM@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?5?$AAl?$AAi?$AAn?$AAe?$AA?5?$AA?$CF?$AAd?$AA?3?$AA?5?$AA?$AA@ 10002634     MfcDriver.obj
+ 0001:00001660       ??_C@_1MA@CKKPPHFL@?$AAC?$AA?3?$AA?2?$AAW?$AAI?$AAN?$AAC?$AAE?$AA6?$AA0?$AA0?$AA?2?$AAP?$AAL?$AAA?$AAT?$AAF?$AAO?$AAR?$AAM?$AA?2?$AAT?$AAe?$AAn?$AAB?$AAy?$AAT?$AAe?$AAn?$AA6?$AA4?$AA1@ 10002660     MfcDriver.obj
+ 0001:00001720       ??_C@_1EE@KAFBPDGG@?$AA?$CI?$AA?$CI?$AA?5?$AAM?$AAF?$AAC?$AA?5?$AAI?$AAn?$AAt?$AAe?$AAr?$AAr?$AAu?$AAp?$AAt?$AA?5?$AA?$CJ?$AA?5?$AAr?$AAe?$AAa?$AAs?$AAo?$AAn?$AA?5?$AA?$DN?$AA?5?$AA0?$AAx?$AA?$CF?$AAX@ 10002720     MfcDriver.obj
+ 0001:00001768       ??_C@_0EJ@HAFGAEPA@Please?5check?5if?5MFC_ROTATE_ENABL@ 10002768     MfcSetConfig.obj
+ 0001:000017b4       ??_C@_0BE@BGPOMBID@MFC_SetConfigParams?$AA@ 100027b4     MfcSetConfig.obj
+ 0001:000017c8       ??_C@_0EI@NMOMIDC@IOCTL_MFC_SET_CONFIG?5with?5MFC_SE@ 100027c8     MfcSetConfig.obj
+ 0001:00001810       ??_C@_1DE@NIBOKKNN@?$AA?6?$AA?$FL?$AAM?$AAF?$AAC?$AA?5?$AAP?$AAO?$AAW?$AAE?$AAR?$AA?$FN?$AA?5?$AAP?$AAo?$AAw?$AAe?$AAr?$AA?5?$AAi?$AAs?$AA?5?$AAu?$AAp?$AA?4?$AA?$AA@ 10002810     MfcPwrMgmt.obj
+ 0001:00001844       ??_C@_1DG@LHNEOGGK@?$AA?6?$AA?$FL?$AAM?$AAF?$AAC?$AA?5?$AAP?$AAO?$AAW?$AAE?$AAR?$AA?$FN?$AA?5?$AAM?$AAF?$AAC?$AA_?$AAP?$AAO?$AAW?$AAE?$AAR?$AA_?$AAO?$AAN?$AA?4?$AA?$AA@ 10002844     MfcPwrMgmt.obj
+ 0001:00001880       ??_C@_1GA@FCFDMFAE@?$AA?$FL?$AAM?$AAF?$AAC?$AA?$FN?$AA?5?$AAM?$AAF?$AAC?$AA?5?$AAP?$AAo?$AAw?$AAe?$AAr?$AA?$CI?$AA?$CF?$AAd?$AA?$CJ?$AA?5?$AA?3?$AA?5?$AAM?$AAF?$AAC?$AA?5?$AAP?$AAo?$AAw?$AAe?$AAr?$AA?5@ 10002880     MfcPwrMgmt.obj
+ 0001:000018e0       ??_C@_1EC@HPBPAIEL@?$AA?$FL?$AAM?$AAF?$AAC?$AA?$FN?$AA?5?$AAP?$AAW?$AAC?$AA0?$AA?5?$AAO?$AAp?$AAe?$AAn?$AA?5?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?5?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?4?$AA?$AN?$AA?6@ 100028e0     MfcPwrMgmt.obj
+ 0001:00001924       ??_C@_1M@NPGHCEML@?$AAP?$AAW?$AAC?$AA0?$AA?3?$AA?$AA@ 10002924     MfcPwrMgmt.obj
+ 0001:00001930       ??_C@_1DG@JPBKDJOE@?$AA?6?$AA?$FL?$AAM?$AAF?$AAC?$AA?5?$AAP?$AAO?$AAW?$AAE?$AAR?$AA?$FN?$AA?5?$AAP?$AAo?$AAw?$AAe?$AAr?$AA?5?$AAi?$AAs?$AA?5?$AAd?$AAo?$AAw?$AAn?$AA?$AA@ 10002930     MfcPwrMgmt.obj
+ 0001:00001968       ??_C@_1DI@KBNEDNDL@?$AA?6?$AA?$FL?$AAM?$AAF?$AAC?$AA?5?$AAP?$AAO?$AAW?$AAE?$AAR?$AA?$FN?$AA?5?$AAM?$AAF?$AAC?$AA_?$AAP?$AAO?$AAW?$AAE?$AAR?$AA_?$AAO?$AAF?$AAF?$AA?4?$AA?$AA@ 10002968     MfcPwrMgmt.obj
+ 0001:000019a0       ??_C@_1IA@OAIPLAIC@?$AA?$FL?$AA?$FL?$AAM?$AAF?$AAC?$AA?5?$AAD?$AAr?$AAi?$AAv?$AAe?$AAr?$AA?$FN?$AA?5?$AAM?$AAF?$AAC?$AA_?$AAI?$AAn?$AAi?$AAt?$AA?$CI?$AA?$CJ?$AA?5?$AA?3?$AA?5?$AAg?$AA_?$AAp?$AAS?$AAy@ 100029a0     MfcPwrMgmt.obj
+ 0001:00001a20       ??_C@_1IK@DGAFBCGF@?$AA?$FL?$AA?$FL?$AAM?$AAF?$AAC?$AA?5?$AAD?$AAr?$AAi?$AAv?$AAe?$AAr?$AA?$FN?$AA?5?$AAM?$AAf?$AAc?$AA_?$AAS?$AAe?$AAt?$AA_?$AAC?$AAl?$AAk?$AAD?$AAi?$AAv?$AA?$CI?$AA?$CJ?$AA?5?$AA?3@ 10002a20     MfcSetClk.obj
+ 0001:00001ab0       ??_C@_1HO@PIIGLEAJ@?$AA?$FL?$AAM?$AAF?$AAC?$AA?5?$AAD?$AAr?$AAi?$AAv?$AAe?$AAr?$AA?$FN?$AA?5?$AAM?$AAF?$AAC?$AA_?$AAI?$AAn?$AAi?$AAt?$AA?$CI?$AA?$CJ?$AA?5?$AA?3?$AA?5?$AAg?$AA_?$AAp?$AAS?$AAy?$AAs@ 10002ab0     MfcSetClk.obj
+ 0001:00001b30       ??_C@_05MBDEGLCK@ERROR?$AA@ 10002b30     mfcdd_os_dep:LogMsg.obj
+ 0001:00001b38       ??_C@_07KCOHIFOP@WARNING?$AA@ 10002b38     mfcdd_os_dep:LogMsg.obj
+ 0001:00001b40       ??_C@_05EHILDPJH@TRACE?$AA@ 10002b40     mfcdd_os_dep:LogMsg.obj
+ 0001:00001b48       ??_C@_07KLLOFIFH@MFC_DRV?$AA@ 10002b48     mfcdd_os_dep:LogMsg.obj
+ 0001:00001b54       ??_C@_0O@FNKOPKNO@?$FL?$CFs?3?5?$CFs?$FN?5?$CFs?3?5?$AA@ 10002b54     mfcdd_os_dep:LogMsg.obj
+ 0001:00001b64       ??_C@_0CD@JGCJFGGE@Data?5buffer?5Memory?5mapping?5fail?$CB@ 10002b64     mfc_os_indep_layer:MFC_HW_Init.obj
+ 0001:00001b88       ??_C@_0CL@GGODIPMF@Bitprocessor?5buffer?5Memory?5mappi@ 10002b88     mfc_os_indep_layer:MFC_HW_Init.obj
+ 0001:00001bb4       ??_C@_0P@CEGGKPEA@MfcMemorySetup?$AA@ 10002bb4     mfc_os_indep_layer:MFC_HW_Init.obj
+ 0001:00001bc4       ??_C@_0BP@LFDHIGDA@MFC?5SFR?5Memory?5mapping?5fail?$CB?$AN?6?$AA@ 10002bc4     mfc_os_indep_layer:MFC_HW_Init.obj
+ 0001:00001be4       ??_C@_0M@KPOACMDA@MFC_HW_Init?$AA@ 10002be4     mfc_os_indep_layer:MFC_HW_Init.obj
+ 0001:00001bf0       ??_C@_0CJ@DMCHNGBE@Download?5?5FirmwareIntoBitProcess@ 10002bf0     mfc_os_indep_layer:MFC_HW_Init.obj
+ 0001:00001c1c       ??_C@_0CD@LGJEGDIA@ctx?9?$DOphyadrStrmBuf?5address?50x?$CF08@ 10002c1c     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001c40       ??_C@_0BD@FDOHOAHN@Get_MfcStrmBufAddr?$AA@ 10002c40     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001c54       ??_C@_0BO@DNNPNFDC@ctx?9?$DOpStrmBuf?5address?50x?$CF08X?6?$AA@ 10002c54     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001c74       ??_C@_0BD@DOKOMHAG@MFCInst_GetRingBuf?$AA@ 10002c74     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001c88       ??_C@_0BL@DJEGAHIG@MFC?5instance?5is?5deleted?4?$AN?6?$AA@ 10002c88     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001ca4       ??_C@_0DD@BJOAPONH@MFC?5Frame?5buffer?5is?5not?5internal@ 10002ca4     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001cd8       ??_C@_0CD@PLLBBGNE@MFC?5instance?5is?5not?5initialized?4@ 10002cd8     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001cfc       ??_C@_0BD@BIGAJKJH@MFCInst_GetFramBuf?$AA@ 10002cfc     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001d10       ??_C@_0N@CMDKEMEI@s3c_mfc_open?$AA@ 10002d10     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001d20       ??_C@_0M@BLCEPOIE@state?5?3?5?$CFd?6?$AA@ 10002d20     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001d2c       ??_C@_0P@MHIPMEKM@MFCInst_Delete?$AA@ 10002d2c     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001d3c       ??_C@_0CD@PCJAJDEG@MFC?5instance?5is?5already?5deleted?4@ 10002d3c     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001d60       ??_C@_0BH@KMCPMIJM@After?5init?5state?5?3?5?$CFd?6?$AA@ 10002d60     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001d78       ??_C@_0DK@FPBHPCBJ@Address?5of?5YUV?5?$CIRef?4Num?$DN?$CFd?$CJ?5?$CIY?$DN0@ 10002d78     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001db4       ??_C@_0DO@FBAOBMGD@MFC?5Instance?5init?5failed?$CB?5?$CIrequi@ 10002db4     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001df4       ??_C@_0CB@DELILBBH@nFramBufSize?5for?54K?5align?5?$DN?5?$CFd?$AN?6@ 10002df4     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001e18       ??_C@_0BE@FDIOGPNM@nFramBufSize?5?$DN?5?$CFd?$AN?6?$AA@ 10002e18     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001e2c       ??_C@_0DD@OKMOOLAN@SEQ_SRC_SIZE?0?5?$CIwidth?$DN?$CFd?$CJ?5?$CIheight@ 10002e2c     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001e60       ??_C@_0BH@HHOFOIBP@SEQ_INIT?5failed?4?5?$FL?$CFd?$FN?6?$AA@ 10002e60     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001e78       ??_C@_0CE@GNFKCJCL@?7RET_DEC_SEQ_FRAME_DELAY?5?5?5?5?5?5?$DN?5@ 10002e78     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001e9c       ??_C@_0CE@DNHJAHCL@?7RET_DEC_SEQ_FRAME_NEED_COUNT?5?$DN?5@ 10002e9c     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001ec0       ??_C@_0CE@BINLANHH@?7RET_DEC_SEQ_SRC_FRAME_RATE?5?5?5?$DN?5@ 10002ec0     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001ee4       ??_C@_0CE@OKIHHNKP@?7RET_DEC_SEQ_SRC_SIZE?5?5?5?5?5?5?5?5?5?$DN?5@ 10002ee4     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001f08       ??_C@_0BC@OHKAGCC@SEQ_INIT?5failed?4?6?$AA@ 10002f08     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001f1c       ??_C@_0BO@EEAGMDPJ@?5?5SEQ_BIT_BUF_SIZE?5?$DN?5?$CFd?5?$CIKB?$CJ?6?$AA@ 10002f1c     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001f3c       ??_C@_0BJ@LCBDKDJC@?5?5ctx?9?$DOcodec_mode?5?5?$DN?5?$CFd?6?$AA@ 10002f3c     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001f58       ??_C@_0BJ@DAGEFMAF@?5?5ctx?9?$DOinst_no?5?5?5?5?5?$DN?5?$CFd?6?$AA@ 10002f58     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001f74       ??_C@_0BP@JCBJKFIK@?5?5ctx?9?$DOphyadrStrmBuf?5?$CL?5?$DN?50x?$CFX?6?$AA@ 10002f74     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001f94       ??_C@_0BP@GKPJFOHN@?5?5ctx?9?$DOphyadrStrmBuf?5?5?5?$DN?50x?$CFX?6?$AA@ 10002f94     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001fb4       ??_C@_0BA@MPDENKEN@strm_leng?5?3?5?$CFd?6?$AA@ 10002fb4     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00001fc4       ??_C@_0DL@EHGEHDKD@Input?5buffer?5size?5is?5too?5small?5t@ 10002fc4     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00002000       ??_C@_0N@CJLPHNDG@MFCInst_Init?$AA@ 10003000     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00002010       ??_C@_0DC@LFDEGKGF@Init?5function?5was?5called?5at?5an?5i@ 10003010     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00002044       ??_C@_0BM@PFJDBOMI@ctx?9?$DOphyadrFramBuf?5?3?50x?$CFX?$AN?6?$AA@ 10003044     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00002060       ??_C@_0BH@IONFCDOK@ctx?9?$DOpFramBuf?5?3?50x?$CFX?$AN?6?$AA@ 10003060     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00002078       ??_C@_0BE@JLMODKKA@ctx?9?$DOinst_no?5?3?5?$CFd?$AN?6?$AA@ 10003078     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0000208c       ??_C@_0BD@ODHAIKDJ@Get_MfcFramBufAddr?$AA@ 1000308c     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:000020a0       ??_C@_0CG@GGENLHOJ@Frame?5buffer?5allocation?5was?5fail@ 100030a0     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:000020c8       ??_C@_0CJ@GJMJPEJP@Initialization?5of?5MFC?5Instance?5f@ 100030c8     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:000020f4       ??_C@_0BD@LLCMOGHD@ENC?5SEQ?5INIT?5Fail?6?$AA@ 100030f4     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00002108       ??_C@_0BG@GLIKGIIB@ENC?5SEQ?5INIT?5success?6?$AA@ 10003108     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00002120       ??_C@_0BG@DPNMIECH@ENC_SEQ_RC_GAMMA?$DN?5?$CFd?6?$AA@ 10003120     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00002138       ??_C@_0BH@GOLKIIHN@ENC_SEQ_RC_OPTION?$DN?5?$CFd?6?$AA@ 10003138     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00002150       ??_C@_0BG@JHMCPGLG@ENC_SEQ_INTRA_QP?$DN?5?$CFd?6?$AA@ 10003150     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00002168       ??_C@_0BN@GMKNOPCE@?5?5ctx?9?$DOphyadrStrmBuf?5?$DN?50x?$CFX?6?$AA@ 10003168     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00002188       ??_C@_0BI@NELNEADN@?5?5ctx?9?$DOcodec_mode?5?$DN?5?$CFd?6?$AA@ 10003188     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:000021a0       ??_C@_0BF@OFBCGJG@?5?5ctx?9?$DOinst_no?5?$DN?5?$CFd?6?$AA@ 100031a0     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:000021b8       ??_C@_0BL@IDJKAPMG@?5?5ctx?9?$DOframeRateRes?5?$DN?5?$CFd?$AN?6?$AA@ 100031b8     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:000021d4       ??_C@_0BL@JFHCKEIP@?5?5ctx?9?$DOframeRateDiv?5?$DN?5?$CFd?$AN?6?$AA@ 100031d4     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:000021f0       ??_C@_0CM@HNOIJFPO@Maximum?5GOP?5number?5is?560?4?5?5GOP?5n@ 100031f0     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0000221c       ??_C@_0CO@FKBGAIDC@MFC?5encoder?5supports?5MPEG4?0?5H?426@ 1000321c     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0000224c       ??_C@_0BB@FOGNJJP@MFCInst_Enc_Init?$AA@ 1000324c     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00002260       ??_C@_0FD@PDNHGKFA@Source?5picture?5width?5and?5height?5@ 10003260     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:000022b4       ??_C@_1DC@GAHDDEPD@?$AAR?$AAe?$AAp?$AAo?$AAr?$AAt?$AA?5?$AAM?$AAB?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?5?$AAn?$AAu?$AAm?$AA?$DN?$AA?$CF?$AAd?$AA?$AN?$AA?6?$AA?$AA@ 100032b4     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:000022e8       ??_C@_0BK@BNBDALJP@Decoding?5Fail?0?5ret?5?$DN?5?$CFd?$AN?6?$AA@ 100032e8     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00002304       ??_C@_0BO@GGCGNCFM@No?5picture?5to?5be?5displayed?4?$AN?6?$AA@ 10003304     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00002324       ??_C@_0BB@DDCKHLPA@End?5of?5Stream?4?$AN?6?$AA@ 10003324     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00002338       ??_C@_06GAGNPJNE@Decode?$AA@ 10003338     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00002340       ??_C@_0DF@GKCHMPJL@RET_DEC_PIC_SUCCESS?5is?5not?5value@ 10003340     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00002378       ??_C@_0CG@JMOANEMP@MFC?5instance?5is?5in?5Power?9Off?5sta@ 10003378     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:000023a0       ??_C@_0P@DGEEBAGJ@MFCInst_Decode?$AA@ 100033a0     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:000023b0       ??_C@_0CG@FMIPPMGA@MPEG4?5Header?5Size?5?3?5SPS?$DN?$CFd?0?5PPS?$DN@ 100033b0     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:000023d8       ??_C@_06KMNNACKD@Encode?$AA@ 100033d8     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:000023e0       ??_C@_0CN@PBEJANLH@MPEG4?5Header?5Size?5?3?5VOS?$DN?$CFd?0?5VO?$DN?$CF@ 100033e0     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00002410       ??_C@_0P@PKPEOLBO@MFCInst_Encode?$AA@ 10003410     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00002420       ??_C@_0EI@EDHLJNLP@MFC?5Encoder?5instance?5is?5not?5init@ 10003420     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00002468       ??_C@_0BC@MCHFJCDO@MFCInst_EncHeader?$AA@ 10003468     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0000247c       ??_C@_0BH@INICADHF@MFCInst_EncParamChange?$AA@ 1000347c     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:00002494       ??_C@_0DB@HDHFDKIP@MFC?5Encoder?5Parameter?5change?5val@ 10003494     mfc_os_indep_layer:MFC_Instance.obj
+ 0001:000024c8       ??_C@_09OABENLKN@LOG_ERROR?$AA@ 100034c8     mfc_os_indep_layer:MfcSfr.obj
+ 0001:000024d4       ??_C@_0DN@DHMCDMDM@MFC_Sleep?0?5BitProcessor?5is?5busy?5@ 100034d4     mfc_os_indep_layer:MfcSfr.obj
+ 0001:00002514       ??_C@_0N@BOCHEMBA@WaitForReady?$AA@ 10003514     mfc_os_indep_layer:MfcSfr.obj
+ 0001:00002524       ??_C@_0DG@BNFGAKND@Timeout?5in?5waiting?5for?5the?5Bit?5P@ 10003524     mfc_os_indep_layer:MfcSfr.obj
+ 0001:0000255c       ??_C@_09OGNCNCBH@BUSY_FLAG?$AA@ 1000355c     mfc_os_indep_layer:MfcSfr.obj
+ 0001:00002568       ??_C@_0BB@BAAABGNO@BUSY_FLAG?5?$DN?$DO?5?$CFd?6?$AA@ 10003568     mfc_os_indep_layer:MfcSfr.obj
+ 0001:0000257c       ??_C@_0BD@FEHFHMAE@GetFirmwareVersion?$AA@ 1000357c     mfc_os_indep_layer:MfcSfr.obj
+ 0001:00002590       ??_C@_0BK@EIKNEPIO@GET_FW_VER?5?$DN?$DO?50x?$CFX?0?50x?$CFX?6?$AA@ 10003590     mfc_os_indep_layer:MfcSfr.obj
+ 0001:000025ac       ??_C@_0BE@JCLNJFMH@GetFirmwareVersion?5?$AA@ 100035ac     mfc_os_indep_layer:MfcSfr.obj
+ 0001:000025c0       ??_C@_0CB@OIHPLODG@GET_FW_VER?5command?5was?5issued?4?$AN?6@ 100035c0     mfc_os_indep_layer:MfcSfr.obj
+ 0001:000025e8       ??_C@_0EI@HIEKEKLB@MfcIssueCmd?5CMD?5?$DN?5?$CFs?0?5BitProcess@ 100035e8     mfc_os_indep_layer:MfcSfr.obj
+ 0001:00002630       ??_C@_0DK@FDNPCGBN@MfcIssueCmd?5CMD?5?$DN?5?$CFs?0?5BUFFER?5EMP@ 10003630     mfc_os_indep_layer:MfcSfr.obj
+ 0001:00002670       ??_C@_0EC@EKDHHJDP@MfcIssueCmd?5CMD?5?$DN?5?$CFs?0?5WaitInterr@ 10003670     mfc_os_indep_layer:MfcSfr.obj
+ 0001:000026b4       ??_C@_09JDMKDBON@UNDEF?5CMD?$AA@ 100036b4     mfc_os_indep_layer:MfcSfr.obj
+ 0001:000026c0       ??_C@_0L@CMIJHPBO@GET_FW_VER?$AA@ 100036c0     mfc_os_indep_layer:MfcSfr.obj
+ 0001:000026cc       ??_C@_0N@OJMKNPE@DEC_PARA_SET?$AA@ 100036cc     mfc_os_indep_layer:MfcSfr.obj
+ 0001:000026dc       ??_C@_0N@KCJINAHP@ENC_PARA_SET?$AA@ 100036dc     mfc_os_indep_layer:MfcSfr.obj
+ 0001:000026ec       ??_C@_0L@HPEFHMKK@ENC_HEADER?$AA@ 100036ec     mfc_os_indep_layer:MfcSfr.obj
+ 0001:000026f8       ??_C@_0O@BGMDJNCB@SET_FRAME_BUF?$AA@ 100036f8     mfc_os_indep_layer:MfcSfr.obj
+ 0001:00002708       ??_C@_07EIGOIKNL@PIC_RUN?$AA@ 10003708     mfc_os_indep_layer:MfcSfr.obj
+ 0001:00002710       ??_C@_07GIANIPOB@SEQ_END?$AA@ 10003710     mfc_os_indep_layer:MfcSfr.obj
+ 0001:00002718       ??_C@_08MEJKDJGD@SEQ_INIT?$AA@ 10003718     mfc_os_indep_layer:MfcSfr.obj
+ 0001:00002724       ??_C@_0O@IJFPEAAI@MfcSfrMapping?$AA@ 10003724     mfc_os_indep_layer:MfcSfr.obj
+ 0001:00002734       ??_C@_0CH@DBHBNKFB@For?5MFC_SFR?3?5Address?5Mapping?5fai@ 10003734     mfc_os_indep_layer:MfcSfr.obj
+ 0001:0000275c       ??_C@_0CK@ODEHPCPN@?6COMMIT?5INDEX?5?$DN?5?$FL?$CF03d?$FN?0?5NUM?5OF?5S@ 1000375c     mfc_os_indep_layer:FramBufMgr.obj
+ 0001:00002788       ??_C@_0CL@NLMFDMAG@?6?6COMMIT?5INDEX?5?$DN?5?$FL?$CF03d?$FN?0?5BASE_SE@ 10003788     mfc_os_indep_layer:FramBufMgr.obj
+ 0001:000027b4       ??_C@_0BK@DLAHLJFM@FramBufMgrPrintCommitInfo?$AA@ 100037b4     mfc_os_indep_layer:FramBufMgr.obj
+ 0001:000027d0       ??_C@_0CG@KAHKECOG@?6?5The?5FramBufMgr?5is?5not?5initiali@ 100037d0     mfc_os_indep_layer:FramBufMgr.obj
+ 0001:000027f8       ??_C@_0BC@HPDKNIAC@MfcDataBufMapping?$AA@ 100037f8     mfc_os_indep_layer:DataBuf.obj
+ 0001:0000280c       ??_C@_0CF@OKPONLPL@For?5DATA_BUF?3?5VirtualAlloc?5faile@ 1000380c     mfc_os_indep_layer:DataBuf.obj
+ 0001:00002834       ??_C@_0BF@CGPDFFBA@MfcBitProcBufMapping?$AA@ 10003834     mfc_os_indep_layer:BitProcBuf.obj
+ 0001:0000284c       ??_C@_0CI@NDMNFGNI@For?5BITPROC_BUF?3?5VirtualAlloc?5fa@ 1000384c     mfc_os_indep_layer:BitProcBuf.obj
+ 0001:00002878       bit_code                   10003878     mfc_os_indep_layer:Prism_S_V13E.obj
+ 0001:00016908       ??_C@_1FI@INDLJHKJ@?$AA?$FL?$AAM?$AAF?$AAC?$AA?3?$AAE?$AAR?$AAR?$AA?$FN?$AA?5?$AA?$CF?$AAs?$AA?5?$AA?3?$AA?5?$AAM?$AAa?$AAp?$AAp?$AAi?$AAn?$AAg?$AA?5?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AA?$FL?$AAP@ 10017908     mfcdd_os_dep:MfcMemory.obj
+ 0001:00016960       ??_C@_0BE@BPADLGGB@Phy2Vir_AddrMapping?$AA@ 10017960     mfcdd_os_dep:MfcMemory.obj
+ 0001:00016974       ??_C@_09BLNLEMAB@Mem_Alloc?$AA@ 10017974     mfcdd_os_dep:MfcMemory.obj
+ 0001:00016980       ??_C@_0BM@EJHAMPDM@memory?5allocation?5failed?$CB?$AN?6?$AA@ 10017980     mfcdd_os_dep:MfcMemory.obj
+ 0001:000169c4       ?DllEntry@@YAHPAXK0@Z      100179c4 f   MfcDriver.obj
+ 0001:00016a04       ?MFC_Init@@YAKK@Z          10017a04 f   MfcDriver.obj
+ 0001:00016ad0       ?MFC_Deinit@@YAHK@Z        10017ad0 f   MfcDriver.obj
+ 0001:00016b40       ?MFC_Open@@YAKKKK@Z        10017b40 f   MfcDriver.obj
+ 0001:00016cf0       ?MFC_Close@@YAHK@Z         10017cf0 f   MfcDriver.obj
+ 0001:00016eac       ?process_MFC_PowerUp@@YA?AW4_CEDEVICE_POWER_STATE@@KPAW41@@Z 10017eac f   MfcDriver.obj
+ 0001:00016fd4       ?process_MFC_PowerDown@@YA?AW4_CEDEVICE_POWER_STATE@@KPAW41@@Z 10017fd4 f   MfcDriver.obj
+ 0001:00017188       ?MFC_IOControl@@YAHKKPAEK0KPAK@Z 10018188 f   MfcDriver.obj
+ 0001:000188c8       ?MFC_PowerUp@@YAHK@Z       100198c8 f   MfcDriver.obj
+ 0001:000188f0       ?MFC_PowerDown@@YAHK@Z     100198f0 f   MfcDriver.obj
+ 0001:00018ca0       GetCurrentProcessId        10019ca0 f i MfcDriver.obj
+ 0001:00018ccc       ?MFC_GetConfigParams@@YAHPAUMFCInstCtx@@PATMFC_ARGS@@@Z 10019ccc f   MfcSetConfig.obj
+ 0001:00018fb0       ?MFC_SetConfigParams@@YAHPAUMFCInstCtx@@PATMFC_ARGS@@@Z 10019fb0 f   MfcSetConfig.obj
+ 0001:000194b8       ?Mfc_Pwr_On@@YAHXZ         1001a4b8 f   MfcPwrMgmt.obj
+ 0001:0001968c       ?Mfc_Pwr_Off@@YAHXZ        1001a68c f   MfcPwrMgmt.obj
+ 0001:00019718       ?Mfc_Clk_On@@YAHXZ         1001a718 f   MfcPwrMgmt.obj
+ 0001:000198c8       ?Mfc_Clk_Off@@YAHXZ        1001a8c8 f   MfcPwrMgmt.obj
+ 0001:000198f4       ?Mfc_Set_ClkDiv@@YAHH@Z    1001a8f4 f   MfcSetClk.obj
+ 0001:00019a50       MFC_Mutex_Create           1001aa50 f   mfcdd_os_dep:MfcMutex.obj
+ 0001:00019a7c       MFC_Mutex_Delete           1001aa7c f   mfcdd_os_dep:MfcMutex.obj
+ 0001:00019a94       MFC_Mutex_Lock             1001aa94 f   mfcdd_os_dep:MfcMutex.obj
+ 0001:00019ac0       MFC_Mutex_Release          1001aac0 f   mfcdd_os_dep:MfcMutex.obj
+ 0001:00019aec       CreateInterruptNotification 1001aaec f   mfcdd_os_dep:MfcIntrNotification.obj
+ 0001:00019b6c       DeleteInterruptNotification 1001ab6c f   mfcdd_os_dep:MfcIntrNotification.obj
+ 0001:00019ba4       SendInterruptNotification  1001aba4 f   mfcdd_os_dep:MfcIntrNotification.obj
+ 0001:00019c08       WaitInterruptNotification  1001ac08 f   mfcdd_os_dep:MfcIntrNotification.obj
+ 0001:00019c8c       SetEvent                   1001ac8c f i mfcdd_os_dep:MfcIntrNotification.obj
+ 0001:00019ccc       LOG_MSG                    1001accc f   mfcdd_os_dep:LogMsg.obj
+ 0001:00019e5c       MFC_MemorySetup            1001ae5c f   mfc_os_indep_layer:MFC_HW_Init.obj
+ 0001:00019f58       MFC_HW_Init                1001af58 f   mfc_os_indep_layer:MFC_HW_Init.obj
+ 0001:00019fac       MFCInst_GetCtx             1001afac f   mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0001a048       MFCInst_RingBufAddrCorrection 1001b048 f   mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0001a12c       MFCInst_GetLineBuf         1001b12c f   mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0001a1b4       MFCInst_GetFramBuf         1001b1b4 f   mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0001a35c       MFCInst_GetFramBufPhysical 1001b35c f   mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0001a4c0       MFCInst_GetInstNo          1001b4c0 f   mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0001a4ec       MFCInst_GetStreamRWPtrs    1001b4ec f   mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0001a618       MFCInst_Set_PostRotate     1001b618 f   mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0001a680       MFCInst_Create             1001b680 f   mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0001a73c       MFCInst_Delete             1001b73c f   mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0001a7ac       MFCInst_PowerOffState      1001b7ac f   mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0001a7dc       MFCInst_PowerOnState       1001b7dc f   mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0001a810       MFCInst_Dec_Init           1001b810 f   mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0001b3f8       MFCInst_Enc_Init           1001c3f8 f   mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0001c1d8       MFCInst_Get_Frame_size     1001d1d8 f   mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0001c224       MFCInst_Decode             1001d224 f   mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0001c798       MFCInst_Encode             1001d798 f   mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0001d06c       MFCInst_EncHeader          1001e06c f   mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0001d258       MFCInst_EncParamChange     1001e258 f   mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0001d584       MFC_Sleep                  1001e584 f   mfc_os_indep_layer:MfcSfr.obj
+ 0001:0001d710       MFC_Wakeup                 1001e710 f   mfc_os_indep_layer:MfcSfr.obj
+ 0001:0001d800       GetFirmwareVersion         1001e800 f   mfc_os_indep_layer:MfcSfr.obj
+ 0001:0001d8e8       MfcIssueCmd                1001e8e8 f   mfc_os_indep_layer:MfcSfr.obj
+ 0001:0001dbc4       MfcSfrMemMapping           1001ebc4 f   mfc_os_indep_layer:MfcSfr.obj
+ 0001:0001dc90       GetMfcSfrVirAddr           1001ec90 f   mfc_os_indep_layer:MfcSfr.obj
+ 0001:0001dcb8       MfcGetCmdParamRegion       1001ecb8 f   mfc_os_indep_layer:MfcSfr.obj
+ 0001:0001dcdc       MfcReset                   1001ecdc f   mfc_os_indep_layer:MfcSfr.obj
+ 0001:0001dd48       MfcClearIntr               1001ed48 f   mfc_os_indep_layer:MfcSfr.obj
+ 0001:0001dd78       MfcIntrReason              1001ed78 f   mfc_os_indep_layer:MfcSfr.obj
+ 0001:0001dda0       MfcSetEos                  1001eda0 f   mfc_os_indep_layer:MfcSfr.obj
+ 0001:0001ddf0       MfcFirmwareIntoCodeDownReg 1001edf0 f   mfc_os_indep_layer:MfcSfr.obj
+ 0001:0001de68       MfcStartBitProcessor       1001ee68 f   mfc_os_indep_layer:MfcSfr.obj
+ 0001:0001de80       MfcStopBitProcessor        1001ee80 f   mfc_os_indep_layer:MfcSfr.obj
+ 0001:0001de98       MfcConfigSFR_BITPROC_BUF   1001ee98 f   mfc_os_indep_layer:MfcSfr.obj
+ 0001:0001df00       MfcConfigSFR_CTRL_OPTS     1001ef00 f   mfc_os_indep_layer:MfcSfr.obj
+ 0001:0001df7c       CleanInvalidateCacheRange  1001ef7c f   mfc_os_indep_layer:CacheOpr.obj
+ 0001:0001df8c       CleanCacheRange            1001ef8c f   mfc_os_indep_layer:CacheOpr.obj
+ 0001:0001df9c       InvalidateCacheRange       1001ef9c f   mfc_os_indep_layer:CacheOpr.obj
+ 0001:0001dfac       FramBufMgrInit             1001efac f   mfc_os_indep_layer:FramBufMgr.obj
+ 0001:0001e1d0       FramBufMgrFinal            1001f1d0 f   mfc_os_indep_layer:FramBufMgr.obj
+ 0001:0001e264       FramBufMgrCommit           1001f264 f   mfc_os_indep_layer:FramBufMgr.obj
+ 0001:0001e538       FramBufMgrFree             1001f538 f   mfc_os_indep_layer:FramBufMgr.obj
+ 0001:0001e6b0       FramBufMgrGetBuf           1001f6b0 f   mfc_os_indep_layer:FramBufMgr.obj
+ 0001:0001e7a4       FramBufMgrGetBufSize       1001f7a4 f   mfc_os_indep_layer:FramBufMgr.obj
+ 0001:0001e884       FramBufMgrPrintCommitInfo  1001f884 f   mfc_os_indep_layer:FramBufMgr.obj
+ 0001:0001e9a8       MfcDataBufMemMapping       1001f9a8 f   mfc_os_indep_layer:DataBuf.obj
+ 0001:0001ea48       GetDataBufVirAddr          1001fa48 f   mfc_os_indep_layer:DataBuf.obj
+ 0001:0001ea70       GetFramBufVirAddr          1001fa70 f   mfc_os_indep_layer:DataBuf.obj
+ 0001:0001ea9c       GetDataBufPhyAddr          1001fa9c f   mfc_os_indep_layer:DataBuf.obj
+ 0001:0001eac4       GetFramBufPhyAddr          1001fac4 f   mfc_os_indep_layer:DataBuf.obj
+ 0001:0001eaf0       MfcBitProcBufMemMapping    1001faf0 f   mfc_os_indep_layer:BitProcBuf.obj
+ 0001:0001eb94       GetBitProcBufVirAddr       1001fb94 f   mfc_os_indep_layer:BitProcBuf.obj
+ 0001:0001ebbc       GetParamBufVirAddr         1001fbbc f   mfc_os_indep_layer:BitProcBuf.obj
+ 0001:0001ebe8       MfcFirmwareIntoCodeBuf     1001fbe8 f   mfc_os_indep_layer:BitProcBuf.obj
+ 0001:0001eca0       MfcInstPool_NumAvail       1001fca0 f   mfc_os_indep_layer:MFC_Inst_Pool.obj
+ 0001:0001ecc0       MfcInstPool_Occupy         1001fcc0 f   mfc_os_indep_layer:MFC_Inst_Pool.obj
+ 0001:0001edb4       MfcInstPool_Release        1001fdb4 f   mfc_os_indep_layer:MFC_Inst_Pool.obj
+ 0001:0001ee64       MfcInstPool_OccupyAll      1001fe64 f   mfc_os_indep_layer:MFC_Inst_Pool.obj
+ 0001:0001ef04       MfcInstPool_ReleaseAll     1001ff04 f   mfc_os_indep_layer:MFC_Inst_Pool.obj
+ 0001:0001efa4       DisableThreadLibraryCalls  1001ffa4 f   coredll:COREDLL.dll
+ 0001:0001efb4       CloseHandle                1001ffb4 f   coredll:COREDLL.dll
+ 0001:0001efc4       InterruptDisable           1001ffc4 f   coredll:COREDLL.dll
+ 0001:0001efd4       InterlockedDecrement       1001ffd4 f   coredll:COREDLL.dll
+ 0001:0001efe4       InterlockedIncrement       1001ffe4 f   coredll:COREDLL.dll
+ 0001:0001eff4       NKDbgPrintfW               1001fff4 f   coredll:COREDLL.dll
+ 0001:0001f004       VirtualFreeEx              10020004 f   coredll:COREDLL.dll
+ 0001:0001f014       VirtualCopyEx              10020014 f   coredll:COREDLL.dll
+ 0001:0001f024       VirtualAllocEx             10020024 f   coredll:COREDLL.dll
+ 0001:0001f034       CeCloseCallerBuffer        10020034 f   coredll:COREDLL.dll
+ 0001:0001f044       CeOpenCallerBuffer         10020044 f   coredll:COREDLL.dll
+ 0001:0001f054       GetDirectCallerProcessId   10020054 f   coredll:COREDLL.dll
+ 0001:0001f064       SetLastError               10020064 f   coredll:COREDLL.dll
+ 0001:0001f074       __GetUserKData             10020074 f   coredll:COREDLL.dll
+ 0001:0001f084       CeSetThreadPriority        10020084 f   coredll:COREDLL.dll
+ 0001:0001f094       CreateThread               10020094 f   coredll:COREDLL.dll
+ 0001:0001f0a4       InterruptInitialize        100200a4 f   coredll:COREDLL.dll
+ 0001:0001f0b4       KernelIoControl            100200b4 f   coredll:COREDLL.dll
+ 0001:0001f0c4       CreateEventW               100200c4 f   coredll:COREDLL.dll
+ 0001:0001f0d4       InterruptDone              100200d4 f   coredll:COREDLL.dll
+ 0001:0001f0e4       WaitForSingleObject        100200e4 f   coredll:COREDLL.dll
+ 0001:0001f0f4       DeviceIoControl            100200f4 f   coredll:COREDLL.dll
+ 0001:0001f104       CreateFileW                10020104 f   coredll:COREDLL.dll
+ 0001:0001f114       InitializeCriticalSection  10020114 f   coredll:COREDLL.dll
+ 0001:0001f124       DeleteCriticalSection      10020124 f   coredll:COREDLL.dll
+ 0001:0001f134       EnterCriticalSection       10020134 f   coredll:COREDLL.dll
+ 0001:0001f144       LeaveCriticalSection       10020144 f   coredll:COREDLL.dll
+ 0001:0001f154       EventModify                10020154 f   coredll:COREDLL.dll
+ 0001:0001f164       MultiByteToWideChar        10020164 f   coredll:COREDLL.dll
+ 0001:0001f174       Sleep                      10020174 f   coredll:COREDLL.dll
+ 0001:0001f184       MmMapIoSpace               10020184 f   ceddk:CEDDK.dll
+ 0001:0001f194       MmUnmapIoSpace             10020194 f   ceddk:CEDDK.dll
+ 0001:0001f1a4       __security_init_cookie     100201a4 f   corelib0:seccinit.obj
+ 0001:0001f26c       __GSHandlerCheck           1002026c f   corelib0:gshandler.obj
+ 0001:0001f2b4       __GSHandlerCheckCommon     100202b4 f   corelib0:gshandler.obj
+ 0001:0001f35c       __security_check_cookie    1002035c f   corelib0:armsecgs.obj
+ 0001:0001f370       __gsfailure                10020370 f   corelib0:armsecgs.obj
+ 0001:0001f3b4       free                       100203b4 f   corelib1:COREDLL.dll
+ 0001:0001f3c4       memset                     100203c4 f   corelib1:COREDLL.dll
+ 0001:0001f3d4       malloc                     100203d4 f   corelib1:COREDLL.dll
+ 0001:0001f3e4       __C_specific_handler       100203e4 f   corelib1:COREDLL.dll
+ 0001:0001f3f4       calloc                     100203f4 f   corelib1:COREDLL.dll
+ 0001:0001f404       vsprintf                   10020404 f   corelib1:COREDLL.dll
+ 0001:0001f414       strlen                     10020414 f   corelib1:COREDLL.dll
+ 0001:0001f424       sprintf                    10020424 f   corelib1:COREDLL.dll
+ 0001:0001f434       __rt_udiv                  10020434 f   corelib1:COREDLL.dll
+ 0001:0001f444       __rt_sdiv                  10020444 f   corelib1:COREDLL.dll
+ 0001:0001f454       __lts                      10020454 f   corelib1:COREDLL.dll
+ 0001:0001f464       __gts                      10020464 f   corelib1:COREDLL.dll
+ 0001:0001f474       __muls                     10020474 f   corelib1:COREDLL.dll
+ 0001:0001f484       __stod                     10020484 f   corelib1:COREDLL.dll
+ 0001:0001f494       memmove                    10020494 f   corelib1:COREDLL.dll
+ 0001:0001f4a4       __security_gen_cookie2     100204a4 f   corelib1:COREDLL.dll
+ 0001:0001f4b4       __report_gsfailure         100204b4 f   corelib1:COREDLL.dll
+ 0001:0001f4c4       Phy2Vir_AddrMapping        100204c4 f   mfcdd_os_dep:MfcMemory.obj
+ 0001:0001f554       Mem_Alloc                  10020554 f   mfcdd_os_dep:MfcMemory.obj
+ 0001:0001f5c0       Mem_Free                   100205c0 f   mfcdd_os_dep:MfcMemory.obj
+ 0001:0001f5dc       Mem_Cpy                    100205dc f   mfcdd_os_dep:MfcMemory.obj
+ 0001:0001f618       Mem_Set                    10020618 f   mfcdd_os_dep:MfcMemory.obj
+ 0001:0001f650       Copy_From_User             10020650 f   mfcdd_os_dep:MfcMemory.obj
+ 0001:0001f68c       Copy_To_User               1002068c f   mfcdd_os_dep:MfcMemory.obj
+ 0001:0001f6c8       memcpy                     100206c8 f   corelib1:COREDLL.dll
+ 0001:0001f700       __IMPORT_DESCRIPTOR_COREDLL 10020700     coredll:COREDLL.dll
+ 0001:0001f714       __IMPORT_DESCRIPTOR_CEDDK  10020714     ceddk:CEDDK.dll
+ 0001:0001f728       __NULL_IMPORT_DESCRIPTOR   10020728     coredll:COREDLL.dll
+ 0002:00000000       __imp_MmMapIoSpace         10021000     ceddk:CEDDK.dll
+ 0002:00000004       __imp_MmUnmapIoSpace       10021004     ceddk:CEDDK.dll
+ 0002:00000008       \177CEDDK_NULL_THUNK_DATA  10021008     ceddk:CEDDK.dll
+ 0002:0000000c       __imp_InterlockedDecrement 1002100c     coredll:COREDLL.dll
+ 0002:00000010       __imp_InterlockedIncrement 10021010     coredll:COREDLL.dll
+ 0002:00000014       __imp_NKDbgPrintfW         10021014     coredll:COREDLL.dll
+ 0002:00000018       __imp_VirtualFreeEx        10021018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_VirtualCopyEx        1002101c     coredll:COREDLL.dll
+ 0002:00000020       __imp_VirtualAllocEx       10021020     coredll:COREDLL.dll
+ 0002:00000024       __imp_CeCloseCallerBuffer  10021024     coredll:COREDLL.dll
+ 0002:00000028       __imp_CeOpenCallerBuffer   10021028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_GetDirectCallerProcessId 1002102c     coredll:COREDLL.dll
+ 0002:00000030       __imp_SetLastError         10021030     coredll:COREDLL.dll
+ 0002:00000034       __imp___GetUserKData       10021034     coredll:COREDLL.dll
+ 0002:00000038       __imp_CeSetThreadPriority  10021038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_CreateThread         1002103c     coredll:COREDLL.dll
+ 0002:00000040       __imp_InterruptDisable     10021040     coredll:COREDLL.dll
+ 0002:00000044       __imp_KernelIoControl      10021044     coredll:COREDLL.dll
+ 0002:00000048       __imp_CreateEventW         10021048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_InterruptDone        1002104c     coredll:COREDLL.dll
+ 0002:00000050       __imp_WaitForSingleObject  10021050     coredll:COREDLL.dll
+ 0002:00000054       __imp_DeviceIoControl      10021054     coredll:COREDLL.dll
+ 0002:00000058       __imp_CreateFileW          10021058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_InitializeCriticalSection 1002105c     coredll:COREDLL.dll
+ 0002:00000060       __imp_DeleteCriticalSection 10021060     coredll:COREDLL.dll
+ 0002:00000064       __imp_EnterCriticalSection 10021064     coredll:COREDLL.dll
+ 0002:00000068       __imp_LeaveCriticalSection 10021068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_EventModify          1002106c     coredll:COREDLL.dll
+ 0002:00000070       __imp_MultiByteToWideChar  10021070     coredll:COREDLL.dll
+ 0002:00000074       __imp_Sleep                10021074     coredll:COREDLL.dll
+ 0002:00000078       __imp_CloseHandle          10021078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_InterruptInitialize  1002107c     coredll:COREDLL.dll
+ 0002:00000080       __imp_DisableThreadLibraryCalls 10021080     coredll:COREDLL.dll
+ 0002:00000084       __imp_free                 10021084     corelib1:COREDLL.dll
+ 0002:00000088       __imp_memset               10021088     corelib1:COREDLL.dll
+ 0002:0000008c       __imp_malloc               1002108c     corelib1:COREDLL.dll
+ 0002:00000090       __imp___C_specific_handler 10021090     corelib1:COREDLL.dll
+ 0002:00000094       __imp_calloc               10021094     corelib1:COREDLL.dll
+ 0002:00000098       __imp_vsprintf             10021098     corelib1:COREDLL.dll
+ 0002:0000009c       __imp_strlen               1002109c     corelib1:COREDLL.dll
+ 0002:000000a0       __imp_sprintf              100210a0     corelib1:COREDLL.dll
+ 0002:000000a4       __imp___rt_udiv            100210a4     corelib1:COREDLL.dll
+ 0002:000000a8       __imp___rt_sdiv            100210a8     corelib1:COREDLL.dll
+ 0002:000000ac       __imp___lts                100210ac     corelib1:COREDLL.dll
+ 0002:000000b0       __imp___gts                100210b0     corelib1:COREDLL.dll
+ 0002:000000b4       __imp___muls               100210b4     corelib1:COREDLL.dll
+ 0002:000000b8       __imp___stod               100210b8     corelib1:COREDLL.dll
+ 0002:000000bc       __imp_memmove              100210bc     corelib1:COREDLL.dll
+ 0002:000000c0       __imp___security_gen_cookie2 100210c0     corelib1:COREDLL.dll
+ 0002:000000c4       __imp___report_gsfailure   100210c4     corelib1:COREDLL.dll
+ 0002:000000c8       __imp_memcpy               100210c8     corelib1:COREDLL.dll
+ 0002:000000cc       \177COREDLL_NULL_THUNK_DATA 100210cc     coredll:COREDLL.dll
+ 0002:000000d0       ?g_MfcIrq@@3IA             100210d0     MfcDriver.obj
+ 0002:000000d4       ?g_MfcSysIntr@@3IA         100210d4     MfcDriver.obj
+ 0002:000000ec       __security_cookie          100210ec     corelib0:seccinit.obj
+ 0002:000000f0       __security_cookie_complement 100210f0     corelib0:seccinit.obj
+
+ entry point at        0000:00000000
+
+ Static symbols
+
+ 0001:00018918       ?InitializeIST@@YAHXZ      10019918 f   MfcDriver.obj
+ 0001:00018c0c       MFC_IntrThread             10019c0c f   MfcDriver.obj
+ 0001:00019544       ?mfc_power_on_off@@YAHH@Z  1001a544 f   MfcPwrMgmt.obj
+ 0001:00019744       ?mfc_clock_on_off@@YAHH@Z  1001a744 f   MfcPwrMgmt.obj
+ 0001:0001996c       ?mfc_set_MFC_CLKDIV0@@YAHH@Z 1001a96c f   MfcSetClk.obj
+ 0001:0001a064       Get_MfcStrmBufAddr         1001b064 f   mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0001b2d8       Get_MfcFramBufAddr         1001c2d8 f   mfc_os_indep_layer:MFC_Instance.obj
+ 0001:0001d680       WaitForReady               1001e680 f   mfc_os_indep_layer:MfcSfr.obj
+ 0001:0001daa8       GetCmdString               1001eaa8 f   mfc_os_indep_layer:MfcSfr.obj

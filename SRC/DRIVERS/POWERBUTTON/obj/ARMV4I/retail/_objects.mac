@@ -1,0 +1,4 @@
+OBJECTS=\
+    obj\ARMV4I\retail\smdk6410_button.obj\
+    obj\ARMV4I\retail\PowerButton.obj
+

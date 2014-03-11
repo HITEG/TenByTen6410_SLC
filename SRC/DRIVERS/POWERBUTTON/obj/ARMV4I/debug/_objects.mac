@@ -1,0 +1,4 @@
+OBJECTS=\
+    obj\ARMV4I\debug\smdk6410_button.obj\
+    obj\ARMV4I\debug\PowerButton.obj
+

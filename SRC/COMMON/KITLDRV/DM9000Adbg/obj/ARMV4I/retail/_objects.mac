@@ -1,0 +1,4 @@
+OBJECTS=\
+    obj\ARMV4I\retail\dm9000dbg.obj\
+    obj\ARMV4I\retail\cs8900a.obj
+

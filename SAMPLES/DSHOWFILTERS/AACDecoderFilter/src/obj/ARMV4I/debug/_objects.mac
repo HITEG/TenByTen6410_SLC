@@ -1,0 +1,4 @@
+OBJECTS=\
+    obj\ARMV4I\debug\AACSBREnhancedDecoder.res\
+    obj\ARMV4I\debug\AACSBREnhanced.obj
+

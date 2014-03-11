@@ -880,7 +880,7 @@ IIC_IOControl(PHW_OPEN_INFO pOpenContext,
         }
         __except(EXCEPTION_EXECUTE_HANDLER)
         {
-            RETAILMSG(1, (L"[IOCTL_IIC_GET_FILTER] exception...\n"));
+            DEBUGMSG(ZONE_ERROR, (TEXT("[IOCTL_IIC_GET_FILTER] exception...\n")));
             RetVal = FALSE;
         }
         break;

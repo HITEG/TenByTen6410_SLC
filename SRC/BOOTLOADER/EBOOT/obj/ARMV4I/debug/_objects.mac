@@ -1,0 +1,16 @@
+OBJECTS=\
+    obj\ARMV4I\debug\main.obj\
+    obj\ARMV4I\debug\debug.obj\
+    obj\ARMV4I\debug\ether.obj\
+    obj\ARMV4I\debug\flash.obj\
+    obj\ARMV4I\debug\nand.obj\
+    obj\ARMV4I\debug\usb.obj\
+    obj\ARMV4I\debug\PWRCTL_MENU.obj\
+    obj\ARMV4I\debug\MegaDisplay.obj\
+    obj\ARMV4I\debug\iic.obj\
+    obj\ARMV4I\debug\utils.obj\
+    obj\ARMV4I\debug\DisplayMenu.obj\
+    obj\ARMV4I\debug\LogoCraft.obj\
+    obj\ARMV4I\debug\startup.obj\
+    obj\ARMV4I\debug\usbs.obj
+

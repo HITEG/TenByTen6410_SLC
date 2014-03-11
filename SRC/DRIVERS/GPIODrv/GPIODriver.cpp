@@ -40,29 +40,50 @@ Notes:
 #include "GPIODriver.h"
 
 #ifdef DEBUG
-#define ZONE_GPIOCONTROL	DEBUGZONE(0)
-#define ZONE_FUNCTION		DEBUGZONE(1)
-#define ZONE_ERROR			DEBUGZONE(15)
 
-DBGPARAM dpCurSettings =                \
-{                                       \
-    TEXT("GPIO_Driver"),                 \
-    {                                   \
-        TEXT("Init"),       /* 0  */    \
-    },                                  \
-    (0x0001)                            \
+#ifdef ZONE_ERROR
+	#undef ZONE_ERROR
+#endif
+#define ZONE_ERROR            DEBUGZONE(0)
+#ifdef ZONE_WARNING
+#undef ZONE_WARNING
+#endif
+#define ZONE_WARNING            DEBUGZONE(1)
+#define ZONE_FUNCTION           DEBUGZONE(2)
+#ifdef ZONE_INIT
+#undef ZONE_INIT
+#endif
+#define ZONE_INIT           DEBUGZONE(3)
+#define ZONE_INFO           DEBUGZONE(4)
+#define ZONE_IST          DEBUGZONE(5)
+
+#define ZONE_TRACE          DEBUGZONE(15)
+
+DBGPARAM dpCurSettings =
+{
+    TEXT("PIO"),
+    {
+        TEXT("Errors"),
+		TEXT("Warnings"),
+		TEXT("Function"),
+		TEXT("Init"),
+         TEXT("Info"),
+		 TEXT("Ist"),
+		 TEXT("Undefined"),
+		 TEXT("Undefined"),
+         TEXT("Undefined"),
+		 TEXT("Undefined"),
+		 TEXT("Undefined"),
+		 TEXT("Undefined"),
+         TEXT("Undefined"),
+		 TEXT("Undefined"),
+		 TEXT("Undefined"),
+		 TEXT("Undefined")
+    },
+        (1 << 0)   // Errors
+    |   (1 << 1)   // Warnings
 };
 
-#else
-#define ZONE_GPIOCONTROL	1
-#define ZONE_FUNCTION		1
-#define ZONE_ERROR			1
-#endif
-
-#if 0
-#define DEBUG_GPIO			1
-#else
-#define DEBUG_GPIO			0
 #endif
 
 static int active_port	=	0;
@@ -78,13 +99,12 @@ BOOL InitializeAddresses(VOID);						// Virtual allocation
 BOOL InitializeAddresses(VOID)
 {
 	BOOL	RetValue = TRUE;
-	PHYSICAL_ADDRESS    ioPhysicalBase = {0,0};
+	PHYSICAL_ADDRESS    ioPhysicalBase = {S3C6410_BASE_REG_PA_GPIO,0};
 
-	ioPhysicalBase.LowPart = S3C6410_BASE_REG_PA_GPIO;
 	v_pGPIORegs = (volatile S3C6410_GPIO_REG *)MmMapIoSpace(ioPhysicalBase, sizeof(S3C6410_GPIO_REG), FALSE);
 	if (v_pGPIORegs == NULL)
 	{
-		RETAILMSG(ZONE_ERROR, (TEXT("[GIO] v_pGPIORegs MmMapIoSpace() Failed \r\n")));
+		DEBUGMSG(ZONE_ERROR, (TEXT("[GPIO] v_pGPIORegs MmMapIoSpace() Failed \r\n")));
 		RetValue = FALSE;
 	}
 	return(RetValue);
@@ -127,7 +147,7 @@ BOOL GIO_Deinit(DWORD hDeviceContext)
 		MmUnmapIoSpace((PVOID)v_pGPIORegs, sizeof(S3C6410_GPIO_REG));
 		v_pGPIORegs = NULL;
 	}
-	RETAILMSG(DEBUG_GPIO,(TEXT("GPIO_Control: GIO_Deinit\r\n")));
+	DEBUGMSG(ZONE_INIT,(TEXT("[GPIO] GPIO_Control: GIO_Deinit\r\n")));
 
 	return TRUE;
 } 
@@ -136,13 +156,13 @@ BOOL GIO_Deinit(DWORD hDeviceContext)
 DWORD GIO_Init(DWORD dwContext)
 {
 
-	RETAILMSG(DEBUG_GPIO, (TEXT("GPIO Initialize ...")));
+	DEBUGMSG(ZONE_INIT, (TEXT("[GPIO] GPIO Initialize ...")));
 
 	if (!InitializeAddresses())
 		return (FALSE);
 
 	mInitialized = TRUE;
-	RETAILMSG(DEBUG_GPIO, (TEXT("OK !!!\r\n")));
+	DEBUGMSG(ZONE_INFO, (TEXT("[GPIO] OK !!!\r\n")));
 	return TRUE;
 }
 
@@ -682,24 +702,24 @@ BOOL GIO_IOControl(DWORD hOpenContext, DWORD dwCode, PBYTE pBufIn, DWORD dwLenIn
 DWORD GIO_Open(DWORD hDeviceContext, DWORD AccessCode, DWORD ShareMode)
 {
 
-	RETAILMSG(DEBUG_GPIO, (TEXT("GPIO_Control: GPIO_Open\r\n")));
+	DEBUGMSG(ZONE_INFO, (TEXT("[GPIO] GPIO_Control: GPIO_Open\r\n")));
 	return TRUE;
 }
 
 BOOL GIO_Close(DWORD hOpenContext)
 {
-	RETAILMSG(DEBUG_GPIO,(TEXT("GPIO_Control: GPIO_Close\r\n")));
+	DEBUGMSG(ZONE_INFO,(TEXT("[GPIO] GPIO_Control: GPIO_Close\r\n")));
 	return TRUE;
 }
 
 void GIO_PowerDown(DWORD hDeviceContext)
 {
-	RETAILMSG(DEBUG_GPIO, (TEXT("GPIO_Control: GPIO_PowerDown\r\n")));
+	DEBUGMSG(ZONE_INFO, (TEXT("[GPIO] GPIO_Control: GPIO_PowerDown\r\n")));
 }
 
 void GIO_PowerUp(DWORD hDeviceContext)
 {
-	RETAILMSG(DEBUG_GPIO, (TEXT("GPIO_Control: GPIO_PowerUp\r\n")));
+	DEBUGMSG(ZONE_INFO, (TEXT("GPIO_Control: GPIO_PowerUp\r\n")));
 }
 
 DWORD GIO_Read(DWORD hOpenContext, LPVOID pBuffer, DWORD Count)
@@ -719,7 +739,7 @@ DWORD GIO_Read(DWORD hOpenContext, LPVOID pBuffer, DWORD Count)
 	}
 	if(Count!=4)
 	{
-		RETAILMSG(DEBUG_GPIO, (TEXT("GPIO_Control: GPIO_Read needs four buffer bytes ( sizeof(DWORD) )\r\n")));
+		DEBUGMSG(ZONE_ERROR, (TEXT("[GPIO] GPIO_Control: GPIO_Read needs four buffer bytes ( sizeof(DWORD) )\r\n")));
 		return FALSE;
 	}
 	*(DWORD *)pBuffer =value;
@@ -729,7 +749,7 @@ DWORD GIO_Read(DWORD hOpenContext, LPVOID pBuffer, DWORD Count)
 
 DWORD GIO_Seek(DWORD hOpenContext, long Amount, DWORD Type)
 {
-	RETAILMSG(DEBUG_GPIO, (TEXT("GPIO_Control: GPIO_Seek\r\n")));
+	DEBUGMSG(ZONE_INFO, (TEXT("[GPIO] GPIO_Control: GPIO_Seek\r\n")));
 	return 0;
 }
 
@@ -739,7 +759,7 @@ DWORD GIO_Write(DWORD hOpenContext, LPCVOID pSourceBytes, DWORD NumberOfBytes)
 	// depending on Single or Bulk mode, sets status of GPIO(s) [High/Low]
 	if(NumberOfBytes!=4)
 	{
-		RETAILMSG(DEBUG_GPIO, (TEXT("GPIO_Control: GPIO_Write expects four buffer bytes ( sizeof(DWORD) )\r\n")));
+		DEBUGMSG(ZONE_INFO, (TEXT("[GPIO] GPIO_Control: GPIO_Write expects four buffer bytes ( sizeof(DWORD) )\r\n")));
 		return FALSE;
 	}
 	value=*(DWORD *)pSourceBytes;

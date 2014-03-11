@@ -370,7 +370,7 @@ void	NIC_DEVICE_OBJECT::EDeviceRegisterInterrupt(void)
 
 void	NIC_DEVICE_OBJECT::EDeviceLoadEeprom(void)
 {
-	int		n;
+//	int		n;
 	EEPROM_DATA_TYPE	*pcurr=(EEPROM_DATA_TYPE*)&m_szEeprom[0];
 	
 #if 0

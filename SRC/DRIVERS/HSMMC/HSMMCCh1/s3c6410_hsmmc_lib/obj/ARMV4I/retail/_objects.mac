@@ -1,0 +1,6 @@
+OBJECTS=\
+    obj\ARMV4I\retail\sdhcdma.obj\
+    obj\ARMV4I\retail\sdhcslot.obj\
+    obj\ARMV4I\retail\sdhc.obj\
+    obj\ARMV4I\retail\sdhcmain.obj
+

@@ -1,0 +1,13 @@
+OBJECTS=\
+    obj\ARMV4I\debug\SVEngine.obj\
+    obj\ARMV4I\debug\Interrupt.obj\
+    obj\ARMV4I\debug\Power.obj\
+    obj\ARMV4I\debug\ResourceAPI.obj\
+    obj\ARMV4I\debug\DispConAPI.obj\
+    obj\ARMV4I\debug\PostAPI.obj\
+    obj\ARMV4I\debug\LocalPathAPI.obj\
+    obj\ARMV4I\debug\RotatorAPI.obj\
+    obj\ARMV4I\debug\TVScalerAPI.obj\
+    obj\ARMV4I\debug\TVEncoderAPI.obj\
+    obj\ARMV4I\debug\video_driver.obj
+

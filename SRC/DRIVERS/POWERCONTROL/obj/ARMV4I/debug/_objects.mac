@@ -1,0 +1,4 @@
+OBJECTS=\
+    obj\ARMV4I\debug\s3c6410_power_control.obj\
+    obj\ARMV4I\debug\power_control.obj
+

@@ -1,0 +1,8 @@
+OBJECTS=\
+    obj\ARMV4I\retail\gldriver.obj\
+    obj\ARMV4I\retail\libMain.obj\
+    obj\ARMV4I\retail\global.obj\
+    obj\ARMV4I\retail\platform.obj\
+    obj\ARMV4I\retail\fnc.obj\
+    obj\ARMV4I\retail\gl_asm.obj
+

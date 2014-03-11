@@ -1,0 +1,4 @@
+OBJECTS=\
+    obj\ARMV4I\retail\FIMGSE2D.obj\
+    obj\ARMV4I\retail\regctrl_g2d.obj
+

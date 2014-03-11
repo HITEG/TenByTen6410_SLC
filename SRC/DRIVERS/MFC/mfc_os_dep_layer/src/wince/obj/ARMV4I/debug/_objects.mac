@@ -1,0 +1,6 @@
+OBJECTS=\
+    obj\ARMV4I\debug\MfcMemory.obj\
+    obj\ARMV4I\debug\MfcIntrNotification.obj\
+    obj\ARMV4I\debug\MfcMutex.obj\
+    obj\ARMV4I\debug\LogMsg.obj
+

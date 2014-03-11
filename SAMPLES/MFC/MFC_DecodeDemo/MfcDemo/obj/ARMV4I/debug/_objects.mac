@@ -1,0 +1,9 @@
+OBJECTS=\
+    obj\ARMV4I\debug\mfc_demo.res\
+    obj\ARMV4I\debug\number_img.obj\
+    obj\ARMV4I\debug\number_img_data.obj\
+    obj\ARMV4I\debug\CSCFrame.obj\
+    obj\ARMV4I\debug\mfc_decode.obj\
+    obj\ARMV4I\debug\mfc_render.obj\
+    obj\ARMV4I\debug\mfc_demo.obj
+

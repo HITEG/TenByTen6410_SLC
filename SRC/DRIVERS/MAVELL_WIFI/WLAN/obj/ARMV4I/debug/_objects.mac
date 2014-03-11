@@ -1,0 +1,22 @@
+OBJECTS=\
+    obj\ARMV4I\debug\initproc.obj\
+    obj\ARMV4I\debug\oidproc.obj\
+    obj\ARMV4I\debug\hwacproc.obj\
+    obj\ARMV4I\debug\cmdproc.obj\
+    obj\ARMV4I\debug\miscproc.obj\
+    obj\ARMV4I\debug\pnpproc.obj\
+    obj\ARMV4I\debug\txproc.obj\
+    obj\ARMV4I\debug\rxproc.obj\
+    obj\ARMV4I\debug\intproc.obj\
+    obj\ARMV4I\debug\power.obj\
+    obj\ARMV4I\debug\cmdsend.obj\
+    obj\ARMV4I\debug\NDISLoader.obj\
+    obj\ARMV4I\debug\exitproc.obj\
+    obj\ARMV4I\debug\wlan_11d.obj\
+    obj\ARMV4I\debug\wlan_ccx.obj\
+    obj\ARMV4I\debug\wmm.obj\
+    obj\ARMV4I\debug\wlan_roam.obj\
+    obj\ARMV4I\debug\wlan_thread.obj\
+    obj\ARMV4I\debug\aes.obj\
+    obj\ARMV4I\debug\custom_interface.obj
+

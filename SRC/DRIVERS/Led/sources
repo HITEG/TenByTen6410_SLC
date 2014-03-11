@@ -6,11 +6,14 @@ DLLENTRY=DllMain
 DEFFILE=LED.def
 		
 
+FILE_VIEW_INCLUDES_FOLDER= Led.h 
+ 
+
 TARGETLIBS=\
 	$(_COMMONSDKROOT)\lib\$(_CPUINDPATH)\coredll.lib \
   $(_COMMONOAKROOT)\lib\$(_CPUINDPATH)\ceddk.lib \
 
- 
+
 					 
 SOURCES=\
 	Led.c

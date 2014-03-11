@@ -1,0 +1,7 @@
+OBJECTS=\
+    obj\ARMV4I\retail\wince.obj\
+    obj\ARMV4I\retail\common.obj\
+    obj\ARMV4I\retail\driver.obj\
+    obj\ARMV4I\retail\device.obj\
+    obj\ARMV4I\retail\DM9000.obj
+

@@ -1,0 +1,8 @@
+OBJECTS=\
+    obj\ARMV4I\retail\FrameExtractor.obj\
+    obj\ARMV4I\retail\MPEG4Frames.obj\
+    obj\ARMV4I\retail\H263Frames.obj\
+    obj\ARMV4I\retail\H264Frames.obj\
+    obj\ARMV4I\retail\VC1Frames.obj\
+    obj\ARMV4I\retail\FileRead.obj
+

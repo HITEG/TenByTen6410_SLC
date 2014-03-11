@@ -1,0 +1,4 @@
+OBJECTS=\
+    obj\ARMV4I\debug\usbrndis.obj\
+    obj\ARMV4I\debug\rndismin.obj
+

@@ -1,0 +1,7 @@
+OBJECTS=\
+    obj\ARMV4I\debug\startup.obj\
+    obj\ARMV4I\debug\nand_opt.obj\
+    obj\ARMV4I\debug\utils.obj\
+    obj\ARMV4I\debug\nand.obj\
+    obj\ARMV4I\debug\main.obj
+

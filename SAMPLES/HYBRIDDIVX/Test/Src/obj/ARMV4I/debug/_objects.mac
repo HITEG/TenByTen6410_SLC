@@ -1,0 +1,6 @@
+OBJECTS=\
+    obj\ARMV4I\debug\DivxTest.obj\
+    obj\ARMV4I\debug\SsbSipHybridDivxMain.obj\
+    obj\ARMV4I\debug\SsbSipParser.obj\
+    obj\ARMV4I\debug\SsbSipRender.obj
+

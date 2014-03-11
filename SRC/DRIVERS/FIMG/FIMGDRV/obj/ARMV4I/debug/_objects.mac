@@ -1,0 +1,8 @@
+OBJECTS=\
+    obj\ARMV4I\debug\gldriver.obj\
+    obj\ARMV4I\debug\libMain.obj\
+    obj\ARMV4I\debug\global.obj\
+    obj\ARMV4I\debug\platform.obj\
+    obj\ARMV4I\debug\fnc.obj\
+    obj\ARMV4I\debug\gl_asm.obj
+

@@ -1,0 +1,9 @@
+OBJECTS=\
+    obj\ARMV4I\debug\SsbSipMpeg4Decode.obj\
+    obj\ARMV4I\debug\SsbSipMpeg4Encode.obj\
+    obj\ARMV4I\debug\SsbSipH264Decode.obj\
+    obj\ARMV4I\debug\SsbSipH264Encode.obj\
+    obj\ARMV4I\debug\SsbSipVC1Decode.obj\
+    obj\ARMV4I\debug\SsbSipMfcDecode.obj\
+    obj\ARMV4I\debug\SsbSipLogMsg.obj
+

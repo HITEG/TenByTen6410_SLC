@@ -1,0 +1,5 @@
+OBJECTS=\
+    obj\ARMV4I\retail\DriverLib_mutex.obj\
+    obj\ARMV4I\retail\DriverLib_Init.obj\
+    obj\ARMV4I\retail\Oemaddrtab.obj
+

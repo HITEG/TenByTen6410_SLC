@@ -89,15 +89,14 @@ typedef enum hiteg_display_type
     HITEG_MEGADISPLAY3  = 0,
     HITEG_MEGADISPLAY4,
     HITEG_MEGADISPLAY7,
+    HITEG_MEGADISPLAY7N,
     HITEG_MEGADISPLAY5SD,
     HITEG_MEGADISPLAY5HD,
+	HITEG_MEGADISPLAY10,
     HITEG_VGA640,
     HITEG_VGA800,
     HITEG_VGA1024,
-    HITEG_TV,
-    HITEG_MEGADISPLAY3A,		
-    HITEG_MEGADISPLAY4A,		
-    HITEG_MEGADISPLAY7A,		
+		
     MAX_DISPLAYS
 } HITEG_DISPLAY_TYPE ;
 
@@ -140,7 +139,8 @@ void LDI_setBacklight(unsigned char rate);
 DISP_VIDOUT_MODE LDI_getDisplayMode();
 void LDI_copyDisplay(HITEG_DISPLAY *tp,HITEG_DISPLAY_TYPE type );
 BACKLIGHT_BOOST *LDI_getBoost(HITEG_DISPLAY_TYPE type);
-
+void LDI_setDisplayCurrent(DWORD current);
+unsigned int LDI_GetFrameRate(HITEG_DISPLAY_TYPE type);
 
 // Macros to handle GPIOs
 

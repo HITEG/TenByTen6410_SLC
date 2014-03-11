@@ -1,0 +1,7 @@
+OBJECTS=\
+    obj\ARMV4I\retail\startup.obj\
+    obj\ARMV4I\retail\nand_opt.obj\
+    obj\ARMV4I\retail\utils.obj\
+    obj\ARMV4I\retail\nand.obj\
+    obj\ARMV4I\retail\main.obj
+

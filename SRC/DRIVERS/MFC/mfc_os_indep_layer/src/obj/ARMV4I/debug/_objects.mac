@@ -1,0 +1,11 @@
+OBJECTS=\
+    obj\ARMV4I\debug\BitProcBuf.obj\
+    obj\ARMV4I\debug\DataBuf.obj\
+    obj\ARMV4I\debug\FramBufMgr.obj\
+    obj\ARMV4I\debug\MFC_HW_Init.obj\
+    obj\ARMV4I\debug\MFC_Instance.obj\
+    obj\ARMV4I\debug\MFC_Inst_Pool.obj\
+    obj\ARMV4I\debug\MfcSfr.obj\
+    obj\ARMV4I\debug\Prism_S_V13E.obj\
+    obj\ARMV4I\debug\CacheOpr.obj
+

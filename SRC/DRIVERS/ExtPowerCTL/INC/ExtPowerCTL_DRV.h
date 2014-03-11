@@ -1,32 +1,6 @@
 #if !defined(EXTPOWERCTL_DRV_H)
 #define EXTPOWERCTL_DRV_H
 
-
-// Debug zones
-// Even on Release Mode, We don't care about GPE message
-#define ZONEID_FATAL                0
-#define ZONEID_ERROR                1
-#define ZONEID_WARNING              2
-#define ZONEID_MESSAGE              3
-#define ZONEID_VERBOSE              4
-#define ZONEID_CALLTRACE            5
-#define ZONEID_ALLOC                6
-#define ZONEID_FLIP                 7
-
-#define ZONEMASK_FATAL         (1 << ZONEID_FATAL)
-#define ZONEMASK_ERROR         (1 << ZONEID_ERROR)
-#define ZONEMASK_WARNING       (1 << ZONEID_WARNING)
-#define ZONEMASK_MESSAGE       (1 << ZONEID_MESSAGE)
-#define ZONEMASK_VERBOSE       (1 << ZONEID_VERBOSE)
-#define ZONEMASK_CALLTRACE     (1 << ZONEID_CALLTRACE)
-#define ZONEMASK_ALLOC         (1 << ZONEID_ALLOC)
-#define ZONEMASK_FLIP          (1 << ZONEID_FLIP)
-
-
-
-#define DEFAULT_MSG_LEVEL        (ZONEMASK_FATAL|ZONEMASK_ERROR|ZONEMASK_WARNING)//|ZONEMASK_MESSAGE|ZONEMASK_VERBOSE)
-
-
 typedef enum
 {
 	LCD_ON_SET,
@@ -56,6 +30,36 @@ typedef enum
     EPCTL_ERROR_XXX
 } EPCTL_ERROR;
 
+
+#ifdef DEBUG
+#ifdef ZONE_ERROR
+	#undef ZONE_ERROR
+#endif
+#define ZONE_ERROR            DEBUGZONE(0)
+#ifdef ZONE_WARNING
+#undef ZONE_WARNING
+#endif
+#define ZONE_WARNING            DEBUGZONE(1)
+#define ZONE_FUNCTION           DEBUGZONE(2)
+#ifdef ZONE_INIT
+#undef ZONE_INIT
+#endif
+#define ZONE_INIT           DEBUGZONE(3)
+#define ZONE_INFO           DEBUGZONE(4)
+#define ZONE_IST          DEBUGZONE(5)
+
+#define ZONE_TRACE          DEBUGZONE(15)
+
+//
+// these should be removed in the code if you can 'g' past these successfully
+//
+#define TEST_TRAP { \
+   NKDbgPrintfW( TEXT("%s: Code Coverage Trap in: WDG, Line: %d\n"), TEXT(__FILE__), __LINE__); \
+   DebugBreak();  \
+}
+#else
+#define TEST_TRAP
+#endif
 
 
 #endif

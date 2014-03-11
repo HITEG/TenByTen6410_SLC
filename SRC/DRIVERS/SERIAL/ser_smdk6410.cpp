@@ -174,7 +174,7 @@ public:
         m_CommPorp.dwMaxBaud           = BAUD_115200;
         m_CommPorp.dwProvSubType       = PST_RS232;
         m_CommPorp.dwProvCapabilities  =
-            PCF_DTRDSR | PCF_RLSD | PCF_RTSCTS |
+            PCF_RTSCTS |
             PCF_SETXCHAR |
             PCF_INTTIMEOUTS |
             PCF_PARITY_CHECK |
@@ -189,7 +189,7 @@ public:
             BAUD_115200 | BAUD_57600 | BAUD_USER;
         m_CommPorp.dwSettableParams    =
             SP_BAUD | SP_DATABITS | SP_HANDSHAKING | SP_PARITY |
-            SP_PARITY_CHECK | SP_RLSD | SP_STOPBITS;
+            SP_PARITY_CHECK | SP_STOPBITS;
         m_CommPorp.wSettableData       =
             DATABITS_5 | DATABITS_6 | DATABITS_7 | DATABITS_8;
         m_CommPorp.wSettableStopParity =
@@ -343,7 +343,6 @@ public:
         m_CommPorp.dwMaxBaud           = BAUD_115200;
         m_CommPorp.dwProvSubType       = PST_RS232;
         m_CommPorp.dwProvCapabilities  =
-            PCF_DTRDSR | PCF_RLSD | PCF_RTSCTS |
             PCF_SETXCHAR |
             PCF_INTTIMEOUTS |
             PCF_PARITY_CHECK |
@@ -499,10 +498,9 @@ public:
         m_CommPorp.dwReserved1         = 0;
         m_CommPorp.dwMaxTxQueue        = 16;
         m_CommPorp.dwMaxRxQueue        = 16;
-        m_CommPorp.dwMaxBaud           = BAUD_115200;
+        m_CommPorp.dwMaxBaud           = BAUD_USER;
         m_CommPorp.dwProvSubType       = PST_RS232;
         m_CommPorp.dwProvCapabilities  =
-            PCF_DTRDSR | PCF_RLSD | PCF_RTSCTS |
             PCF_SETXCHAR |
             PCF_INTTIMEOUTS |
             PCF_PARITY_CHECK |
@@ -674,10 +672,9 @@ public:
         m_CommPorp.dwReserved1         = 0;
         m_CommPorp.dwMaxTxQueue        = 16;
         m_CommPorp.dwMaxRxQueue        = 16;
-        m_CommPorp.dwMaxBaud           = BAUD_115200;
+        m_CommPorp.dwMaxBaud           = BAUD_USER;
         m_CommPorp.dwProvSubType       = PST_RS232;
         m_CommPorp.dwProvCapabilities  =
-            PCF_DTRDSR | PCF_RLSD | PCF_RTSCTS |
             PCF_SETXCHAR |
             PCF_INTTIMEOUTS |
             PCF_PARITY_CHECK |

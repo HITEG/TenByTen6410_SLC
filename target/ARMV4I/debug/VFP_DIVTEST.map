@@ -1,0 +1,43 @@
+ VFP_DIVTEST
+
+ Timestamp is 531ec605 (Tue Mar 11 16:15:01 2014)
+
+ Preferred load address is 00010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000009fH .rdata                  CODE
+ 0001:000000a0 00000028H .rdata$debug            CODE
+ 0001:000000c8 000001bcH .text                   CODE
+ 0001:00000284 00000014H .idata$2                CODE
+ 0001:00000298 00000014H .idata$3                CODE
+ 0001:000002ac 00000014H .idata$4                CODE
+ 0001:000002c0 0000000cH .idata$6                CODE
+ 0001:000002cc 00000000H .edata                  CODE
+ 0002:00000000 00000014H .idata$5                DATA
+ 0003:00000000 00000010H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:0000001c       ??_C@_0BC@LPILKFJH@Test?522?40?17?40?5?$CFe?6?$AA@ 0001101c     DoubleDivi.obj
+ 0001:00000030       ??_C@_0DF@GJNMKLJP@?5TEST?5FPV?5Exception?5For?5Division@ 00011030     DoubleDivi.obj
+ 0001:00000068       ??_C@_0DH@PAMAMDKO@?5TEST?5FPV?5Exception?5For?5Division@ 00011068     DoubleDivi.obj
+ 0001:000000c8       ?VFPtest@@YANNN@Z          000110c8 f   DoubleDivi.obj
+ 0001:00000108       WinMain                    00011108 f   DoubleDivi.obj
+ 0001:00000244       Sleep                      00011244 f   coredll:COREDLL.dll
+ 0001:00000254       __divd                     00011254 f   corelib1:COREDLL.dll
+ 0001:00000264       printf                     00011264 f   corelib1:COREDLL.dll
+ 0001:00000274       __itod                     00011274 f   corelib1:COREDLL.dll
+ 0001:00000284       __IMPORT_DESCRIPTOR_COREDLL 00011284     coredll:COREDLL.dll
+ 0001:00000298       __NULL_IMPORT_DESCRIPTOR   00011298     coredll:COREDLL.dll
+ 0002:00000000       __imp___divd               00012000     corelib1:COREDLL.dll
+ 0002:00000004       __imp_printf               00012004     corelib1:COREDLL.dll
+ 0002:00000008       __imp___itod               00012008     corelib1:COREDLL.dll
+ 0002:0000000c       __imp_Sleep                0001200c     coredll:COREDLL.dll
+ 0002:00000010       \177COREDLL_NULL_THUNK_DATA 00012010     coredll:COREDLL.dll
+
+ entry point at        0001:00000108
+
+ Static symbols
+

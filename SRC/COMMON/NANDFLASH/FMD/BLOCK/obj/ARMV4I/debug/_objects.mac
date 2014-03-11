@@ -1,0 +1,6 @@
+OBJECTS=\
+    obj\ARMV4I\debug\fmd.obj\
+    obj\ARMV4I\debug\fmd_LB.obj\
+    obj\ARMV4I\debug\fmd_SB.obj\
+    obj\ARMV4I\debug\nand.obj
+

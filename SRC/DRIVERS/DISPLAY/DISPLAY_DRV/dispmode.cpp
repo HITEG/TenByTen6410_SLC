@@ -44,16 +44,16 @@ ULONG *
 APIENTRY
 DrvGetMasks(DHPDEV dhpdev)
 {
-	DWORD dwDisplayType[2] = {123,16};
+	DWORD dwDisplayType[3] = {123,16,0};
     DWORD dwBytesRet = 0;
-	if (KernelIoControl(IOCTL_HAL_QUERY_DISPLAYSETTINGS, NULL, 0, dwDisplayType, sizeof(DWORD)*2, &dwBytesRet)  // get data from BSP_ARGS via KernelIOCtl
-                        && (dwBytesRet == (sizeof(DWORD)*2)))
+	if (KernelIoControl(IOCTL_HAL_QUERY_DISPLAYSETTINGS, NULL, 0, dwDisplayType, sizeof(DWORD)*3, &dwBytesRet)  // get data from BSP_ARGS via KernelIOCtl
+                        && (dwBytesRet == (sizeof(DWORD)*3)))
 	{
-		RETAILMSG(DISP_ZONE_ERROR,(TEXT("--------------display driver display: %s\r\n"),LDI_getDisplayName((HITEG_DISPLAY_TYPE)dwDisplayType[0])));
+		DEBUGMSG(DISP_ZONE_ERROR,(TEXT("--------------display driver display: %s\r\n"),LDI_getDisplayName((HITEG_DISPLAY_TYPE)dwDisplayType[0])));
 	}
 	else
 	{
-		RETAILMSG(DISP_ZONE_ERROR,(TEXT("[DrvGetMasks] Error getting Display type from args section via Kernel IOCTL!!!\r\n")));
+		DEBUGMSG(DISP_ZONE_ERROR,(TEXT("[DrvGetMasks] Error getting Display type from args section via Kernel IOCTL!!!\r\n")));
 	}
 	if(dwDisplayType[1]==16)
 		return gBitMasks16;
@@ -67,7 +67,7 @@ S3C6410Disp::SetMode (INT modeId, HPALETTE *palette)
     SCODE scRet = S_OK;
 	ULONG *gBitMasks;
 	gBitMasks=DrvGetMasks(NULL);
-    RETAILMSG(DISP_ZONE_ENTER, (_T("[DISPDRV] ++%s(%d)\n\r"), _T(__FUNCTION__), modeId));
+    DEBUGMSG(DISP_ZONE_ENTER, (_T("[DISPDRV] ++%s(%d)\n\r"), _T(__FUNCTION__), modeId));
 
     if (modeId == 0)
     {
@@ -81,11 +81,11 @@ S3C6410Disp::SetMode (INT modeId, HPALETTE *palette)
     }
     else
     {
-        RETAILMSG(DISP_ZONE_ERROR, (_T("[DISPDRV:ERR] %s() : modeId = %d, Driver Support Only Mode 0\n\r"), _T(__FUNCTION__), modeId));
+        DEBUGMSG(DISP_ZONE_ERROR, (_T("[DISPDRV:ERR] %s() : modeId = %d, Driver Support Only Mode 0\n\r"), _T(__FUNCTION__), modeId));
         scRet = E_INVALIDARG;
     }
 
-    RETAILMSG(DISP_ZONE_ENTER,(_T("[DISPDRV] --%s()\n\r"), _T(__FUNCTION__)));
+    DEBUGMSG(DISP_ZONE_ENTER,(_T("[DISPDRV] --%s()\n\r"), _T(__FUNCTION__)));
 
     return scRet;
 }
@@ -95,7 +95,7 @@ S3C6410Disp::GetModeInfo(GPEMode *mode, int modeNo)
 {
     if (modeNo != 0)
     {
-        RETAILMSG(DISP_ZONE_ERROR, (_T("[DISPDRV:ERR] GetModeInfo() : modeNo = %d, Driver Support Only Mode 0\n\r"), modeNo));
+        DEBUGMSG(DISP_ZONE_ERROR, (_T("[DISPDRV:ERR] GetModeInfo() : modeNo = %d, Driver Support Only Mode 0\n\r"), modeNo));
         return E_INVALIDARG;
     }
 
@@ -109,7 +109,7 @@ S3C6410Disp::GetModeInfoEx(GPEModeEx *pModeEx, int modeNo)
 {
     if (modeNo != 0)
     {
-        RETAILMSG(DISP_ZONE_ERROR, (_T("[DISPDRV:ERR] GetModeInfoEx() : modeNo = %d, Driver Support Only Mode 0\n\r"), modeNo));
+        DEBUGMSG(DISP_ZONE_ERROR, (_T("[DISPDRV:ERR] GetModeInfoEx() : modeNo = %d, Driver Support Only Mode 0\n\r"), modeNo));
         return    E_INVALIDARG;
     }
 
@@ -127,17 +127,18 @@ S3C6410Disp::NumModes()
 void
 S3C6410Disp::InitializeDisplayMode()
 {
-	DWORD dwDisplayType[2] = {123,16};
+	DWORD dwDisplayType[3] = {123,16,0};
     DWORD dwBytesRet = 0;
-	if (KernelIoControl(IOCTL_HAL_QUERY_DISPLAYSETTINGS, NULL, 0, dwDisplayType, sizeof(DWORD)*2, &dwBytesRet)  // get data from BSP_ARGS via KernelIOCtl
-                        && (dwBytesRet == (sizeof(DWORD)*2)))
+	if (KernelIoControl(IOCTL_HAL_QUERY_DISPLAYSETTINGS, NULL, 0, dwDisplayType, sizeof(DWORD)*3, &dwBytesRet)  // get data from BSP_ARGS via KernelIOCtl
+                        && (dwBytesRet == (sizeof(DWORD)*3)))
 	{
-		RETAILMSG(DISP_ZONE_ERROR,(TEXT("[DSPL_MODE] display driver display: %s\r\n"),LDI_getDisplayName((HITEG_DISPLAY_TYPE)dwDisplayType[0])));
+		DEBUGMSG(DISP_ZONE_ERROR,(TEXT("[DSPL_MODE] display driver display: %s\r\n"),LDI_getDisplayName((HITEG_DISPLAY_TYPE)dwDisplayType[0])));
 		LDI_set_LCD_module_type((HITEG_DISPLAY_TYPE)dwDisplayType[0]);
+		
 	}
 	else
 	{
-		RETAILMSG(DISP_ZONE_ERROR,(TEXT("[DSPL_MODE] Error getting Display type from args section via Kernel IOCTL!!!\r\n")));
+		DEBUGMSG(DISP_ZONE_ERROR,(TEXT("[DSPL_MODE] Error getting Display type from args section via Kernel IOCTL!!!\r\n")));
 	}
     //Setup ModeInfoEx, ModeInfo
     m_pModeEx = &m_ModeInfoEx;
@@ -157,7 +158,7 @@ S3C6410Disp::InitializeDisplayMode()
     m_pMode->height = m_nScreenHeight=LDI_GetDisplayHeight( LDI_getDisplayType() );
     m_pMode->format = EDDGPEPixelFormatToEGPEFormat[m_pModeEx->ePixelFormat];
     m_pMode->Bpp = EGPEFormatToBpp[m_pMode->format];
-    m_pMode->frequency = 60;        // Usually LCD Panel require 60Hz
+    m_pMode->frequency = LDI_GetFrameRate(LDI_getDisplayType());        
 
     // Fill DDGPEStandardHeader
     m_pModeEx->dwSize = sizeof(GPEModeEx);

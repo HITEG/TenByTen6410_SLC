@@ -1,0 +1,54 @@
+;===============================================================================
+; For DM9ISA
+;===============================================================================
+
+;#  This source packed is V2.00 or later.
+;#  To check the version number, refer to 'DRIVER_VERSION' in ver.h
+;#
+;#  Registries for DM9000
+;#
+
+[HKEY_LOCAL_MACHINE\Comm\DM9ISA]
+	"DisplayName"="DM9000x Fast Ethernet Adapter"
+	"Group"="NDIS"
+	"ImagePath"="DM9000.dll"
+
+[HKEY_LOCAL_MACHINE\Comm\DM9ISA\Linkage]
+	"Route"=multi_sz:"DM9ISA1"
+
+[HKEY_LOCAL_MACHINE\Comm\DM9ISA1]
+	"DisplayName"="DM9000x Fast Ethernet Adapter"
+	"Group"="NDIS"
+	"ImagePath"="DM9000.dll"
+
+[HKEY_LOCAL_MACHINE\Comm\DM9ISA1\Parms]
+	"BusNumber"=dword:0
+	"BusType"=dword:0
+	"IoBaseAddress"=dword:18000300
+;	"IrqNumber" is hardware physical interrupt number 
+;	"sysintr" is system logic interrupt number
+;	If sysintr is not set , will be calculated by the IrqNumber automatically to the value of sysintr
+;	win ce 4.2 sysintr system not calculated, so need to setting the value.
+	"IrqNumber"=dword:7
+	"sysintr"=dword:12 
+	"Int_Active_High"=dword:1
+	"Flow_Control_Enable"=dword:1
+	"MAC_Load_Mode"=dword:5
+	"MAC_ADDR_0"=dword:10
+	"MAC_ADDR_1"=dword:23
+	"MAC_ADDR_2"=dword:45
+	"MAC_ADDR_3"=dword:67
+	"MAC_ADDR_4"=dword:89
+	"MAC_ADDR_5"=dword:ab
+
+
+[HKEY_LOCAL_MACHINE\Comm\Tcpip\Linkage]
+	"Bind"="DM9ISA1"
+
+[HKEY_LOCAL_MACHINE\Comm\DM9ISA1\Parms\TcpIp]
+	"EnableDHCP"=dword:1
+	"UseZeroBroadcast"=dword:0
+	"DefaultGateway"="192.168.1.1"
+	"IpAddress"="192.168.1.6"
+	"Subnetmask"="255.255.255.0"
+	"DNS"="202.96.134.133"

@@ -1,0 +1,7 @@
+OBJECTS=\
+    obj\ARMV4I\debug\FrameExtractFilter.res\
+    obj\ARMV4I\debug\Auxiliary.obj\
+    obj\ARMV4I\debug\fFrameExtractFilter.obj\
+    obj\ARMV4I\debug\fFrameExtractFilter_op.obj\
+    obj\ARMV4I\debug\FrameExtractFilter.obj
+

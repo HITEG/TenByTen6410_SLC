@@ -1,0 +1,7 @@
+OBJECTS=\
+    obj\ARMV4I\debug\tchmain.obj\
+    obj\ARMV4I\debug\tchbasic.obj\
+    obj\ARMV4I\debug\calibrat.obj\
+    obj\ARMV4I\debug\largenum.obj\
+    obj\ARMV4I\debug\s3c6410_touch.obj
+

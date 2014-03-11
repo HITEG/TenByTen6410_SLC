@@ -1,0 +1,4 @@
+OBJECTS=\
+    obj\ARMV4I\retail\MMCCopy.obj\
+    obj\ARMV4I\retail\SDMMCDrv.obj
+

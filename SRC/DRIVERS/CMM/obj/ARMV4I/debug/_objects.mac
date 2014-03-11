@@ -1,0 +1,5 @@
+OBJECTS=\
+    obj\ARMV4I\debug\CMMDriver.obj\
+    obj\ARMV4I\debug\CMMMisc.obj\
+    obj\ARMV4I\debug\MemCacheFlush.obj
+

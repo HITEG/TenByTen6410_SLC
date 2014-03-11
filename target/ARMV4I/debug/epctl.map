@@ -1,0 +1,179 @@
+ epctl
+
+ Timestamp is 531ec5f0 (Tue Mar 11 16:14:40 2014)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 000004a0H .rdata                  CODE
+ 0001:000004c0 00000022H .rdata$debug            CODE
+ 0001:000004e4 000021ccH .text                   CODE
+ 0001:000026b0 00000028H .xdata                  CODE
+ 0001:000026d8 00000028H .idata$2                CODE
+ 0001:00002700 00000014H .idata$3                CODE
+ 0001:00002714 00000054H .idata$4                CODE
+ 0001:00002768 00000016H .idata$6                CODE
+ 0001:00002780 00000115H .edata                  CODE
+ 0002:00000000 00000054H .idata$5                DATA
+ 0002:00000058 000004a0H .data                   DATA
+ 0002:000004f8 00000024H .bss                    DATA
+ 0003:00000000 000001a8H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_1DO@FNAPGIJE@?$AAG?$AAP?$AAI?$AAO?$AA?5?$AAi?$AAn?$AAi?$AAt?$AA?5?$AAa?$AAd?$AAd?$AAr?$AAe?$AAs?$AAs?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAP?$AAI?$AAO?$AA?$AN?$AA?6?$AA?$AA@ 1000103c     ExtPowerCTL_DRV.obj
+ 0001:0000007c       ??_C@_1DE@PIEJJDBC@?$AAW?$AAD?$AAG?$AA?3?$AA?5?$AAD?$AAL?$AAL?$AA_?$AAP?$AAR?$AAO?$AAC?$AAE?$AAS?$AAS?$AA_?$AAD?$AAE?$AAT?$AAA?$AAC?$AAH?$AA?$AN?$AA?6?$AA?$AA@ 1000107c     ExtPowerCTL_DRV.obj
+ 0001:000000b0       ??_C@_1CC@BJMIFJFL@?$AAp?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AA?5?$AAa?$AAt?$AAt?$AAa?$AAc?$AAh?$AA?$AN?$AA?6?$AA?$AA@ 100010b0     ExtPowerCTL_DRV.obj
+ 0001:000000d4       ??_C@_1CM@EMLBHHFJ@?$AAE?$AAP?$AAC?$AAT?$AAL?$AA?3?$AA?5?$AAE?$AAP?$AAC?$AAT?$AAL?$AA_?$AAD?$AAe?$AAi?$AAn?$AAi?$AAt?$AA?$AN?$AA?6?$AA?$AA@ 100010d4     ExtPowerCTL_DRV.obj
+ 0001:00000100       ??_C@_1CA@NLJCPJDK@?$AAE?$AAP?$AAC?$AAT?$AAL?$AA_?$AAI?$AAn?$AAi?$AAt?$AA?9?$AA?9?$AA?9?$AA?$AN?$AA?6?$AA?$AA@ 10001100     ExtPowerCTL_DRV.obj
+ 0001:00000120       ??_C@_1IO@CDICOGEN@?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?5?$AAg?$AAe?$AAt?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAE?$AAx?$AAt?$AAP?$AAo?$AAw?$AAe?$AAr?$AAC?$AAT?$AAL?$AA?5?$AAd?$AAa?$AAt?$AAa?$AA?5?$AAf@ 10001120     ExtPowerCTL_DRV.obj
+ 0001:000001b0       ??_C@_1FI@CGDKBAKM@?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AAE?$AAx?$AAt?$AAP?$AAo?$AAw?$AAe?$AAr?$AAC?$AAT?$AAL?$AA?5?$AAd?$AAr?$AAi?$AAv?$AAe?$AAr@ 100011b0     ExtPowerCTL_DRV.obj
+ 0001:00000208       ??_C@_1DO@DGEFIIID@?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAi?$AAn?$AAg?$AA?5?$AAE?$AAP?$AAC?$AAT?$AAL?$AA?5?$AAd?$AAr?$AAi?$AAv?$AAe?$AAr?$AA?4?$AA?4?$AA?4?$AA?$AN?$AA?6?$AA?$AA@ 10001208     ExtPowerCTL_DRV.obj
+ 0001:00000248       ??_C@_1DA@HKEHFAHM@?$AAd?$AAw?$AAI?$AAo?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAC?$AAo?$AAd?$AAe?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?4?$AA?$AN?$AA?6?$AA?$AA@ 10001248     ExtPowerCTL_DRV.obj
+ 0001:00000278       ??_C@_1CK@FDBLGHDH@?$AAE?$AAP?$AAC?$AAT?$AAL?$AA_?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?$CL?$AA?$CL?$AA?$CL?$AA?$AN?$AA?6?$AA?$AA@ 10001278     ExtPowerCTL_DRV.obj
+ 0001:000002a4       ??_C@_1CK@HOMLIOIL@?$AAE?$AAP?$AAC?$AAT?$AAL?$AA?5?$AA?3?$AA?5?$AAE?$AAP?$AAC?$AAT?$AAL?$AA_?$AAO?$AAp?$AAe?$AAn?$AA?$AN?$AA?6?$AA?$AA@ 100012a4     ExtPowerCTL_DRV.obj
+ 0001:000002d0       ??_C@_1CM@HAMDGGAO@?$AAE?$AAP?$AAC?$AAT?$AAL?$AA?5?$AA?3?$AA?5?$AAE?$AAP?$AAC?$AAT?$AAL?$AA_?$AAC?$AAl?$AAo?$AAs?$AAe?$AA?$AN?$AA?6?$AA?$AA@ 100012d0     ExtPowerCTL_DRV.obj
+ 0001:000002fc       ??_C@_1DE@JGJKALPH@?$AAE?$AAP?$AAC?$AAT?$AAL?$AA?5?$AA?3?$AA?5?$AAE?$AAP?$AAC?$AAT?$AAL?$AA_?$AAP?$AAo?$AAw?$AAe?$AAr?$AAD?$AAo?$AAw?$AAn?$AA?$AN?$AA?6?$AA?$AA@ 100012fc     ExtPowerCTL_DRV.obj
+ 0001:00000330       ??_C@_1DA@IOAKGELL@?$AAE?$AAP?$AAC?$AAT?$AAL?$AA?5?$AA?3?$AA?5?$AAE?$AAP?$AAC?$AAT?$AAL?$AA_?$AAP?$AAo?$AAw?$AAe?$AAr?$AAU?$AAp?$AA?$AN?$AA?6?$AA?$AA@ 10001330     ExtPowerCTL_DRV.obj
+ 0001:00000360       ??_C@_1CK@KDBDOEOC@?$AAE?$AAP?$AAC?$AAT?$AAL?$AA?5?$AA?3?$AA?5?$AAE?$AAP?$AAC?$AAT?$AAL?$AA_?$AAR?$AAe?$AAa?$AAd?$AA?$AN?$AA?6?$AA?$AA@ 10001360     ExtPowerCTL_DRV.obj
+ 0001:0000038c       ??_C@_1CK@OONHLHEC@?$AAE?$AAP?$AAC?$AAT?$AAL?$AA?5?$AA?3?$AA?5?$AAE?$AAP?$AAC?$AAT?$AAL?$AA_?$AAS?$AAe?$AAe?$AAk?$AA?$AN?$AA?6?$AA?$AA@ 1000138c     ExtPowerCTL_DRV.obj
+ 0001:000003b8       ??_C@_1CM@OCBNMDGC@?$AAE?$AAP?$AAC?$AAT?$AAL?$AA?5?$AA?3?$AA?5?$AAE?$AAP?$AAC?$AAT?$AAL?$AA_?$AAW?$AAr?$AAi?$AAt?$AAe?$AA?$AN?$AA?6?$AA?$AA@ 100013b8     ExtPowerCTL_DRV.obj
+ 0001:000003e4       ??_C@_05MBDEGLCK@ERROR?$AA@ 100013e4     ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:000003ec       ??_C@_03GDJFABIP@CAM?$AA@  100013ec     ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:000003f0       ??_C@_04FOAJLA@WIFI?$AA@   100013f0     ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:000003f8       ??_C@_03CBGEMLIN@ETH?$AA@  100013f8     ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:000003fc       ??_C@_04DIHPNBI@DAC1?$AA@  100013fc     ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:00000404       ??_C@_04BKJMMMFJ@DAC0?$AA@ 10001404     ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:0000040c       ??_C@_03OJLAHOPO@LCD?$AA@  1000140c     ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:00000410       ??_C@_03IONNGCBN@USB?$AA@  10001410     ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:00000414       ??_C@_06EOPOAAHK@CUSTOM?$AA@ 10001414     ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:0000041c       ??_C@_08MDDIMDJM@DEFAULTS?$AA@ 1000141c     ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:00000428       ??_C@_02BFICIOJL@ON?$AA@   10001428     ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:0000042c       ??_C@_03MPPIHBHJ@OFF?$AA@  1000142c     ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:000004e4       ?InitGPIOBaseAddr@@YAXXZ   100014e4 f   ExtPowerCTL_DRV.obj
+ 0001:00000590       ?DllEntry@@YAHPAUHINSTANCE__@@KPAX@Z 10001590 f   ExtPowerCTL_DRV.obj
+ 0001:00000658       ?EPCTL_Deinit@@YAHK@Z      10001658 f   ExtPowerCTL_DRV.obj
+ 0001:000006b4       ?EPCTL_Init@@YAKKPBX@Z     100016b4 f   ExtPowerCTL_DRV.obj
+ 0001:00000824       ?EPCTL_IOControl@@YAHKKPAEK0KPAK@Z 10001824 f   ExtPowerCTL_DRV.obj
+ 0001:00000d80       ?EPCTL_Open@@YAKKKK@Z      10001d80 f   ExtPowerCTL_DRV.obj
+ 0001:00000ddc       ?EPCTL_Close@@YAHK@Z       10001ddc f   ExtPowerCTL_DRV.obj
+ 0001:00000e3c       ?EPCTL_PowerDown@@YAXK@Z   10001e3c f   ExtPowerCTL_DRV.obj
+ 0001:00000e9c       ?EPCTL_PowerUp@@YAXK@Z     10001e9c f   ExtPowerCTL_DRV.obj
+ 0001:00000ef8       ?EPCTL_Read@@YAKKPAXK@Z    10001ef8 f   ExtPowerCTL_DRV.obj
+ 0001:00000f88       ?EPCTL_Seek@@YAKKJK@Z      10001f88 f   ExtPowerCTL_DRV.obj
+ 0001:00000fe4       ?EPCTL_Write@@YAKKPBXK@Z   10001fe4 f   ExtPowerCTL_DRV.obj
+ 0001:00001074       PWRCTL_getPowerModuleName  10002074 f   ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:000010dc       PWRCTL_setPower            100020dc f   ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:00001110       PWRCTL_clrPower            10002110 f   ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:00001148       PWRCTL_togglePower         10002148 f   ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:0000117c       PWRCTL_getPower            1000217c f   ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:000011d4       PWRCTL_getStatus           100021d4 f   ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:0000122c       PWRCTL_getStatusOnOff      1000222c f   ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:0000127c       PWRCTL_isDefault           1000227c f   ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:000012c8       PWRCTL_setUSBPower         100022c8 f   ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:0000133c       PWRCTL_setLCDPower         1000233c f   ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:000013c0       PWRCTL_setDAC1Power        100023c0 f   ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:0000144c       PWRCTL_setDAC0Power        1000244c f   ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:000014d8       PWRCTL_setETHPower         100024d8 f   ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:0000154c       PWRCTL_setCAMPower         1000254c f   ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:000015c0       PWRCTL_setWiFiPower        100025c0 f   ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:00001634       PWRCTL_setAllTo            10002634 f   ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:0000173c       PWRCTL_setDefaultPower     1000273c f   ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:00001764       PWRCTL_powerCTLInit        10002764 f   ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:00001b04       PWRCTL_deinit              10002b04 f   ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:00001c64       PWRCTL_InitializePowerCTL  10002c64 f   ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:00001c88       PWRCTL_Sleep               10002c88 f   ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:00001ce0       PWRCTL_Awake               10002ce0 f   ExtPowerCTL_LIB:ExtPowerCTL_LIB.obj
+ 0001:00001cf8       NKDbgPrintfW               10002cf8 f   coredll:COREDLL.dll
+ 0001:00001d08       DisableThreadLibraryCalls  10002d08 f   coredll:COREDLL.dll
+ 0001:00001d18       RegisterDbgZones           10002d18 f   coredll:COREDLL.dll
+ 0001:00001d28       KernelIoControl            10002d28 f   coredll:COREDLL.dll
+ 0001:00001d38       MmMapIoSpace               10002d38 f   ceddk:CEDDK.dll
+ 0001:00001d48       DllMain                    10002d48 f   corelib0:dllmain.obj
+ 0001:00001d84       _DllMainCRTStartup         10002d84 f   corelib0:pegdmain.obj
+ 0001:00001f2c       __security_init_cookie     10002f2c f   corelib0:seccinit.obj
+ 0001:00001ff4       exit                       10002ff4 f   corelib0:cexit.obj
+ 0001:00002174       _exit                      10003174 f   corelib0:cexit.obj
+ 0001:00002198       _cexit                     10003198 f   corelib0:cexit.obj
+ 0001:000021b4       _c_exit                    100031b4 f   corelib0:cexit.obj
+ 0001:000021d0       GetCurrentProcess          100031d0 f i corelib0:cexit.obj
+ 0001:000021e8       _initterm                  100031e8 f   corelib0:crt0dat.obj
+ 0001:0000223c       _cinit                     1000323c f   corelib0:crt0dat.obj
+ 0001:00002278       _onexit                    10003278 f   corelib0:onexit.obj
+ 0001:0000257c       atexit                     1000357c f   corelib0:onexit.obj
+ 0001:000025d0       _XcptFilter                100035d0 f   corelib1:COREDLL.dll
+ 0001:000025e0       __C_specific_handler       100035e0 f   corelib1:COREDLL.dll
+ 0001:000025f0       __security_gen_cookie2     100035f0 f   corelib1:COREDLL.dll
+ 0001:00002600       free                       10003600 f   corelib1:COREDLL.dll
+ 0001:00002610       malloc                     10003610 f   corelib1:COREDLL.dll
+ 0001:00002620       realloc                    10003620 f   corelib1:COREDLL.dll
+ 0001:00002630       _msize                     10003630 f   corelib1:COREDLL.dll
+ 0001:00002640       DeleteCriticalSection      10003640 f   coredll:COREDLL.dll
+ 0001:00002650       InterlockedExchange        10003650 f   coredll:COREDLL.dll
+ 0001:00002660       TerminateProcess           10003660 f   coredll:COREDLL.dll
+ 0001:00002670       EnterCriticalSection       10003670 f   coredll:COREDLL.dll
+ 0001:00002680       InterlockedCompareExchange 10003680 f   coredll:COREDLL.dll
+ 0001:00002690       InitializeCriticalSection  10003690 f   coredll:COREDLL.dll
+ 0001:000026a0       LeaveCriticalSection       100036a0 f   coredll:COREDLL.dll
+ 0001:000026d8       __IMPORT_DESCRIPTOR_COREDLL 100036d8     coredll:COREDLL.dll
+ 0001:000026ec       __IMPORT_DESCRIPTOR_CEDDK  100036ec     ceddk:CEDDK.dll
+ 0001:00002700       __NULL_IMPORT_DESCRIPTOR   10003700     coredll:COREDLL.dll
+ 0002:00000000       __imp_MmMapIoSpace         10004000     ceddk:CEDDK.dll
+ 0002:00000004       \177CEDDK_NULL_THUNK_DATA  10004004     ceddk:CEDDK.dll
+ 0002:00000008       __imp_KernelIoControl      10004008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_RegisterDbgZones     1000400c     coredll:COREDLL.dll
+ 0002:00000010       __imp_DisableThreadLibraryCalls 10004010     coredll:COREDLL.dll
+ 0002:00000014       __imp_NKDbgPrintfW         10004014     coredll:COREDLL.dll
+ 0002:00000018       __imp__XcptFilter          10004018     corelib1:COREDLL.dll
+ 0002:0000001c       __imp___C_specific_handler 1000401c     corelib1:COREDLL.dll
+ 0002:00000020       __imp___security_gen_cookie2 10004020     corelib1:COREDLL.dll
+ 0002:00000024       __imp_free                 10004024     corelib1:COREDLL.dll
+ 0002:00000028       __imp_malloc               10004028     corelib1:COREDLL.dll
+ 0002:0000002c       __imp_realloc              1000402c     corelib1:COREDLL.dll
+ 0002:00000030       __imp__msize               10004030     corelib1:COREDLL.dll
+ 0002:00000034       __imp_DeleteCriticalSection 10004034     coredll:COREDLL.dll
+ 0002:00000038       __imp_InterlockedExchange  10004038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_TerminateProcess     1000403c     coredll:COREDLL.dll
+ 0002:00000040       __imp_EnterCriticalSection 10004040     coredll:COREDLL.dll
+ 0002:00000044       __imp_InterlockedCompareExchange 10004044     coredll:COREDLL.dll
+ 0002:00000048       __imp_InitializeCriticalSection 10004048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_LeaveCriticalSection 1000404c     coredll:COREDLL.dll
+ 0002:00000050       \177COREDLL_NULL_THUNK_DATA 10004050     coredll:COREDLL.dll
+ 0002:00000058       dpCurSettings              10004058     ExtPowerCTL_DRV.obj
+ 0002:000004f0       __security_cookie          100044f0     corelib0:seccinit.obj
+ 0002:000004f4       __security_cookie_complement 100044f4     corelib0:seccinit.obj
+ 0002:000004fc       ?v_pIOP_PIO_regs@@3PCUS3C6410_GPIO_REG@@C 100044fc     ExtPowerCTL_DRV.obj
+ 0002:00000504       _exitflag                  10004504     corelib0:cexit.obj
+ 0002:00000508       v_pIOP_PIO_regs            10004508     <common>
+ 0002:0000050c       __onexitend                1000450c     <common>
+ 0002:00000510       __onexitbegin              10004510     <common>
+ 0002:00000514       g_pcsExit                  10004514     <common>
+ 0002:00000518       _pRawDllMain               10004518     <common>
+
+ entry point at        0001:00001d84
+
+ Static symbols
+
+ 0001:00001dd8       _DllMainCRTStartupHelper   10002dd8 f   corelib0:pegdmain.obj
+ 0001:00002018       doexit                     10003018 f   corelib0:cexit.obj
+ 0001:000022d4       lockexit                   100032d4 f   corelib0:onexit.obj
+ 0001:00002370       unlockexit                 10003370 f   corelib0:onexit.obj
+ 0001:0000239c       _onexit_nolock             1000339c f   corelib0:onexit.obj
